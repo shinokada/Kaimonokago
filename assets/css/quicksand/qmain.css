@@ -1,0 +1,570 @@
+@charset "UTF-8";
+
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+   ••  Project: Project’s Name                                      ••
+   ••  Author:  peter@riddle.pl                                     ••
+   ••  Date:    2010                                                ••
+   •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••   
+   
+    1. Global Styles
+       1.1 Reset
+       1.2 Default
+      
+    2. Layout
+       2.1 Clearfix
+       2.2 Columns
+      
+---------------------------------------------------------------------- */
+
+/* 1. =Global Styles
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+/* 1.1 =Reset
+---------------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+address, cite, q, dfn {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+  font-weight: normal;
+}
+
+article, aside, dialog, figure, footer, header, 
+hgroup, nav, section { 
+  display: block;
+}
+
+a, ins, del {
+  text-decoration: none
+}
+
+q, blockquote {
+	quotes: none;
+}
+
+q:after, q:before,
+blockquote:after, blockquote:before {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+/* 1.2 =Default
+---------------------------------------------------------------------- */
+
+html, body {
+  background-color: #2d3033;
+}
+
+html {
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+body {
+  font: normal 13px/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+  color: #dde9ec;
+  padding-bottom: 40px;
+}
+
+#wrapper {
+  width: 942px;
+  border: 9px solid #33373b;
+  margin: 20px auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+	background-color: #282B2E;
+}
+
+#site {
+  border: 1px solid #222527;
+  background-color: #282b2e;
+  padding: 40px;
+}
+
+a {
+  color: #46c5ec;
+  border-bottom: 1px solid #294e5a;
+}
+
+a:hover,
+a:focus {
+  color: #ededed;
+  border-bottom-color: #595959;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+del { text-decoration: line-through; }
+li  { list-style: none; }
+
+button,
+input[type="submit"],
+input[type="image"],
+label,
+label > input[type="checkbox"],
+label > input[type="radio"] {
+  cursor: pointer;
+}
+
+/* 1. HEADER
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+#title {
+  text-align: center;
+}
+
+#title h1 {
+  font: normal 36px/45px "Myriad Pro", "Myriad", "Gill Sans", "Frutiger Linotype", "Helvetica Neue", sans-serif;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 4px;
+  color: #46c5ec;
+  position: relative;
+  width: 221px;
+  height: 45px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#title h1 span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("i/quicksand-logo.png") no-repeat;
+}
+
+#title p {
+  margin-top: 3px;
+  margin-right: 0;
+}
+
+/* 2. CONTENT
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+.header, p, ul, ol, blockquote, pre, dl, table {
+  margin-top: 20px;
+}
+
+.header, p, ul, ol, blockquote, dl {
+  margin-right: 240px;
+}
+
+ol, ul {
+  margin-left: 40px;
+}
+
+ol li {
+  list-style: decimal;
+}
+
+ul li {
+  list-style: square;
+}
+
+li.spaced {
+  margin-bottom: 20px;
+}
+
+strong {
+  font-weight: normal;
+  color: #fff;
+  text-shadow: rgba(255, 255, 255, 0.85) 0 0 3px;
+}
+
+.header {
+  font: normal 24px/1 "Myriad Pro", "Myriad", "Gill Sans", "Frutiger Linotype", "Helvetica Neue", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+  color: #46c5ec;
+  background: url("i/arrow.png") no-repeat;
+  margin-left: -59px;
+  padding-left: 59px;
+  margin-top: 16px;
+  padding-top: 4px;
+}
+
+.misc ~ .header {
+  background-image: url("i/arrow-misc.png");
+  color: #6f7378;
+}
+
+pre {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #1d1f21;
+}
+
+code {
+  font-family: "Monaco", "Consolas", "Lucida Console", "Courier New", "Courier";
+  background-color: #1d1f21;
+}
+
+.code-source {
+  color: #df9e2e;
+}
+
+.code-dest {
+  color: #d36666;
+}
+
+.code-dest-item {
+  color: #a1d366;
+}
+
+.code-data-attr {
+  color: #7f8687;
+}
+
+.code-dest-item .code-data-attr {
+  color: #536e35;
+}
+
+table {
+  margin-left: -20px;
+  width: 900px;
+  background-color: #1d1f21;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+th {
+  background-color: #33373b;
+  padding-bottom: 10px;
+}
+
+tr:first-child td { padding-top: 10px; }
+th:first-child, td:first-child { padding-left: 20px; }
+th { padding-top: 10px; }
+tr:last-child td { padding-bottom: 10px; }
+th:last-child, td:last-child { padding-right: 20px; }
+
+th:first-child {
+  -moz-border-radius-topleft: 5px;  
+  -webkit-border-top-left-radius: 5px;
+}
+
+th:last-child {
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+}
+
+.button {
+  background-color: #46c5ec;
+  color: #282b2e;
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #ededed;
+  color: #282b2e;
+}
+
+/* 2.1 =Splitter
+---------------------------------------------------------------------- */
+
+
+.splitter {
+  margin: 40px -40px;
+  text-align: center;
+  background: #35393c url("i/splitter.png") repeat-x 0 100%;
+  border-bottom: 1px solid #1d1f21;
+  padding: 6px 40px 5px;
+  font-size: 12px;
+}
+
+.splitter:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.splitter ul {
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.splitter > li {
+  padding-left: 8px;
+}
+
+.splitter > li ul {
+  margin-left: 8px;
+}
+
+.splitter ul li a {
+  border-bottom: 0;
+  position: static;
+}
+
+.splitter li,
+.splitter ul,
+.splitter ul li a  {
+  display: inline;
+  display: inline-block;
+  line-height: 1;
+}
+
+.splitter ul,
+.splitter ul li,
+.splitter ul li a {
+  background-image: url("i/buttons.png");
+  background-repeat: no-repeat;
+}
+
+.splitter ul {
+  background-position: 0 -138px;
+  background-repeat: repeat-x;
+}
+
+.splitter ul li {
+  margin-left: 1px;
+}
+
+.splitter ul li:first-child {
+  margin-left: 0;
+}
+
+.splitter ul li a {
+  padding: 5px 8px 6px;
+  color: #070708;
+  text-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
+  text-decoration: none;
+}
+
+.splitter ul li.segment-0,
+.splitter ul li.segment-2 {
+  background-position: -3px -92px;
+}
+
+.splitter ul li.segment-1 {
+  background-position: 0 -92px;
+}
+
+.splitter ul li.segment-0 a,
+.splitter ul li.segment-1 a {
+  background-position: 0 -161px;
+}
+
+.splitter ul li.segment-2 a {
+  background-position: 100% -115px;
+}
+
+.splitter ul li.selected-0 a,
+.splitter ul li.selected-1 a,
+.splitter ul li.selected-2 a {
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 1px 0;
+}
+
+.splitter ul li.selected-0,
+.splitter ul li.selected-2 {
+  background-position: 0 -23px;
+}
+
+.splitter ul li.selected-0 a,
+.splitter ul li.selected-1 a {
+  background-position: 100% -46px;
+}
+
+.splitter ul li.selected-1 {
+  background-position: 0 0;
+}
+
+.splitter ul li.selected-2 a {
+  background-position: 100% -69px;
+}
+
+/* 2.2 =Actions
+---------------------------------------------------------------------- */
+
+.actions:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.actions {
+  margin-left: -40px;
+}
+
+.actions-two {
+  padding-left: 155px;
+}
+
+.actions p {
+  float: left;
+  width: 260px;
+  margin: 0 0 0 40px;
+}
+
+.actions p a {
+  color: #fff;
+  display: block;
+  font: bold 24px/1 "Helvetica Neue", sans-serif; 
+  background: url("i/actions.png") no-repeat;
+  border-bottom: 0;
+  min-height: 42px;
+  padding-top: 24px;
+  opacity: 0.5;
+  text-decoration: none;
+  -webkit-transition: opacity 0.25s ease-out;
+  -moz-transition: opacity 0.25s ease-out;
+}
+
+.actions p a strong {
+  text-shadow: none;
+}
+
+.actions p a:hover,
+.actions p a:focus {
+  opacity: 0.9999;
+}
+
+.actions p a.download {
+  padding-left: 74px;
+}
+
+.actions p a.demos-n-docs {
+  background-position: -270px 0;
+  padding-left: 60px;
+}
+
+.actions p a.fork {
+  background-position: -540px 0;
+  padding-left: 76px;
+}
+
+.actions p a.download > span {
+  font-size: 13px;
+  display: block;
+  opacity: 0.25;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+/* 2.10 =Footer
+---------------------------------------------------------------------- */
+
+.footer {
+  font-size: 11px;
+  text-shadow: rgba(255, 255, 255, 0.08) 0 1px 0;
+  margin: 40px 0 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.footer,
+.footer a {
+  color: #0e0f10;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.footer span {
+  display: block;
+}
+
+/* 3. DEMO
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+/* 3.1 =Demo Area
+---------------------------------------------------------------------- */
+
+.demo p,
+.demo ul {
+  margin-right: 0;
+}
+
+/* 3.2 =Image Grid
+---------------------------------------------------------------------- */
+
+.image-grid {
+  margin: -20px 0 0 -40px;
+  padding-left: 45px;
+  width: 840px;
+}
+
+.image-grid:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.image-grid li {
+  width: 128px;
+  margin: 20px 0 0 35px;
+  float: left;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 17px;
+  color: #686f74;
+  height: 187px;
+  overflow: hidden;
+}
+
+.image-grid li img,
+.image-grid li strong {
+  display: block;
+}
+
+.image-grid li strong {
+  color: #fff;
+}

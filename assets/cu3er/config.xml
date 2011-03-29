@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cu3er>
+	<settings>
+		<auto_play>
+		<defaults time="2" symbol="circular"/>
+		<tweenIn x="470" y="45" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+		<tweenOver alpha="1"/>
+		</auto_play>
+    	<prev_button>
+			<defaults round_corners="5,5,5,5"/>
+			<tweenOver time="2" tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</prev_button>
+		
+    	<prev_symbol>
+			<tweenOver tint="0x000000" />			
+		</prev_symbol>
+		
+    	<next_button>
+			<defaults round_corners="5,5,5,5"/>			
+			<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</next_button>
+		
+    	<next_symbol>
+			<tweenOver tint="0x000000" />
+		</next_symbol>	
+			
+	</settings>    
+
+	<slides>
+	
+      
+        <slide>
+            <url>assets/images/frontpage/oak_leaf.jpg</url>
+        </slide>
+		<!-- changing transition between first & second slide -->
+        <transition num="3" slicing="vertical" direction="down"/>
+        <slide>
+       		<url>assets/images/frontpage/buil.jpg</url>
+        </slide>		
+		<!-- changing transition between second & third slide -->
+        <transition num="4" direction="right" shader="flat" />
+		<slide>
+            <url>assets/images/frontpage/sunset_tree.jpg</url>
+        </slide>
+        <transition num="5" slicing="horizontal" direction="left" delay="0.05"/>
+		<slide>
+       		<url>assets/images/frontpage/The_Oak_tree.jpg</url>
+        </slide>
+		<transition num="6" slicing="vertical" direction="up" shader="flat" delay="0.05" z_multiplier="4" />
+        <slide>
+       		<url>assets/images/frontpage/big_tree.jpg</url>
+        </slide>
+		
+				
+	</slides>
+</cu3er>
+

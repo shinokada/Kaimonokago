@@ -1,0 +1,73 @@
+/* Setup Control Panel Layout */
+body { margin: 0px; }
+
+#wrapper { position: relative; width: 100%; }
+
+#header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #333;
+    line-height: 2em;
+    color: #FFF;
+    z-index: 5;
+}
+
+#header a { color: #FFF; text-decoration: none; font-weight: bold; }
+#header a:hover { text-decoration: underline; } 
+
+#site {
+    float: left;
+    margin-left: 1em;
+    font-weight: bold;
+    padding-left: 20px;
+    background: transparent url(../icons/application.png) no-repeat 0 50%;
+}
+#info { float: right; margin-right: 1em; }
+
+
+#content { 
+    position: relative;
+    padding: 4em 1em 3em 18em;
+    border-left: 1px #CCC solid; 
+    z-index: 1;
+}
+
+#breadcrumb {
+    position: fixed;
+    width: 100%;
+    line-height: 2em;
+    background-color: #EFEFEF;
+    top: 2em;
+    padding-left: 18em;
+    border-left: 1px #CCC solid; 
+    z-index: 2; 
+}
+
+#navigation {
+    position: fixed;
+    left: 0px;
+    width: 17em;
+    height: 100%;
+    background-color: #E0E2F3;
+    top: 2em;
+    border-right: 1px #CCC solid;
+    z-index: 3; 
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #EFEFEF;
+    line-height: 2em;
+    border-top: 1px #CCC solid; 
+    z-index: 4; 
+}
+#footer a { color: #000; }
+
+#copyright { float: left; margin-left: 1em; }
+#version { float: right; margin-right: 1em; }
+
+/* Setup the modified style for the CI profiler output */
+#codeigniter_profiler { margin: 0pt 0pt 3em 18em; }

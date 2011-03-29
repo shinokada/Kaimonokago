@@ -1,0 +1,116 @@
+/* DASHBOARD DIVS */
+/* dashboard area sections */
+#dashboard {
+	width: 100%;
+}
+
+#dashboard #topsection {
+	width: 100%;
+	min-height: 20px;
+}
+#dashboard #leftsection {
+	float: left;
+	width: 49%;
+	min-height: 20px;
+}
+#dashboard #rightsection {
+	float: right;
+	width: 49%;
+	min-height: 20px;
+}
+
+#dashboard .ui-sortable {
+	background-color: #E6E6FA;
+}
+
+#dashboard .ui-sortable-disabled {
+	background-color: #FFF;
+}
+
+#dashboard .ui-sortable-helper {
+	width: 300px;
+}
+/* widgets */
+#dashboard div.widget {
+	position: relative;
+	display: block;
+	border: 1px #CCC solid;	
+	margin-bottom: 16px;
+}
+
+#dashboard div.widget div.header {
+	font-weight: bold;
+	background-color: #999;
+	display: block;	
+	color: #FFF;
+	padding-left: 5px;
+	line-height: 20px;
+}
+
+#dashboard div.widget div.body {
+	display: block;
+	margin: 5px;
+}
+
+#dashboard div.widget div.action {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	line-height: 20px;
+}
+
+/* MENU NAVIGATION */
+#navigation #menu { padding: 2em 0 2em 2em; }
+#navigation #menu a { color: #000; text-decoration: none; }
+#navigation #menu a:hover { text-decoration: underline; }
+
+/* STANDARD STYLES */
+h2 { margin-top: 0.5em; border-bottom: 1px solid #777; }
+
+/* PREFERENCE LIST */
+#preference_list { font-size: 1.2em; list-style-type: none; }
+
+/* PREFERENCE FORM */
+#preference_form { width: 100%; }
+#preference_form td { line-height: 1.5em; vertical-align: middle; padding: 6px 10px 6px 6px; }
+#preference_form td.label { width: 45%; vertical-align: top; }
+#preference_form input.text { width: 100%; }
+
+/* ACCESS CONTROL SPLASH PAGE */
+#access_control_menu td { padding: 0.5em; vertical-align: top; }
+
+/* MANAGE PERMISSION SCROLLABLE TREES */
+div.scrollable_tree {
+    height: 300px;
+    overflow: scroll;
+    width: 33.333%;
+    float: left;
+}
+
+/* STYLE FOR ACTION ITEMS ON MANAGE PERMISSIONS PAGE */
+div.action_item {
+    padding-left: 2em;
+}
+
+/* STYLE FOR ALLOW/DENY TABLE CELLS */
+.allow { color: green; }
+.deny { color: red; }
+
+/* STYLES USED FOR ADVANCED PERMISSION VIEW */
+div.advanced_view_tree {
+    height: 300px;
+    overflow: auto;
+}
+
+#access_resources span { cursor: pointer; display: block; }
+
+#access_resources span:hover { font-weight: bold; }
+
+/* DATA GRID TABLE, FOR DISPLAYING TABULAR DATA */
+table.data_grid { width: 100%; }
+
+table.data_grid th.center,
+table.data_grid td.center { vertical-align: middle; text-align: center; }
+
+table.data_grid .even { background-color: red; color: #FFF; }
+table.data_grid .odd { background-color: #FFF; color: red; }

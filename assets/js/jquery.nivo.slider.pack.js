@@ -1,0 +1,33 @@
+/*
+ * jQuery Nivo Slider v1.8
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ *
+ * manualAdvance option added by HelloPablo (http://hellopablo.co.uk)
+ */
+
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(9($){$.1e.18=9(1J){b 5=$.2h({},$.1e.18.1X,1J);E g.C(9(){b 3={f:0,q:\'\',1j:0,s:\'\',H:r,1f:r,1Q:r};b 4=$(g);4.1W(\'7:3\',3);4.e(\'2g\',\'2r\');4.w(\'1K\');4.t(\'1K\');4.1c(\'18\');b d=4.28();d.C(9(){b y=$(g);6(!y.K(\'S\')){6(y.K(\'a\')){y.1c(\'7-2f\')}y=y.1r(\'S:1m\')}b 13=y.w();6(13==0)13=y.u(\'w\');b 12=y.t();6(12==0)12=y.u(\'t\');6(13>4.w()){4.w(13)}6(12>4.t()){4.t(12)}y.e(\'V\',\'1l\');3.1j++});6($(d[3.f]).K(\'S\')){3.q=$(d[3.f])}o{3.q=$(d[3.f]).1r(\'S:1m\')}6($(d[3.f]).K(\'a\')){$(d[3.f]).e(\'V\',\'1q\')}4.e(\'Q\',\'U(\'+3.q.u(\'W\')+\') P-N\');1S(b i=0;i<5.h;i++){b B=1i.21(4.w()/5.h);6(i==5.h-1){4.O($(\'<A F="7-c"></A>\').e({1M:(B*i)+\'14\',w:(4.w()-(B*i))+\'14\'}))}o{4.O($(\'<A F="7-c"></A>\').e({1M:(B*i)+\'14\',w:B+\'14\'}))}}4.O($(\'<A F="7-J"><p></p></A>\').e({V:\'1l\',x:5.1L}));6(3.q.u(\'11\')!=\'\'){$(\'.7-J p\',4).1A(3.q.u(\'11\'));$(\'.7-J\',4).1z(5.k)}b j=0;6(!5.1g){j=1s(9(){D(4,d,5,r)},5.1d)}6(5.R){4.O(\'<A F="7-R"><a F="7-1G">2c</a><a F="7-1V">2d</a></A>\');6(5.24){$(\'.7-R\',4).1H();4.1T(9(){$(\'.7-R\',4).29()},9(){$(\'.7-R\',4).1H()})}$(\'a.7-1G\',4).1E(\'1p\',9(){6(3.H)E r;T(j);j=\'\';3.f-=2;D(4,d,5,\'1u\')});$(\'a.7-1V\',4).1E(\'1p\',9(){6(3.H)E r;T(j);j=\'\';D(4,d,5,\'1v\')})}6(5.G){b 1C=$(\'<A F="7-G"></A>\');4.O(1C);1S(b i=0;i<d.20;i++){1C.O(\'<a F="7-1O" 1P="\'+i+\'">\'+(i+1)+\'</a>\')}$(\'.7-G a:1Z(\'+3.f+\')\',4).1c(\'19\');$(\'.7-G a\',4).1E(\'1p\',9(){6(3.H)E r;6($(g).2q(\'19\'))E r;T(j);j=\'\';4.e(\'Q\',\'U(\'+3.q.u(\'W\')+\') P-N\');3.f=$(g).u(\'1P\')-1;D(4,d,5,\'1O\')})}6(5.22){$(2s).2t(9(1k){6(1k.1U==\'2u\'){6(3.H)E r;T(j);j=\'\';3.f-=2;D(4,d,5,\'1u\')}6(1k.1U==\'2n\'){6(3.H)E r;T(j);j=\'\';D(4,d,5,\'1v\')}})}6(5.25){4.1T(9(){3.1f=M;T(j);j=\'\'},9(){3.1f=r;6(j==\'\'&&!5.1g){j=1s(9(){D(4,d,5,r)},5.1d)}})}4.2j(\'7:X\',9(){3.H=r;$(d).C(9(){6($(g).K(\'a\')){$(g).e(\'V\',\'1l\')}});6($(d[3.f]).K(\'a\')){$(d[3.f]).e(\'V\',\'1q\')}6(j==\'\'&&!3.1f&&!5.1g){j=1s(9(){D(4,d,5,r)},5.1d)}5.1N.1w(g)})});9 D(4,d,5,1h){b 3=4.1W(\'7:3\');6(3.1Q)E r;5.1R.1w(g);6(!1h){4.e(\'Q\',\'U(\'+3.q.u(\'W\')+\') P-N\')}o{6(1h==\'1u\'){4.e(\'Q\',\'U(\'+3.q.u(\'W\')+\') P-N\')}6(1h==\'1v\'){4.e(\'Q\',\'U(\'+3.q.u(\'W\')+\') P-N\')}}3.f++;6(3.f==3.1j){3.f=0;5.1I.1w(g)}6(3.f<0)3.f=(3.1j-1);6($(d[3.f]).K(\'S\')){3.q=$(d[3.f])}o{3.q=$(d[3.f]).1r(\'S:1m\')}6(5.G){$(\'.7-G a\',4).2k(\'19\');$(\'.7-G a:1Z(\'+3.f+\')\',4).1c(\'19\')}6(3.q.u(\'11\')!=\'\'){6($(\'.7-J\',4).e(\'V\')==\'1q\'){$(\'.7-J p\',4).1Y(5.k,9(){$(g).1A(3.q.u(\'11\'));$(g).1z(5.k)})}o{$(\'.7-J p\',4).1A(3.q.u(\'11\'))}$(\'.7-J\',4).1z(5.k)}o{$(\'.7-J\',4).1Y(5.k)}b i=0;$(\'.7-c\',4).C(9(){b B=1i.21(4.w()/5.h);$(g).e({t:\'L\',x:\'0\',Q:\'U(\'+3.q.u(\'W\')+\') P-N -\'+((B+(i*B))-B)+\'14 0%\'});i++});6(5.n==\'1F\'){b 1y=2b 26("1o","Y","1t","Z","1D","10","1x","1a");3.s=1y[1i.2i(1i.1F()*(1y.20+1))];6(3.s==2e)3.s=\'1a\'}3.H=M;6(5.n==\'27\'||5.n==\'1o\'||3.s==\'1o\'||5.n==\'Y\'||3.s==\'Y\'){b l=0;b i=0;b h=$(\'.7-c\',4);6(5.n==\'Y\'||3.s==\'Y\')h=$(\'.7-c\',4).17();h.C(9(){b c=$(g);c.e(\'1n\',\'L\');6(i==5.h-1){I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k,\'\',9(){4.16(\'7:X\')})},(m+l))}o{I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k)},(m+l))}l+=1b;i++})}o 6(5.n==\'2o\'||5.n==\'1t\'||3.s==\'1t\'||5.n==\'Z\'||3.s==\'Z\'){b l=0;b i=0;b h=$(\'.7-c\',4);6(5.n==\'Z\'||3.s==\'Z\')h=$(\'.7-c\',4).17();h.C(9(){b c=$(g);c.e(\'23\',\'L\');6(i==5.h-1){I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k,\'\',9(){4.16(\'7:X\')})},(m+l))}o{I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k)},(m+l))}l+=1b;i++})}o 6(5.n==\'1D\'||5.n==\'2m\'||3.s==\'1D\'||5.n==\'10\'||3.s==\'10\'){b l=0;b i=0;b v=0;b h=$(\'.7-c\',4);6(5.n==\'10\'||3.s==\'10\')h=$(\'.7-c\',4).17();h.C(9(){b c=$(g);6(i==0){c.e(\'1n\',\'L\');i++}o{c.e(\'23\',\'L\');i=0}6(v==5.h-1){I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k,\'\',9(){4.16(\'7:X\')})},(m+l))}o{I(9(){c.z({t:\'m%\',x:\'1.0\'},5.k)},(m+l))}l+=1b;v++})}o 6(5.n==\'1x\'||3.s==\'1x\'){b l=0;b i=0;$(\'.7-c\',4).C(9(){b c=$(g);b 1B=c.w();c.e({1n:\'L\',t:\'m%\',w:\'L\'});6(i==5.h-1){I(9(){c.z({w:1B,x:\'1.0\'},5.k,\'\',9(){4.16(\'7:X\')})},(m+l))}o{I(9(){c.z({w:1B,x:\'1.0\'},5.k)},(m+l))}l+=1b;i++})}o 6(5.n==\'1a\'||3.s==\'1a\'){b i=0;$(\'.7-c\',4).C(9(){$(g).e(\'t\',\'m%\');6(i==5.h-1){$(g).z({x:\'1.0\'},(5.k*2),\'\',9(){4.16(\'7:X\')})}o{$(g).z({x:\'1.0\'},(5.k*2))}i++})}}};$.1e.18.1X={n:\'1F\',h:15,k:2p,1d:2l,R:M,24:M,G:M,22:M,25:M,1g:r,1L:0.8,1R:9(){},1N:9(){},1I:9(){}};$.1e.17=[].17})(2a);',62,155,'|||vars|slider|settings|if|nivo||function||var|slice|kids|css|currentSlide|this|slices||timer|animSpeed|timeBuff|100|effect|else||currentImage|false|randAnim|height|attr||width|opacity|child|animate|div|sliceWidth|each|nivoRun|return|class|controlNav|running|setTimeout|caption|is|0px|true|repeat|append|no|background|directionNav|img|clearInterval|url|display|src|animFinished|sliceDownLeft|sliceUpLeft|sliceUpDownLeft|title|childHeight|childWidth|px||trigger|reverse|nivoSlider|active|fade|50|addClass|pauseTime|fn|paused|manualAdvance|nudge|Math|totalSlides|event|none|first|top|sliceDownRight|click|block|find|setInterval|sliceUpRight|prev|next|call|fold|anims|fadeIn|html|origWidth|nivoControl|sliceUpDown|live|random|prevNav|hide|slideshowEnd|options|1px|captionOpacity|left|afterChange|control|rel|stop|beforeChange|for|hover|keyCode|nextNav|data|defaults|fadeOut|eq|length|round|keyboardNav|bottom|directionNavHide|pauseOnHover|Array|sliceDown|children|show|jQuery|new|Prev|Next|undefined|imageLink|position|extend|floor|bind|removeClass|3000|sliceUpDownRight|39|sliceUp|500|hasClass|relative|window|keypress|37'.split('|'),0,{}))
+
+$(window).load(function() {
+	$('div#slideshow').nivoSlider({
+		effect:'random',
+		slices:15,
+		animSpeed:500,
+		pauseTime:3000,
+		directionNav:true, //Next & Prev
+		directionNavHide:true, //Only show on hover
+		controlNav:false, //1,2,3...
+		keyboardNav:true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});

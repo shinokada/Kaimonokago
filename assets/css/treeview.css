@@ -1,0 +1,26 @@
+.treeview,
+.treeview ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0px;
+    padding-left: 16px;
+}
+    
+.treeview .hitarea {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: -16px;
+    cursor: pointer;
+}
+
+.treeview .expandable { background: transparent url(../icons/bullet_toggle_plus.png) no-repeat; }
+.treeview .collapsable { background: transparent url(../icons/bullet_toggle_minus.png) no-repeat; }
+
+
+/*.fileview ul { padding-left: 16px; }
+.fileview li { line-height: 20px; }  
+
+.treeview span { padding-left: 20px; }
+.treeview span.node { background: transparent url(../icons/folder.png) no-repeat; }
+.treeview span.leaf {background: transparent url(../icons/page.png) no-repeat; }*/

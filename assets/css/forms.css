@@ -1,0 +1,36 @@
+/* -------------------------------------------------------------- 
+   
+   forms.css
+   * Allows the creation of vertical and horizontal forms
+   * Allows sets up basic input element styles
+   
+-------------------------------------------------------------- */
+
+/* Basic form styles */       
+form ol { margin: 0px; padding: 0px; list-style-type: none; }  
+form li { display: block; padding: 0.2em; }       
+form label { display: block; font-weight: bold; } 
+form em { color: red; background-color: #fff; }   
+       
+/* Input elements */
+form input.text, form textarea { width: 20em; }
+form select { width: 15em; }
+form input.file { width: 20em; }
+
+/* Special readonly style */
+form .readonly { background-color: #E0DFE3; color: #99968A; }
+
+/* Form rows */
+form.horizontal li label { display: -moz-inline-box; width: 15em; vertical-align: top; }  
+* form.horizontal li label { display: inline-block;  }
+
+/* Checkbox row */
+/*
+form.vertical li.checkbox span { display: inline; }
+form.horizontal li.checkbox label { display: inline; width: 90%; }
+form.horizontal li.checkbox span { display: inline; }
+*/
+
+/* Submit Button Area */
+form.vertical li.submit { text-align: center; }  
+form.horizontal li.submit { margin-left: 15em; } 

@@ -1,0 +1,11 @@
+/* --------------------------------------------------------------
+
+   gte_ie_6.css
+
+   Contains every hack for Internet Explorer versions greater
+   than or equal to IE6
+
+-------------------------------------------------------------- */
+
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ol { margin-left:2em; }
