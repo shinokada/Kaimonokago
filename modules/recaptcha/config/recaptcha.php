@@ -14,8 +14,8 @@
 // ---------------------------------------------------------------------------
 
 $config['recaptcha'] = array(
-	'public'=>'6LdSQ8ASAAAAAEn5Vhn9p6FLC6IORWFMlBP2kEOw ',
-    'private'=>'6LdSQ8ASAAAAABhANrGQeVKVit8xj835dJcH2Pab ',
+	'public'=>'your public key here ',
+    'private'=>'your private key here ',
     'RECAPTCHA_API_SERVER' =>'http://api.recaptcha.net',
     'RECAPTCHA_API_SECURE_SERVER'=>'https://api-secure.recaptcha.net',
     'RECAPTCHA_VERIFY_SERVER' =>'api-verify.recaptcha.net',
