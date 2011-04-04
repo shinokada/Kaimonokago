@@ -1,7 +1,11 @@
 <h2><?php echo $title;?></h2>
 <p><?php echo anchor("menus/admin/create", $this->lang->line('kago_create_menu'));?> <?php //echo anchor("menus/admin/createLangRoot",$this->lang->line('kago_create_lang_root'));?></p>
 <?php
-
+if(isset ($checkmenu)){
+    echo "<pre>";
+    print_r ($checkmenu);
+    echo "</pre>";
+}
 echo '<h2>Menus</h2>';
 /**
  * @param array $level The current navigation level array

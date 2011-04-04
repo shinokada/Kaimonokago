@@ -8,8 +8,29 @@ class MKaimonokago extends Base_model{
 
     function MKaimonokago(){
 		parent::Base_model();
-        
-	}
+    }
+
+    /**
+     * Used in customers/admin
+     * @param <type> $module
+     * @return <type>
+     */
+
+    function getAllSimple($module){
+        $data = array();
+        $table = 'omc_'.$module;
+        $Q = $this->db->get($table);
+        if ($Q->num_rows() > 0){
+        foreach ($Q->result_array() as $row){
+            $data[] = $row;
+        }
+        }
+        $Q->free_result();
+        return $data;
+    }
+
+
+
 /**
  * Used in playroom/controller/admin/index
  * @param string $module
@@ -19,7 +40,7 @@ class MKaimonokago extends Base_model{
  */
     function getAll($module,$fields,$orderby,$lang_id=NULL){
         $string= '';
-	    $module_table = 'omc_'.$module;
+        $module_table = 'omc_'.$module;
         $data = array();
         if(is_array($fields)){
             foreach ($fields as $field){
@@ -61,31 +82,41 @@ class MKaimonokago extends Base_model{
 
     function addItem($module,$data){
         $module_table = 'omc_'.$module;
-		$this->db->insert($module_table, $data);
-
-        if($_POST['table_id']==0){
+        $this->db->insert($module_table, $data);
+        if(isset($_POST['table_id'])){// table_id is used in category, playroom
+            if($_POST['table_id']==0){
             $this->addtableid($module_table);
+            }
         }
-	 }
+    }
 
     function addtableid($module_table){
          $table_id = $this->db->insert_id();
          $data = array(
             'table_id' =>  $table_id,
             );
-
         $this->db->where('id', $table_id);
         $this->db->update($module_table, $data);
     }
 
+/**
+ * usded in customer/controllers/, slideshow/controllers/, menus, products, pages, playroom category,
+ * @param <type> $module
+ * @param <type> $data
+ */
 
 
     function updateItem($module,$data){
         $module_table = 'omc_'.$module;
-        $this->db->where('id', id_clean($_POST['id']));
-		$this->db->update($module_table, $data);
-	 }
-
+        if($module =='customer'){// omc_cutomer has customer_id
+            $idname = 'customer_id';
+            $this->db->where($idname, id_clean($_POST['customer_id']));
+        }  else {
+            $idname = 'id';
+            $this->db->where($idname, id_clean($_POST['id']));
+        }
+	$this->db->update($module_table, $data);
+    }
 
 
 
@@ -149,10 +180,21 @@ class MKaimonokago extends Base_model{
 
     }
 
+    /**
+     * used in playroom, category, kaimonokago,product,
+     * @param <type> $module
+     * @param <type> $id
+     * @return <type>
+     */
     function getInfo($module, $id){
         $data = array();
         $table = "omc_".$module;
-        $where = 'id';
+        if($module=='customer'){
+            $where = 'customer_id';
+        }  else {
+            $where = 'id';
+        }
+        
         $options = array($where =>$id);
         $Q = $this->db->get_where($table,$options,1);
         if ($Q->num_rows() > 0){
@@ -191,7 +233,12 @@ class MKaimonokago extends Base_model{
 
     function deleteitem($table, $id){
         // $data = array('status' => 'inactive');
-	 	$this->db->where('id', $id)->delete($table);
+        if($table =='omc_customer'){
+            $idname = 'customer_id';
+        }  else {
+            $idname = 'id';
+        }
+	 $this->db->where($idname, $id)->delete($table);
     }
 
     /**
@@ -222,6 +269,26 @@ class MKaimonokago extends Base_model{
            foreach ($Q->result_array() as $row){
              $data[$row['id']] = $row['name'];
            }
+        }
+        $Q->free_result();
+        return $data;
+    }
+
+
+         /**
+      * This is used in pages/controllers/admin/delete to check if the page is assigned to a menu
+      * omc_menus.page_uri_id is the same as omc_pages.id of the page
+      */
+
+    function checkItem($moduleToCheck, $fieldToCheck, $id){
+        $data = array();
+        $table = 'omc_'.$moduleToCheck;
+        $this->db->where($fieldToCheck,$id);
+        $Q = $this->db->get($table,1);
+        if ($Q->num_rows() > 0){
+            foreach ($Q->result_array() as $row){
+            $data = $row;
+            }
         }
         $Q->free_result();
         return $data;

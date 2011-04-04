@@ -7,7 +7,7 @@
     print_r($get_class);
 echo "</pre>";
     echo "<pre>module name is: ";
-    print_r($module_name);
+    print_r($module);
     echo "</pre>";
     echo "<pre>index path is: ";
     print_r($index_path);

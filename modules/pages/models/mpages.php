@@ -69,7 +69,7 @@ class MPages extends Model{
 	}
 
      function getAllPagesbyName(){
-	     $data = array();
+	 $data = array();
          $this->db->select('omc_pages.id, omc_pages.name,omc_pages.path,omc_pages.status,omc_pages.lang_id
          ,omc_languages.langname');
          $this->db->order_by('path asc');
@@ -199,15 +199,15 @@ class MPages extends Model{
          }
 */
 // need to check if there is no same language even english
-         
-
+       
 		$data = array( 
 			'name' => db_clean($_POST['name']),
 			'keywords' => db_clean($_POST['keywords']),
 			'description' => db_clean($_POST['description']),
-			'status' => db_clean($_POST['status'],8),
+			
 			'path' => db_clean($_POST['path']),
 			'content' => $_POST['content'],
+                    'status' => db_clean($_POST['status'],8),
             'lang_id' =>$this->input->post('lang_id'),
 		);
 	

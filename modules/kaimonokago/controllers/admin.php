@@ -15,7 +15,6 @@ class Admin extends Shop_Admin_Controller {
         $this->module = $this->uri->segment(4);
         $this->table = "omc_".$this->module;
         $this->id = $this->uri->segment(5);
-
     }
 
 
@@ -31,12 +30,11 @@ class Admin extends Shop_Admin_Controller {
 
 
     function delete(){
-        
         $this->MKaimonokago->deleteitem($this->table, $this->id);
         $this->session->set_flashdata('message',$this->lang->line('kago_deleted'));
-        flashMsg('success',$this->lang->line('kago_item_deleted'));
-		redirect($this->module."/admin/index/","refresh");
-  }
+        flashMsg('success',$this->lang->line('kago_deleted'));
+        redirect($this->module."/admin/index/","refresh");
+    }
 
 
 }//end class

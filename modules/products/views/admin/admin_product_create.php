@@ -2,7 +2,7 @@
 <div id="create_edit">
 <h2><?php echo $title;?></h2>
 <?php
-echo form_open_multipart('products/admin/create')."\n";
+echo form_open_multipart($module.'/admin/create')."\n";
 
 echo "<p><label for='parent'>".$this->lang->line('kago_category')."</label><br/>\n";
 echo form_dropdown('category_id',$categories) ."</p>\n";
@@ -62,7 +62,7 @@ $options = array('none' => 'none', 'most sold' => 'Most sold', 'new product' => 
 echo form_dropdown('other_feature',$options) ."</p>\n";
 
 echo form_hidden('lang_id', '0');
-echo form_hidden('product_id', '0');
+echo form_hidden('table_id', '0');
 echo form_submit('submit',$this->lang->line('kago_create_product'));
 echo form_close();
 

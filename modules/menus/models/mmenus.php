@@ -11,7 +11,7 @@ class MMenus extends Model{
       }
 
   function generateTree(&$tree, $parentid = 0) {
-         $this->db->select('id,name,shortdesc,status,parentid,page_uri,order,lang_id');
+         $this->db->select('id,name,shortdesc,status,parentid,order,lang_id');
          $this->db->where ('parentid',$parentid);
 		 $this->db->where ('status','active');
          $this->db->order_by('order asc, parentid asc'); 
@@ -31,7 +31,7 @@ class MMenus extends Model{
 
 
      function generateTreewithLang(&$tree, $parentid = 0,$lang_id) {
-         $this->db->select('id,name,shortdesc,status,parentid,page_uri,order,page_uri_id, lang_id');
+         $this->db->select('id,name,shortdesc,status,parentid,order,page_uri_id, lang_id');
         // $lang_id = 1;
          $this->db->where ('parentid',$parentid);
          $this->db->where ('lang_id',$lang_id);
@@ -307,7 +307,8 @@ class MMenus extends Model{
       return $data;
    }
 
-
+   /*
+    Not used
    function addMenu(){
       $data = array( 
             'name' => db_clean($_POST['name']),
@@ -342,6 +343,8 @@ class MMenus extends Model{
       $this->db->update('omc_menus', $data);
    
    }
+    * 
+    */
    
    function deleteMenu($id){
       // $data = array('status' => 'inactive');
@@ -398,5 +401,11 @@ class MMenus extends Model{
         $this->db->where($where);
         $this->db->update('omc_menus',$data);
      }
+
+
+
+
+
+     
 	
 }

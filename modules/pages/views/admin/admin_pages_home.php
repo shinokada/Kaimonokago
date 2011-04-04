@@ -65,7 +65,7 @@ if (count($pages)){
 
          if ($list['status']=='inactive'){
 		echo " | ";
-		echo anchor("kaimonokago/admin/delete/$module/".$list['id'],$this->lang->line('kago_delete'), array("onclick"=>"return confirmSubmit('".$list['name']."')"));
+		echo anchor($module."/admin/delete/$module/".$list['id'],$this->lang->line('kago_delete'), array("onclick"=>"return confirmSubmit('".$list['name']."')"));
          }
 
         echo "</td>\n";

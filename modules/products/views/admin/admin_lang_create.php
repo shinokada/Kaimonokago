@@ -87,7 +87,7 @@ echo form_dropdown('other_feature',$options) ."</p>\n";
 */
 echo form_hidden('featured',$product['featured']);
 echo form_hidden('other_feature',$product['other_feature']);
-echo form_hidden('product_id',$product['id']);
+echo form_hidden('table_id',$product['id']);
 echo form_hidden('lang_id',$selected_lang['id']);
 echo form_submit('submit',$this->lang->line('kago_add_translation'));
 echo form_close();

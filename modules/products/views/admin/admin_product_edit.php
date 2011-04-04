@@ -65,6 +65,8 @@ echo "<p><label for='other_feature'>".$this->lang->line('kago_other_feature')."<
 $options = array('none' => 'none', 'most sold' => 'Most sold', 'new product' => 'New Product');
 echo form_dropdown('other_feature',$options, $product['other_feature']) ."</p>\n";
 
+echo form_hidden('lang_id',$product['lang_id']);
+echo form_hidden('table_id',$product['table_id']);
 echo form_hidden('id',$product['id']);
 echo form_submit('submit',$this->lang->line('kago_update'));
 echo form_close();

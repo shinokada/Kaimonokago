@@ -51,7 +51,7 @@ if (count($products)){
         }
         echo "<td align='center'>$langname</td>\n";
         //echo "<td align='center'>".$list['lang_id']."</td>\n";
-        echo "<td align='center'>".$list['product_id']."</td>\n";
+        echo "<td align='center'>".$list['table_id']."</td>\n";
 		echo "<td align='center'>";
 		echo anchor('products/admin/edit/'.$list['id'],$this->lang->line('kago_edit'));
         if ($list['status']=='inactive'){

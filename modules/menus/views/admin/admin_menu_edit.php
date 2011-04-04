@@ -49,7 +49,7 @@ echo form_hidden('menu_id',$menu['menu_id']);
 //    echo form_hidden('order',$menu['order']);
     
 //}
-
+echo form_hidden('lang_id',$menu['lang_id']);
 echo form_hidden('id',$menu['id']);
 echo form_submit('submit',$this->lang->line('kago_update_menu'));
 echo form_close();

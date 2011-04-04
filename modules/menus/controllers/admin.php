@@ -21,16 +21,13 @@ class Admin extends Shop_Admin_Controller {
         // Check for access permission
         check('Menus');
         // define this module which will be used later
-        $this->module='menus';
+        $this->module=basename(dirname(dirname(__FILE__)));
         // load modules/menus/model/mmenus
         $this->load->module_model('menus','MMenus');
-
         // Load modules/pages/models/MPages
         $this->load->module_model('pages','MPages');
-
         // Set breadcrumb
-        $this->bep_site->set_crumb($this->lang->line('backendpro_menus'),'menus/admin');
-		
+        $this->bep_site->set_crumb($this->lang->line('backendpro_menus'),$this->module.'/admin');
     }
   
 
@@ -53,35 +50,66 @@ class Admin extends Shop_Admin_Controller {
   }
 
 
-  function create(){
-      // Since create function is used for English, it should show only English menus
-    // This is used in admin/menus, when you click Create new menu, then this is called
-    // 'parentid' ,'0' is in hidden in views/admin_menu_create.php
-   	if ($this->input->post('name')){
-  		$this->MMenus->addMenu();
-  		//$this->session->set_flashdata('message','Menu created');
-        flashMsg('success',$this->lang->line('kago_created'));
-  		redirect('menus/admin/index','refresh');
+    function _fields(){
+        $data = array(
+            'name' => db_clean($_POST['name']),
+            'shortdesc' =>  db_clean($_POST['shortdesc']),
+            'status' =>  db_clean($_POST['status'],8),
+            'parentid' => id_clean($_POST['parentid']),
+            'order' => id_clean($_POST['order'],10),
+            'page_uri_id' =>  db_clean($_POST['page_uri_id']),
+            'lang_id' =>  db_clean($_POST['lang_id']),
+            'menu_id' =>  db_clean($_POST['menu_id'])
+        );
+        // $this->MKaimonokago->addItem($this->module, $data);
+        return $data;
+    }
+
+
+    function create(){
+        // Since create function is used for English, it should show only English menus
+        // This is used in admin/menus, when you click Create new menu, then this is called
+        // 'parentid' ,'0' is in hidden in views/admin_menu_create.php
+        if ($this->input->post('name')){
+            /*
+            $data = array(
+            'name' => db_clean($_POST['name']),
+            'shortdesc' =>  db_clean($_POST['shortdesc']),
+            'status' =>  db_clean($_POST['status'],8),
+            'parentid' => id_clean($_POST['parentid']),
+            'order' => id_clean($_POST['order'],10),
+            'page_uri_id' =>  db_clean($_POST['page_uri_id']),
+            'lang_id' =>  db_clean($_POST['lang_id']),
+            'menu_id' =>  db_clean($_POST['menu_id'])
+            );
+             * 
+             */
+            $data = $this-> _fields();
+            $this->MKaimonokago->addItem($this->module, $data);
+            //$this->MMenus->addMenu();
+            //$this->session->set_flashdata('message','Menu created');
+            flashMsg('success',$this->lang->line('kago_created'));
+            redirect($this->module.'/admin/index','refresh');
   	}else{
-		$data['title'] = "Create Menu";
+            $data['title'] = "Create Menu";
         // need to show only english menus
 	  	//$data['menus'] = $this->MMenus->getAllMenusDisplay();
-        $lang_id ='0';
-        $data['menus'] = $this->MMenus->getAllMenusDisplayByLang($lang_id);
-        // this need to be id => page_uri, currently page_uri=>page_uri
-        // it is better to store id. if you change the page uri then it does not show the change
-        // if you store the page_uri
-        // this means index page need to be changed to show uri rather than id
-		//$data['pages'] = $this->MPages->getAllPathwithnone();
-        
-		$data['pages'] = $this->MPages->getIdwithnone();
-		// Set breadcrumb
-		$this->bep_site->set_crumb($this->lang->line('kago_create'),'menus/admin/create');
-		
-		$data['header'] = $this->lang->line('backendpro_access_control');
-		$data['page'] = $this->config->item('backendpro_template_admin') . "admin_menu_create";
-		$data['module'] = $this->module;
-		$this->load->view($this->_container,$data);
+            $lang_id ='0';
+            $data['menus'] = $this->MMenus->getAllMenusDisplayByLang($lang_id);
+            // this need to be id => page_uri, currently page_uri=>page_uri
+            // it is better to store id. if you change the page uri then it does not show the change
+            // if you store the page_uri
+            // this means index page need to be changed to show uri rather than id
+            //$data['pages'] = $this->MPages->getAllPathwithnone();
+
+            $data['pages'] = $this->MPages->getIdwithnone();
+            // Set breadcrumb
+            $this->bep_site->set_crumb($this->lang->line('kago_create'),$this->module.'/admin/create');
+
+            $data['header'] = $this->lang->line('backendpro_access_control');
+            $data['page'] = $this->config->item('backendpro_template_admin') . "admin_menu_create";
+            $data['module'] = $this->module;
+            $this->load->view($this->_container,$data);
 	} 
   }
 
@@ -90,10 +118,12 @@ class Admin extends Shop_Admin_Controller {
   function edit($id=0){
     // This is for editing Menu, such as Main menu etc
   	if ($this->input->post('name')){
-  		$this->MMenus->updateMenu();
-  		$this->session->set_flashdata('message','Menu updated');
-        flashMsg('success',$this->lang->line('kago_updated'));
-  		redirect('menus/admin/index','refresh');
+            $data = $this-> _fields();
+            $this->MKaimonokago->updateItem($this->module,$data);
+            //$this->MMenus->updateMenu();
+            $this->session->set_flashdata('message','Menu updated');
+            flashMsg('success',$this->lang->line('kago_updated'));
+            redirect($this->module.'/admin/index','refresh');
   	}else{
 	// if segment 6 is 0 then it is English
         // for English, it has structure of menus/admin/edit/' .  $row['id'] .'/'.$row['page_uri_id'].'/'.$row['lang_id']
@@ -142,14 +172,14 @@ class Admin extends Shop_Admin_Controller {
         /**
         if (!count($data['menu'])){
             flashMsg('success',$this->lang->line('kago_no_exist'));
-			redirect('menus/admin/index','refresh');
+			redirect($this->module.'/admin/index','refresh');
 		}
          * 
          */
 		$data['header'] = $this->lang->line('backendpro_access_control');
 		
 		// Set breadcrumb
-		$this->bep_site->set_crumb($this->lang->line('kago_edit'),'menus/admin/edit');
+		$this->bep_site->set_crumb($this->lang->line('kago_edit'),$this->module.'/admin/edit');
 			
 		$data['module'] = $this->module;
 		$this->load->view($this->_container,$data);
@@ -170,12 +200,12 @@ class Admin extends Shop_Admin_Controller {
             if (count($orphans)){
                 $this->session->set_userdata('orphans',$orphans);
                 flashMsg('success',$this->lang->line('kago_reassing'));
-                redirect('menus/admin/reassign/'.$id,'refresh');
+                redirect($this->module.'/admin/reassign/'.$id,'refresh');
             }else{
                 $this->MMenus->deleteMenu($id);
                 $this->session->set_flashdata('message','Menu deleted');
                 flashMsg('success',$this->lang->line('kago_deleted'));
-                redirect('menus/admin/index','refresh');
+                redirect($this->module.'/admin/index','refresh');
             }
         }
     }
@@ -185,11 +215,11 @@ class Admin extends Shop_Admin_Controller {
 	$orphans = $this->MMenus->checkMenuOrphans($id);
 	if (count($orphans)){
 		$this->session->set_userdata('orphans',$orphans);
-		redirect('menus/admin/reassign/'.$id,'refresh');	
+		redirect($this->module.'/admin/reassign/'.$id,'refresh');
 	}else{
 		$this->MMenus->changeMenuStatus($id);
 		$this->session->set_flashdata('message','Menu status changed');
-		redirect('menus/admin/index','refresh');
+		redirect($this->module.'/admin/index','refresh');
 	}
   }
   
@@ -204,45 +234,42 @@ class Admin extends Shop_Admin_Controller {
 
   function reassign($id=0){
     // This is called when you delete one of menu from deleteMenu() function above.
-	  if ($_POST){
-		
-		$this->MMenus->reassignMenus();
-		$this->session->set_flashdata('message','Menu deleted and sub-menus reassigned');
-		redirect('menus/admin/index','refresh');
-		}else{
-		//$id = $this->uri->segment(4);
-		$menu = $this->MMenus->getMenu($id);
-		$data['menu'] = $menu;
-		$data['title'] = "Reassign Sub-menus";
+      if ($_POST){
+        $this->MMenus->reassignMenus();
+        $this->session->set_flashdata('message','Menu deleted and sub-menus reassigned');
+        redirect($this->module.'/admin/index','refresh');
+        }else{
+        //$id = $this->uri->segment(4);
+        $menu = $this->MMenus->getMenu($id);
+        $data['menu'] = $menu;
+        $data['title'] = "Reassign Sub-menus";
         // this one must be get other menus in the language
-		//$data['menus'] = $this->MMenus->getrootMenus();
+        //$data['menus'] = $this->MMenus->getrootMenus();
         $lang_id = $menu['lang_id'];
         $data['menus'] = $this->MMenus->getAllMenusDisplayByLang($lang_id);
-		$this->MMenus->deleteMenu($id);
-		
-		// Set breadcrumb
-		$this->bep_site->set_crumb($this->lang->line('userlib_menu_reassign'),'menus/admin/reassign');			
-		
-		$data['header'] = $this->lang->line('backendpro_access_control');
-		$data['page'] = $this->config->item('backendpro_template_admin') . "admin_submenu_reassign";
-		$data['module'] = $this->module;
-		$this->load->view($this->_container,$data);		
-		}	
-	}
+        $this->MMenus->deleteMenu($id);
+        // Set breadcrumb
+        $this->bep_site->set_crumb($this->lang->line('userlib_menu_reassign'),$this->module.'/admin/reassign');
+        $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['page'] = $this->config->item('backendpro_template_admin') . "admin_submenu_reassign";
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
+        }
+    }
 
 
-     function langcreate(){
-
+    function langcreate(){
         if ($this->input->post('name')){
             // info is filled out, so the followings
-            $this->MMenus->addMenu();
+             $data = $this-> _fields();
+             $this->MKaimonokago->addItem($this->module, $data);
+            //$this->MMenus->addMenu();
             // This is CI way to show flashdata
             // $this->session->set_flashdata('message','Page updated');
             // But here we use Bep way to display flash msg
             flashMsg('success',$this->lang->line('kago_translation_added'));
-            redirect('menus/admin/index','refresh');
+            redirect($this->module.'/admin/index','refresh');
         }else{
-            
             // omc_menus.id is in segment 4
             $id = $this->uri->segment(4);
             // need to send it to a view for content id
@@ -263,13 +290,12 @@ class Admin extends Shop_Admin_Controller {
             // there is translation of this language
             //redirect with warning
             flashMsg('warning',$this->lang->line('kago_translation_exists'));
-            redirect('menus/admin/index','refresh');
+            redirect($this->module.'/admin/index','refresh');
             }
             // do normal thing
             // get all the languages
             $data['languages'] =$this->MLangs->getLangDropDownWithId();
             // get all the translated languages
-           
             //$data['translanguages'] =$this->MLangs->getTransLang($this->module,$id);
             $data['translanguages'] =$this->MLangs->getTransLang($this->module,$id);
             //$data['translanguages'] =$this->MLangs->getTransLang($this->module,$page_uri_id);
@@ -282,27 +308,28 @@ class Admin extends Shop_Admin_Controller {
             // then use dropdown to select page
             // then use dropdown to select page
             //$data['pages'] = $this->MPages->getIdwithnone();
-
             $data['pages'] = $this->MPages->getIdwithnoneLang($lang_id);
             $lang_id = $this->uri->segment(6);
             $data['menus'] = $this->MMenus->getAllMenusDisplayByLang($lang_id);
-
             // set variables here
             $data['title'] = $this->lang->line('kago_add_translation').ucwords($selected_lang['langname']);
             $data['page'] = $this->config->item('backendpro_template_admin') . "admin_lang_create";
             // send the parent(English) field data to use it for other languages
             $data['menu'] = $this->MMenus->getMenu($id);
-          
             $selected_lang=ucfirst($selected_lang['langname']);// using this in bread crumb
             //$data['menus'] = $this->MMenus->getAllMenusDisplay();
             // Set breadcrumb
-            $this->bep_site->set_crumb($this->lang->line('kago_edit_home'),'menus/admin/edit/'.$id);
-            $this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,'menus/admin/edit/'.$id."/".$lang_id);
+            $this->bep_site->set_crumb($this->lang->line('kago_edit_home'),$this->module.'/admin/edit/'.$id);
+            $this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,$this->module.'/admin/edit/'.$id."/".$lang_id);
             $data['header'] = $this->lang->line('backendpro_access_control');
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
         }
-	}
+    }
+    
+    
+
+
 	
 }//end class
 ?>

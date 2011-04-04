@@ -95,7 +95,7 @@ class MLangs extends Base_model{
         }elseif ($module == 'products'){
             // $this->db->join($table, 'omc_products.lang_id = omc_languages.id', 'left');
             //$Q = $this->db->get_where('omc_languages', array('omc_products.product_id' => $path));
-             $table_field = $table.".product_id";
+             $table_field = $table.".table_id";
         }elseif($module == 'playroom'){
              $table_field = $table.".table_id";
         }

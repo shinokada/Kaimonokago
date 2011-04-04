@@ -31,7 +31,7 @@ echo "<p><label for='status'>".$this->lang->line('kago_status')."</label><br/>\n
 $options = array('active' => 'active', 'inactive' => 'inactive');
 echo form_dropdown('status',$options) ."</p>\n";
 
-
+echo form_hidden('lang_id', 0);// english
 echo form_submit('submit',$this->lang->line('kago_create_page'));
 echo form_close();
 

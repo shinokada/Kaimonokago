@@ -61,6 +61,10 @@ echo "<li><label for='langname'>Language Name</label>\n";
 $data = array('name'=>'langname','id'=>'langname','size'=>10);
 echo form_input($data) ."</li>\n";
 
+echo "<li><label for='status'>".$this->lang->line('kago_status')."</label><br/>\n";
+$options = array('active' => 'active', 'inactive' => 'inactive');
+echo form_dropdown('status',$options) ."</li>\n";
+
 echo "<li id='submit'>";
 echo form_submit('submit','Add New Language');
 echo "</li></ul>";

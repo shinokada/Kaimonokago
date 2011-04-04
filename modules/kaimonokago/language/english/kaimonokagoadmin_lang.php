@@ -105,7 +105,7 @@ $lang['kago_cat_id'] = "cat_id";
 $lang['kago_playroom'] = "Playroom";
 $lang['kago_activity'] = "Activity";
 $lang['kago_table_id'] = "table_id";
-$lang['kago_parent'] = "Parent";
+$lang['kago_menu_exist'] = "The page you are going to delete is used in Menu. Delete the menu first";
 $lang['kago_parent'] = "Parent";
 $lang['kago_parent'] = "Parent";
 
