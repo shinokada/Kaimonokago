@@ -5,26 +5,6 @@
     </div>
     <div id="langbox">
         <?php
-       // print_r ($this->data['parentid']);
-        //print_r ($this->data['langs'] );
-        echo "parent of menu: ";
-        print_r ($this->data['parent'] );
-        echo "<br />";
-        echo "language: ";
-        print_r ($this->data['language'] );
-        //echo "<br />testroot: ";
-        //print_r ($this->data['testroot']);
-        /*
-        if(empty($this->data['language'])){
-            echo "yes";
-        }else{
-            echo "no";
-        }*/
-        echo "<br />";
-        echo "session lang: <pre>";
-        print_r ($this->session->userdata('lang'));
-        echo "</pre>";
-echo $this->data['lang_id'];
         echo form_open($this->data['mainmodule'].'/index');
        //  echo "<label for='parent'>Change Language</label>\n";
         echo form_dropdown('lang',$this->data['langs']) ."\n";

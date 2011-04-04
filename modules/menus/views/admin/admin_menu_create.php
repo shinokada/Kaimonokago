@@ -31,9 +31,7 @@ echo form_hidden('lang_id','0');
 echo form_submit('submit',$this->lang->line('kago_create_menu'));
 echo form_close();
 
-echo "<pre>";
-print_r ($pages);
-echo "</pre>";
+
 ?>
 </div>
 </div>

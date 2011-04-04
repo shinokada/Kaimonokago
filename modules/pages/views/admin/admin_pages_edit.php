@@ -49,13 +49,6 @@ echo form_hidden('id',$pagecontent['id']);
 echo form_submit('submit',$this->lang->line('kago_update'));
 echo form_close();
 
-echo "<pre>";
-print_r ($pagecontent);
-echo "</pre>";
-
-echo "<pre>translanguages";
-print_r ($translanguages);
-echo "</pre>";
 ?>
 </div>
 </div>

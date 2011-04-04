@@ -62,9 +62,6 @@
 
 <?php print $this->bep_assets->get_footer_assets();
 // this will print all the js
-echo "<pre>navlist";
-print_r ($this->data['navlist']);
-echo "</pre>";
 
 ?>
 </body>

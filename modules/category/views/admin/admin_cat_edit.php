@@ -43,9 +43,7 @@ echo form_hidden('table_id',$category['table_id']);
 echo form_submit('submit',$this->lang->line('kago_update'));
 echo form_close();
 
-echo "<pre>";
-print_r ($category);
-echo "</pre>";
+
 
 
 ?>

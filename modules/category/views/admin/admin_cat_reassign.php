@@ -6,11 +6,7 @@
 foreach ($this->session->userdata('orphans') as $id => $name){
 	echo "<li>$name</li>\n";
 }
-echo "<pre>";
-print_r ($category);
-print_r ($categories);
-echo "</pre>";
-echo "</br >";
+
 echo $categories[$category['id']];
 echo $category['id'];
 ?>

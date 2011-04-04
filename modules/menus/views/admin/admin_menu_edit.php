@@ -54,16 +54,4 @@ echo form_hidden('id',$menu['id']);
 echo form_submit('submit',$this->lang->line('kago_update_menu'));
 echo form_close();
 
-echo "<pre>";
-echo "menu";
-var_dump($menu);
-echo "menus";
-var_dump($menus);
-echo "</pre>";
-echo "<pre>languages";
-print_r ($languages);
-echo "</pre>";
-echo "<pre>translanguages";
-print_r ($translanguages);
-echo "</pre>";
 ?>

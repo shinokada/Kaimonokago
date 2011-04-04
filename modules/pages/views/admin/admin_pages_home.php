@@ -75,8 +75,5 @@ if (count($pages)){
 }
 
 
-echo "<pre>";
-print_r ($pages);
-echo "</pre>";
 
 ?>
