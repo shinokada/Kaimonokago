@@ -9,7 +9,6 @@
             <?php if(check('Messages',NULL,FALSE)):?><li><?php print anchor('messages/admin',$this->lang->line('backendpro_messages'),array('class'=>'icon_comment'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Orders',NULL,FALSE)):?><li><?php print anchor('orders/admin',$this->lang->line('backendpro_orders'),array('class'=>'icon_cake'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Pages',NULL,FALSE)):?><li><?php print anchor('pages/admin',$this->lang->line('backendpro_pages'),array('class'=>'icon_page'))?></li><?php echo "\n"; endif;?>
-            <?php if(check('Playroom',NULL,FALSE)):?><li><?php print anchor('playroom/admin',$this->lang->line('kago_playroom'),array('class'=>'icon_asterisk_orange'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Products',NULL,FALSE)):?><li><?php print anchor('products/admin',$this->lang->line('backendpro_products'),array('class'=>'icon_color_swatch'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Slideshow',NULL,FALSE)):?><li><?php print anchor('slideshow/admin',$this->lang->line('backendpro_slideshow'),array('class'=>'icon_television'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Subscribers',NULL,FALSE)):?><li><?php print anchor('subscribers/admin',$this->lang->line('backendpro_subscribers'),array('class'=>'icon_user_red'))?></li><?php echo "\n"; endif;?>
