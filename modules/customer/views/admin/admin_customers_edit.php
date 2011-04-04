@@ -1,7 +1,7 @@
 <h2><?php echo $title;?></h2>
 
 <?php
-echo form_open('customers/admin/edit');
+echo form_open('customer/admin/edit');
 echo "<p><label for='customer_first_name'>Customer First Name</label><br/>";
 $data = array('name'=>'customer_first_name','id'=>'fname','size'=>25, 'value'=>$customer['customer_first_name']);
 echo form_input($data) ."</p>";
