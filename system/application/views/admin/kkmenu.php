@@ -2,7 +2,7 @@
         <ul>
             <?php if(check('Calendar',NULL,FALSE)):?><li><?php print anchor('calendar/admin',$this->lang->line('backendpro_calendar'),array('class'=>'icon_calendar'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Category',NULL,FALSE)):?><li><?php print anchor('category/admin',$this->lang->line('backendpro_category'),array('class'=>'icon_category'))?></li><?php echo "\n"; endif;?>
-            <?php if(check('Customers',NULL,FALSE)):?><li><?php print anchor('customers/admin',$this->lang->line('backendpro_customers'),array('class'=>'icon_user_suit'))?></li><?php echo "\n"; endif;?>
+            <?php if(check('Customers',NULL,FALSE)):?><li><?php print anchor('customer/admin',$this->lang->line('backendpro_customers'),array('class'=>'icon_user_suit'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Filemanager',NULL,FALSE)):?><li><?php print anchor('file_manager/admin',$this->lang->line('backendpro_file_manager'),array('class'=>'icon_folder'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Multi languages',NULL,FALSE)):?><li><?php print anchor('languages/admin',$this->lang->line('backendpro_langages'),array('class'=>'icon_blueflag'))?></li><?php echo "\n"; endif;?>
             <?php if(check('Menus',NULL,FALSE)):?><li><?php print anchor('menus/admin',$this->lang->line('backendpro_menus'),array('class'=>'icon_folder'))?></li><?php echo "\n"; endif;?>
