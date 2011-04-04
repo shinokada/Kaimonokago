@@ -65,7 +65,7 @@ class Shop_Controller extends Site_Controller
         // Loading all the module models here instead of autoload.php
         $this->load->module_model('category','MCats');
         $this->load->module_model('menus','MMenus');
-        $this->load->module_model('customers','MCustomers');
+        $this->load->module_model('customer','MCustomers');
         $this->load->module_model('orders','MOrders');
         $this->load->module_model('pages','MPages');
         $this->load->module_model('products','MProducts');
@@ -154,7 +154,7 @@ class Shop_Controller extends Site_Controller
         // need to find parentid by lang_id where lang_id is 0,1,2,3.. where cat_id is 1 or true
         $main_cat_id = $this->preference->item('categories_parent_id');
         $cat_parent = $this->MCats->getParentidbyLang($main_cat_id,$this->lang_id);
-$this->data['cat_parent']=$cat_parent;// delete me later
+        $this->data['cat_parent']=$cat_parent;// delete me later
         if($cat_parent){// in order to prevent an error after installtion
             $cat_parentid = array_keys($cat_parent);
             $cat_parentid = $cat_parentid[0];
