@@ -29,7 +29,7 @@ private $module;
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
   
-
+    }
 
 
     function create(){
