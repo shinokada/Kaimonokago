@@ -1,0 +1,15 @@
+Kaimonokago 1.4
+
+Multi-Languages Simple Shopping Cart on CodeIgniter
+
+Installation
+
+- create a database kaimonokago and import kaimonokago.sql.zip
+- modify system/application/config/config.php and system/application/config/database.php
+- visit http://localhost/Kaimonokago
+- to log-in go to http://localhost/Kaimonokago/index.php/auth
+	login email: admin@gmail.com
+	password: admin
+
+
+Shin Okada
