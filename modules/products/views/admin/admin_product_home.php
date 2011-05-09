@@ -37,7 +37,8 @@ if (count($products)){
 		echo "<td align='center'>".$list['grouping']."</td>\n";
 		
 		echo "<td align='center'>";
-		echo anchor("kaimonokago/admin/changeStatus/$module/".$list['id'],$list['status'], array('class' => $list['status']));
+                 $active_icon = ($list['status']=='active'?'tick':'cross');
+		echo anchor("kaimonokago/admin/changeStatus/$module/".$list['id'],$this->bep_assets->icon($active_icon), array('class' => $list['status']));
 		echo "</td>\n";
 		
 		// echo "<td align='center'>".$list['category_id']."</td>\n";
@@ -53,10 +54,10 @@ if (count($products)){
         //echo "<td align='center'>".$list['lang_id']."</td>\n";
         echo "<td align='center'>".$list['table_id']."</td>\n";
 		echo "<td align='center'>";
-		echo anchor('products/admin/edit/'.$list['id'],$this->lang->line('kago_edit'));
+		echo anchor('products/admin/edit/'.$list['id'],$this->bep_assets->icon('pencil'));
         if ($list['status']=='inactive'){
-		echo " | ";
-		echo anchor("kaimonokago/admin/delete/$module/".$list['id'],$this->lang->line('kago_delete'),array("onclick"=>"return confirmSubmit('".$list['name']."')"));
+		//echo " | ";
+		echo anchor("kaimonokago/admin/delete/$module/".$list['id'],$this->bep_assets->icon('delete'),array("onclick"=>"return confirmSubmit('".$list['name']."')"));
         }
 		echo "</td>\n";
 		echo "</tr>\n";

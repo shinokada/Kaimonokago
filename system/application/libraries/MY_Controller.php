@@ -46,6 +46,7 @@ class Site_Controller extends Controller
 		$this->load->module_model('preferences','preference_model','preference');
 		$this->load->module_library('site','bep_site');
 		$this->load->module_library('site','bep_assets');
+                $this->load->module_library('page','Page');
 		
 		$this->load->module_library('auth','userlib');
 

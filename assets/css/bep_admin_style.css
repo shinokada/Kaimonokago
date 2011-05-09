@@ -34,14 +34,14 @@
 #dashboard div.widget {
 	position: relative;
 	display: block;
-	border: 1px #CCC solid;	
+	border: 1px #CCC solid;
 	margin-bottom: 16px;
 }
 
 #dashboard div.widget div.header {
 	font-weight: bold;
 	background-color: #999;
-	display: block;	
+	display: block;
 	color: #FFF;
 	padding-left: 5px;
 	line-height: 20px;
@@ -72,9 +72,21 @@ h2 { margin-top: 0.5em; border-bottom: 1px solid #777; }
 
 /* PREFERENCE FORM */
 #preference_form { width: 100%; }
-#preference_form td { line-height: 1.5em; vertical-align: middle; padding: 6px 10px 6px 6px; }
-#preference_form td.label { width: 45%; vertical-align: top; }
-#preference_form input.text { width: 100%; }
+#preference_form td, #content #preference_form td { line-height: 1.5em; vertical-align: middle; padding: 6px 10px 6px 6px; }
+#content #preference_form #nopad td {padding:0; }
+#preference_form td.label{ width: 45%; vertical-align: top; }
+#content #preference_form td.label {
+    width: 25%;
+  /*  vertical-align: top; */
+}
+#preference_form input.text{ width: 90%; }
+#content #preference_form input.text{
+    width: 90%;
+    padding: 5px;
+}
+#long {
+    width: 90%;
+}
 
 /* ACCESS CONTROL SPLASH PAGE */
 #access_control_menu td { padding: 0.5em; vertical-align: top; }

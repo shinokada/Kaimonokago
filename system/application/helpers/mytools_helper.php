@@ -196,20 +196,32 @@ function createfoldername($string){
 
 
     function showtranslang($languages,$translanguages,$item, $module){
-        $output = "<ul>";
+        //$output = "<ul>";
         foreach($languages as $key=>$language){
-        $output .= "<li>";
+        echo "<div class='buttons'>";
             if(!$key == 0){
                 if(in_array($language, $translanguages)){
-                    $output.= "Translated Language: ".$language;
+                 echo '<button type="submit" class="positive">';
+    // print $this->page->icon('add');
+                 echo '<img src="'.base_url().'assets/icons/accept.png"  alt="accept" />';
+     echo $language." Translated";
+     echo '</button>';
+   
+                   // echo "Translated Language: ".$language;
                 }else{
-                     //echo anchor('pages/admin/edit/'.$pagecontent['id'], $language);
-                     $output.= "To be Translated: ";
+                     //echo anchor('pages/admin/edit/'.$pagecontent['id'], $language)
+                     //echo "To be Translated: ";
                      if ($module =='menus'){
                         // if it is english ($row['lang_id']==0)? $output .=$row['id'] : $output .= $row['menu_id'];
                         // if it is non english $item['id'] should be $item['menu_id']
                         ($item['lang_id']==0)? $itemid=$item['id']: $itemid = $item['menu_id'];
-                        $output.= anchor("menus/admin/langcreate/".$itemid. "/". $item['page_uri_id']."/".$key, $language);
+         /*                echo   '<a href="menus/admin/langcreate/".$itemid. "/". $item[\'page_uri_id\']."/".$key." class="positive">';
+   
+                        echo '<img src="'.base_url().'assets/icons/add.png"  alt="add" />';
+     print $language;
+    echo "</a>";*/
+    echo anchor("menus/admin/langcreate/".$itemid. "/". $item['page_uri_id']."/".$key, '<img src="'.base_url().'assets/icons/add.png"  alt="add" />'.$language);
+                       // echo anchor("menus/admin/langcreate/".$itemid. "/". $item['page_uri_id']."/".$key, $language);
                         //  $output.= anchor("menus/admin/langcreate/".$item['id']."/".$item['page_uri_id']."/".$key, $language);
                       /*
                      }elseif($module == 'category'){
@@ -218,17 +230,18 @@ function createfoldername($string){
                      */
 
                      }elseif($module == 'pages'){
-                         $output.= anchor('pages/admin/langcreate/'.$item['id']."/".$item['path']."/".$key, $language);
+                         echo anchor('pages/admin/langcreate/'.$item['id']."/".$item['path']."/".$key, $language);
                //echo anchor('pages/admin/langcreate/'.$pagecontent['id']."/".$key."/".$pagecontent['path'], $language);
                      }elseif($module == 'products' || $module == 'category' || $module == 'playroom'){
-                         $output.= anchor($module."/admin/langcreate/".$item['id']."/".$key, $language);
+                         echo anchor($module."/admin/langcreate/".$item['id']."/".$key, $language);
                      }
                 }
             }
-        $output.= "</li>\n";
+        echo "</div>\n";
         }
-        $output.= "</ul>\n";
-        return $output;
+        echo '<div class="clearboth">&nbsp;</div>';
+        //$output.= "</ul>\n";
+        //return $output;
     }
 
     /**

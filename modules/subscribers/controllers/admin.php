@@ -66,7 +66,7 @@ class Admin extends Shop_Admin_Controller {
                 $this->email->message($msg . $unsub);
                 $this->email->send();
             }
-            // You can use Bep's flashMsg('type','message') instead.
+            // You can use Bep's flashMsg('type','message')
             $this->session->set_flashdata('message', count($subs) . " emails sent");
         }
         // redirect wherever you want.

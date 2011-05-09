@@ -3,9 +3,7 @@
 <p><?php echo anchor("subscribers/admin/create_home", $this->lang->line('kago_create_subscriber'));?></p>
 <?php print displayStatus();?>
 <?php
-if ($this->session->flashdata('message')){
-	echo "<div class='status_box'>".$this->session->flashdata('message')."</div>";
-}
+
 if (count($subscribers)){
 	echo "<table id='tablesorter' class='tablesorter' border='1' cellspacing='0' cellpadding='3' width='800'>\n";
 	echo "<thead>\n<tr valign='top'>\n";

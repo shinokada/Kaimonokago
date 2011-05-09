@@ -82,6 +82,7 @@ class Admin extends Shop_Admin_Controller {
             $this->bep_site->set_crumb($this->lang->line('kago_create'),'pages/admin/create');
             $data['header'] = $this->lang->line('backendpro_access_control');
             // Setting up page and telling which module
+            $data['cancel_link']= $this->module."/admin/index/";
             $data['page'] = $this->config->item('backendpro_template_admin') . "admin_pages_create";
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
@@ -135,6 +136,7 @@ class Admin extends Shop_Admin_Controller {
          *
          */
         $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['cancel_link']= $this->module."/admin/index/";
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
         }
