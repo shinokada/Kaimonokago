@@ -1,6 +1,7 @@
 # file named .gitignore
 
 system/application/config/database.php
+system/application/config/config.php
 
 # Vim leave-behinds
 *.swp
