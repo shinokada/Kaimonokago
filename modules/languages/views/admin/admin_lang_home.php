@@ -56,18 +56,26 @@ if (is_array($langs)){
 echo "<h3>Add Language</h3>";
 echo form_open('languages/admin/index/');
 
-echo "\n<ul id='addlang' class='clear'>\n";
+echo "\n<table id='preference_form'><tr><td class='label'><label for='langname'>*".$this->lang->line('kago_language_name')."</label></td>\n";
+$data = array('name'=>'langname','id'=>'langname','class'=>'text');
+echo "<td>";
+echo form_input($data);
+echo "</td></tr>\n";
 
-echo "<li><label for='langname'>Language Name</label>\n";
-$data = array('name'=>'langname','id'=>'langname','size'=>10);
-echo form_input($data) ."</li>\n";
-
-echo "<li><label for='status'>".$this->lang->line('kago_status')."</label><br/>\n";
+echo "<tr><td class='label'><label for='status'>".$this->lang->line('kago_status')."</label></td>\n";
 $options = array('active' => 'active', 'inactive' => 'inactive');
-echo form_dropdown('status',$options) ."</li>\n";
+echo "<td>";
+echo form_dropdown('status',$options);
+echo "</td></tr></table>\n";
+?>
+<div class="buttons">
+	<button type="submit" class="positive" name="submit" value="submit">
+    <?php print $this->bep_assets->icon('disk');?>
+    <?php print $this->lang->line('general_save');?>
+    </button>
 
-echo "<li id='submit'>";
-echo form_submit('submit','Add New Language');
-echo "</li></ul>";
+
+</div>
+<?php
 echo form_close();
 ?>

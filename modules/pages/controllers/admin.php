@@ -243,6 +243,7 @@ function langcreate(){
         $this->bep_site->set_crumb($this->lang->line('kago_edit'),'pages/admin/edit/'.$id);
         //$this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,'pages/admin/edit/'.$id."/".$lang_id);
         $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['cancel_link']= $this->module."/admin/edit/".$id;
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
     }

@@ -1,31 +1,35 @@
-<div id="pageleftcont">
-<div id="create_edit">
-<?php
+<?php echo form_open("subscribers/admin/create_sub"); 
 
-if ($this->session->flashdata('subscribe_msg')){
-	echo "<div class='status_box'>";
-	echo $this->session->flashdata('subscribe_msg');
-	echo "</div>";
-}
+echo "\n<table id='preference_form'><tr><td class='label'><label for='name'>".$this->lang->line('kago_name')."</label></td>\n";
+$namevalue=set_value('name');
+$data = array('name'=>'name','id'=>'name','class'=>'text', 'value'=>$namevalue);
+echo "<td>";
+echo form_input($data);
+echo "</td></tr>\n";
+
+echo "<tr><td class='label'><label for='email'>".$this->lang->line('kago_email')."</label></td>\n";
+$emailvalue=set_value('email');
+$data = array('name'=>'email','id'=>'email','class'=>'text', 'value' => $emailvalue);
+echo "<td>";
+echo form_input($data);
+echo "</td></tr></table>\n";
+?>
+<div class="buttons">
+	<button type="submit" class="positive" name="submit" value="submit">
+    <?php print $this->bep_assets->icon('disk');?>
+    <?php print $this->lang->line('general_save');?>
+    </button>
+
+    <a href="<?php print site_url($cancel_link);?>" class="negative">
+    <?php print $this->bep_assets->icon('cross');?>
+    <?php print $this->lang->line('general_cancel');?>
+    </a>
+</div>
+
+
+<?php
+echo form_close();
 ?>
 
-<?php echo validation_errors(); ?>
-<div id="emailsubs">
-<?php echo form_open("subscribers/admin/create_sub"); ?>
-
-<h5>*<?php echo $this->lang->line('kago_name');?></h5>
-<input type="text" name="name" id="name" value="<?php echo set_value('name'); ?>" size="40" />
-
-<h5>*<?php echo $this->lang->line('kago_email');?></h5>
-<input type="text" name="email" id="email" value="<?php echo set_value('email'); ?>" size="40" />
 
 
-<div><input type="submit" value="<?php echo $this->lang->line('kago_subscribe');?>" /></div>
-
-
-<?php echo form_close(); ?>
-
-</div>
-
-</div>
-</div>

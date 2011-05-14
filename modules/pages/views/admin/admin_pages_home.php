@@ -1,10 +1,11 @@
-<?php print displayStatus();?>
 <h2><?php echo $title;?></h2>
-<p>
-<?php
-echo anchor("pages/admin/create", $this->lang->line('kago_create_page'));
-?>
-</p>
+<div class="buttons">
+	<a href="<?php print  site_url('pages/admin/create')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print $this->lang->line('kago_create_page'); ?>
+    </a>
+</div>
+<div class="clearboth">&nbsp;</div>
 <?php
 // get the module name. We use this in the link. Then it will be used in kaimonokago controller to redirect to the module
 $module=$this->uri->segment(1);

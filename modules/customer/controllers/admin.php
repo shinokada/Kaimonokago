@@ -28,18 +28,39 @@ class Admin extends Shop_Admin_Controller {
   }
   
 
+    function _fields(){
+        $data = array(
+            'customer_first_name'   => db_clean($_POST['customer_first_name'],25),
+            'customer_last_name'    => db_clean($_POST['customer_last_name'],25),
+            'phone_number'          => db_clean($_POST['phone_number'],15),
+            'email'                 => db_clean($_POST['email'],50),
+            'address'               => db_clean($_POST['address'],50),
+            'city'                  => db_clean($_POST['city'],25),
+            'post_code'             => db_clean($_POST['post_code'],10),
+            'password'              => db_clean(dohash($_POST['password']),16)
+            );
+        return $data;
+    }
+
   function create(){
     if ($this->input->post('customer_first_name')){
         $rules['customer_first_name'] = 'required';
         $rules['password'] = 'required';
-        $rules['passconf'] =  'required';
-        $rules['email'] = 'required';
+        $rules['email'] = 'required|valid_email';
         $this->validation->set_rules($rules);
 
     if ($this->validation->run() == FALSE)
         {
             $this->validation->output_errors();
-            redirect($this->module.'/admin/create','refresh');
+            //redirect($this->module.'/admin/create');
+            $data['title'] = "Create Customer";
+            // Set breadcrumb
+            $this->bep_site->set_crumb($this->lang->line('kago_create')." ".$this->lang->line('kago_customer'),$this->module.'/admin/create');
+            $data['header'] = $this->lang->line('backendpro_access_control');
+            $data['page'] = $this->config->item('backendpro_template_admin') . "admin_customers_create";
+            $data['cancel_link']= $this->module."/admin/index/";
+            $data['module'] = $this->module;
+            $this->load->view($this->_container,$data);
         }
         else
         {
@@ -65,9 +86,10 @@ class Admin extends Shop_Admin_Controller {
     }else{
         $data['title'] = "Create Customer";
         // Set breadcrumb
-        $this->bep_site->set_crumb($this->lang->line('userlib_customer_create'),$this->module.'/admin/create');
+        $this->bep_site->set_crumb($this->lang->line('kago_create')." ".$this->lang->line('kago_customer'),$this->module.'/admin/create');
         $data['header'] = $this->lang->line('backendpro_access_control');
         $data['page'] = $this->config->item('backendpro_template_admin') . "admin_customers_create";
+        $data['cancel_link']= $this->module."/admin/index/";
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
     }
@@ -76,24 +98,21 @@ class Admin extends Shop_Admin_Controller {
   
   function edit($id=0){
     if ($this->input->post('customer_first_name')){
-        /*
-         $data = array(
-            'customer_first_name' => db_clean($_POST['customer_first_name'],25),
-            'customer_last_name' => db_clean($_POST['customer_last_name'],25),
-            'phone_number' => db_clean($_POST['phone_number'],15),
-            'email' => db_clean($_POST['email'],50),
-            'address' => db_clean($_POST['address'],50),
-            'city' => db_clean($_POST['city'],25),
-            'post_code' => db_clean($_POST['post_code'],10),
-            'password' => db_clean(dohash($_POST['password']),16)
-            );
-         *
-         */
-        $data = $this->_fields();
-        $this->MKaimonokago->updateItem($this->module, $data);
-        //$this->MCustomers->updateCustomer();
-        flashMsg('success','Customer editted');
-        redirect($this->module.'/admin/index','refresh');
+        $rules['customer_first_name'] = 'required';
+        //$rules['passconf'] =  'required';
+        $rules['email'] = 'required|valid_email';
+        $this->validation->set_rules($rules);
+    if ($this->validation->run() == FALSE){
+            $this->validation->output_errors();
+            $customer_id = $this->input->post('customer_id');
+            redirect($this->module.'/admin/edit/'.$customer_id,'refresh');
+        }else{
+            $data = $this->_fields();
+            $this->MKaimonokago->updateItem($this->module, $data);
+            //$this->MCustomers->updateCustomer();
+            flashMsg('success','Customer editted');
+            redirect($this->module.'/admin/index','refresh');
+        }
     }else{
         $data['title'] = "Edit Customer";
         $data['page'] = $this->config->item('backendpro_template_admin') . "admin_customers_edit";
@@ -104,7 +123,8 @@ class Admin extends Shop_Admin_Controller {
         }
         $data['header'] = $this->lang->line('backendpro_access_control');
         // Set breadcrumb
-        $this->bep_site->set_crumb($this->lang->line('userlib_customer_edit'),$this->module.'/admin/edit');
+        $this->bep_site->set_crumb($this->lang->line('kago_edit')." ".$this->lang->line('kago_customer'),$this->module.'/admin/edit');
+        $data['cancel_link']= $this->module."/admin/index/";
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
     }
@@ -132,20 +152,6 @@ class Admin extends Shop_Admin_Controller {
         }
     }
 
-
-    function _fields(){
-        $data = array(
-            'customer_first_name'   => db_clean($_POST['customer_first_name'],25),
-            'customer_last_name'    => db_clean($_POST['customer_last_name'],25),
-            'phone_number'          => db_clean($_POST['phone_number'],15),
-            'email'                 => db_clean($_POST['email'],50),
-            'address'               => db_clean($_POST['address'],50),
-            'city'                  => db_clean($_POST['city'],25),
-            'post_code'             => db_clean($_POST['post_code'],10),
-            'password'              => db_clean(dohash($_POST['password']),16)
-            );
-        return $data;
-    }
 
     /*
 Not used

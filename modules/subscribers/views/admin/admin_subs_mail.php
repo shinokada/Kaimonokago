@@ -1,28 +1,35 @@
-<div id="pageleftcont">
-<div id="create_edit">
 <?php
-
-if ($this->session->flashdata('message')){
-	echo "<div class='status_box'>".$this->session->flashdata('message')."</div>";
-}
-
 echo form_open('subscribers/admin/sendemail');
 
-echo "<p><label for='subject'>".$this->lang->line('kago_subject')."</label><br/>";
-$data = array('name' => 'subject', 'id' => 'subject', 'size' => 50, 'value'=>$subject);
+echo "\n<table id='preference_form'><tr><td class='label'><label for='subject'>".$this->lang->line('kago_subject')."</label></td>\n";
+echo "<td>";
+$data = array('name' => 'subject', 'id' => 'subject','class'=>'text', 'value'=>$subject);
 echo form_input($data);
-echo "</p>";
+echo "</td></tr>";
 
-echo "<p><label for='message'>".$this->lang->line('kago_message')."</label><br/>";
+echo "<tr><td class='label'><label for='message'>".$this->lang->line('kago_message')."</label></td>\n";
+echo "<td id='nopad' >";
 $data = array('name' => 'message', 'id' => 'message', 'rows' => 20, 'cols' => 50, 'value'=>$msg);
 echo form_textarea($data);
-echo "</p>";
+echo "</td></tr></table>";
 
-echo "<p>".form_checkbox('test', 'true', TRUE) . " <b>".$this->lang->line('kago_test')."</b></p>";
-echo form_submit('submit',$this->lang->line('kago_sendemail'));
+echo "<tr><td>".form_checkbox('test', 'true', TRUE) . "</td><td><b>".$this->lang->line('kago_test')."</b></td></tr></table>\n";
+
+?>
+<div class="buttons">
+	<button type="submit" class="positive" name="submit" value="submit">
+    <?php print $this->bep_assets->icon('email');?>
+    <?php print $this->lang->line('kago_send');?>
+    </button>
+
+    <a href="<?php print site_url($cancel_link);?>" class="negative">
+    <?php print $this->bep_assets->icon('cross');?>
+    <?php print $this->lang->line('general_cancel');?>
+    </a>
+</div>
+<?php
+//echo form_submit('submit',$this->lang->line('kago_sendemail'));
 echo form_close();
 
 
 ?>
-</div>
-</div>

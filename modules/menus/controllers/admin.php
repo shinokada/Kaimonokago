@@ -52,14 +52,14 @@ class Admin extends Shop_Admin_Controller {
 
     function _fields(){
         $data = array(
-            'name' => db_clean($_POST['name']),
-            'shortdesc' =>  db_clean($_POST['shortdesc']),
-            'status' =>  db_clean($_POST['status'],8),
-            'parentid' => id_clean($_POST['parentid']),
-            'order' => id_clean($_POST['order'],10),
-            'page_uri_id' =>  db_clean($_POST['page_uri_id']),
-            'lang_id' =>  db_clean($_POST['lang_id']),
-            'menu_id' =>  db_clean($_POST['menu_id'])
+            'name'          => db_clean($_POST['name']),
+            'shortdesc'     =>  db_clean($_POST['shortdesc']),
+            'status'        =>  db_clean($_POST['status'],8),
+            'parentid'      => id_clean($_POST['parentid']),
+            'order'         => id_clean($_POST['order'],10),
+            'page_uri_id'   =>  db_clean($_POST['page_uri_id']),
+            'lang_id'       =>  db_clean($_POST['lang_id']),
+            'menu_id'       =>  db_clean($_POST['menu_id'])
         );
         // $this->MKaimonokago->addItem($this->module, $data);
         return $data;
@@ -177,13 +177,13 @@ class Admin extends Shop_Admin_Controller {
 		}
          * 
          */
-		$data['header'] = $this->lang->line('backendpro_access_control');
-		
-		// Set breadcrumb
-		$this->bep_site->set_crumb($this->lang->line('kago_edit'),$this->module.'/admin/edit');
-		$data['cancel_link']= $this->module."/admin/index/";
-		$data['module'] = $this->module;
-		$this->load->view($this->_container,$data);
+        $data['header'] = $this->lang->line('backendpro_access_control');
+
+        // Set breadcrumb
+        $this->bep_site->set_crumb($this->lang->line('kago_edit'),$this->module.'/admin/edit');
+        $data['cancel_link']= $this->module."/admin/index/";
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
 	}
   }
   
@@ -323,6 +323,7 @@ class Admin extends Shop_Admin_Controller {
             $this->bep_site->set_crumb($this->lang->line('kago_edit_home'),$this->module.'/admin/edit/'.$id);
             $this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,$this->module.'/admin/edit/'.$id."/".$lang_id);
             $data['header'] = $this->lang->line('backendpro_access_control');
+            $data['cancel_link']= $this->module."/admin/edit/".$id;
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
         }

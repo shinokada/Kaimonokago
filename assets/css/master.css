@@ -111,13 +111,12 @@ outline-width:0;
 /* Calendar */
 
 #calmain{
-	width: 50%;
-	float: left;
+	
 }
 #calleft{
-	float: left;
-	width: 20%;
-	padding: 20px;
+	position: absolute;
+        top: 60px;
+        left: 460px;
 }
 #calright {
 	float: left;

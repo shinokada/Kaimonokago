@@ -59,7 +59,8 @@ class Admin_Controller extends Site_Controller
 		// Otherwise menu items will not be displayed
 		$this->lang->load('shop');
 
-        $this->load->module_language('kaimonokago','kaimonokagoadmin');
+                $this->load->module_language('kaimonokago','kaimonokagoadmin');
+                $this->load->module_language('welcome','webshop');
 
 		log_message('debug','BackendPro : Admin_Controller class loaded');
 	}

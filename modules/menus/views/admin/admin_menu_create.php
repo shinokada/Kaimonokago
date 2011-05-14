@@ -3,7 +3,6 @@
 <?php
 echo form_open('menus/admin/create');
 echo "\n<table id='preference_form'><tr><td class='label'><label for='menuname'>".$this->lang->line('kago_name')."</label></td>\n";
-//echo "\n<p><label for='menuname'>".$this->lang->line('kago_name')."</label><br/>\n";
 $data = array('name'=>'name','id'=>'menuname','class'=>'text');
 echo "<td>";
 echo form_input($data);

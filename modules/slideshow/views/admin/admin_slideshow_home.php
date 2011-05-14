@@ -1,6 +1,11 @@
-<?php print displayStatus();?>
 <h2><?php echo $title;?></h2>
-<p><?php echo anchor("slideshow/admin/create", $this->lang->line('kago_add_newslide'));?>  <?php // echo anchor("slideshow/admin/export","Export");?></p>
+<div class="buttons">
+	<a href="<?php print  site_url('slideshow/admin/create')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print $this->lang->line('kago_add_newslide'); ?>
+    </a>
+</div>
+<div class="clearboth">&nbsp;</div>
 
 <?php
 // get the module name. We use this in the link. Then it will be used in kaimonokago controller to redirect to the module
@@ -38,9 +43,9 @@ if (count($slideshow)){
 	echo "</tbody></table>";
 	echo form_close();
 }
-
+/*
 echo "<pre>slideshow";
 print_r ($slideshow);
 echo "</pre>";
-
+*/
 ?>

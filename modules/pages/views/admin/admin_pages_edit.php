@@ -25,25 +25,21 @@ echo "<td>";
 echo form_input($data);
 echo "</td></tr>\n";
 
-
-if($pagecontent['lang_id']==0){
+//if($pagecontent['lang_id']==0){
     echo "<tr><td class='label'><label for='fpath'>".$this->lang->line('kago_path_furl')."</label></td>\n";
     $data = array('name'=>'path','id'=>'fpath', 'value' => $pagecontent['path'],'class'=>'text');
 echo "<td>";
 echo form_input($data);
 echo "</td></tr>\n";
+
+/*
 }else{
     echo "<td><h3>".$this->lang->line('kago_path_furl'). $pagecontent['path']."</h3></td>";
     echo form_hidden('path', $pagecontent['path']);
-  
 }
-
-
+*/
 echo "<tr><td class='label'><label for='long'>".$this->lang->line('kago_content')."</label></td>\n";
 $data = array('name'=>'content','id'=>'long','rows'=>'30', 'cols'=>'80', 'value' => $pagecontent['content']);
-
-
-
 echo "<td id='nopad' >";
 echo form_textarea($data);
 ?>

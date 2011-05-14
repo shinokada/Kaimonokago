@@ -9,15 +9,19 @@
 
 echo form_open('menus/admin/langcreate');
 
-echo "\n<p><label for='menuname'>".$this->lang->line('kago_name')."</label>\n";
-echo $this->lang->line('kago_original').$menu['name']."</p><p>";
-$data = array('name'=>'name','id'=>'menuname','size'=>25);
-echo form_input($data) ."</p>\n";
+echo "\n<table id='preference_form'><tr><td class='label'><label for='menuname'>".$this->lang->line('kago_name')."</label></td>\n";
+echo $this->lang->line('kago_original').$menu['name']."</td>";
+$data = array('name'=>'name','id'=>'menuname','class'=>'text');
+echo "<td>";
+echo form_input($data);
+echo "</td></tr>\n";
 
-echo "<p><label for='short'>".$this->lang->line('kago_short_desc')."</label>\n";
-echo "Original: ".$menu['shortdesc']."</p><p>";
-$data = array('name'=>'shortdesc','id'=>'short','size'=>40);
-echo form_input($data) ."</p>\n";
+echo "<tr><td class='label'><label for='short'>".$this->lang->line('kago_short_desc')."</label><br />\n";
+echo "Original: ".$menu['shortdesc']."</td>";
+$data = array('name'=>'shortdesc','id'=>'short','class'=>'text');
+echo "<td>";
+echo form_input($data);
+echo "</td></tr>\n";
 
 // if $page_uri_id is 0, then they are language root, e.g. German, French etc
 // so $page_uri_id and $parentid should be 0
@@ -25,17 +29,23 @@ if ($page_uri_id=='0'){
     echo form_hidden('page_uri_id','0');
     echo form_hidden('parentid','0');
 }else{
-    echo "<p><label for='page_uri'>".$this->lang->line('kago_page_toshow')."</label><br/>\n";
-    echo form_dropdown('page_uri_id',$pages) ."</p>\n";
+    echo "<tr><td><label for='page_uri'>".$this->lang->line('kago_page_toshow')."</label></td>\n";
+    echo "<td>";
+    echo form_dropdown('page_uri_id',$pages)."</td></tr>";
+    echo "</td>";
 
-    echo "<p><label for='parent'>".$this->lang->line('kago_parent_menu')."</label><br/>\n";
-    echo form_dropdown('parentid',$menus) ."</p>\n";
+    echo "<tr><td><label for='parent'>".$this->lang->line('kago_parent_menu')."</label></td>";
+    echo "<td>";
+    echo form_dropdown('parentid',$menus);
+    echo "</td></tr>";
 }
 
 
-echo "<p><label for='order'>".$this->lang->line('kago_order')."</label><br/>\n";
-$data = array('name'=>'order', 'value' => $menu['order'], 'id'=>'order','size'=>10);
-echo form_input($data) ."</p>\n";
+echo "<tr><td><label for='order'>".$this->lang->line('kago_order')."</label></td>\n";
+$data = array('name'=>'order', 'value' => $menu['order'], 'id'=>'order','class'=>'text');
+echo "<td>";
+echo form_input($data);
+echo "</td></tr></table>\n";
 /*
 echo "<h3>Page URI: ";
 echo $menu['page_uri'];
@@ -48,7 +58,20 @@ echo form_hidden('status', $menu['status']);
 echo form_hidden('menu_id', $menu['id']);
 //echo form_hidden('parentid', $menu['parentid']);
 echo form_hidden('lang_id', $lang_id);
-echo form_submit('submit',$this->lang->line('kago_add_trans'));
+?>
+<div class="buttons">
+	<button type="submit" class="positive" name="submit" value="submit">
+    <?php print $this->bep_assets->icon('disk');?>
+    <?php print $this->lang->line('general_save');?>
+    </button>
+
+    <a href="<?php print site_url($cancel_link);?>" class="negative">
+    <?php print $this->bep_assets->icon('cross');?>
+    <?php print $this->lang->line('general_cancel');?>
+    </a>
+</div>
+<?php
+//echo form_submit('submit',$this->lang->line('kago_add_trans'));
 echo form_close();
 
 echo "<pre>menu";

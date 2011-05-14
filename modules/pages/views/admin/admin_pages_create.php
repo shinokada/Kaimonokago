@@ -31,7 +31,7 @@ $data = array('name'=>'content','id'=>'long','rows'=>'30', 'cols'=>'80');
 echo "<td id='nopad' >";
 echo form_textarea($data);
 ?>
-    <br /><a href="javascript:toggleEditor('long');"><?php echo $this->lang->line('kago_add_remove') ;?></a>
+    <a href="javascript:toggleEditor('long');"><?php echo $this->lang->line('kago_add_remove') ;?></a>
 <?php
 echo "</td></tr>\n";
 

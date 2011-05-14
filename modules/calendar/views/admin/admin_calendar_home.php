@@ -1,21 +1,15 @@
-<div id="calleft">
-<?php 
-echo "<p>";
-echo anchor('calendar/admin/create', 'Add Events to Calendar');
-echo "</p>";
-echo "<p>";
-echo anchor('calendar/admin/index/', 'Show Site Calendar');
-echo "</p>";
-?>
- </div>
  <div id="calmain">
 
-<?php 
-if ($this->session->flashdata('message')){
-	echo "<div class='status_box'>".$this->session->flashdata('message')."</div>";
-}
-?>
 	<h2><?php echo $current_month_text?></h2>
+
+        <div class="buttons">
+	<a href="<?php print  site_url('calendar/admin/create')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print $this->lang->line('kago_add')." ".$this->lang->line('kago_event'); ?>
+    </a>
+
+</div>
+<div class="clearboth">&nbsp;</div>
 	<table cellspacing="0">
 		<thead>
 		<tr>
@@ -113,12 +107,14 @@ if ($this->session->flashdata('message')){
 </div>
 <div id="calright">
 <?php 
-
+/*
 foreach ($members->result_array() as $member){
 	echo "<p>";
 	echo anchor('calendar/admin/mycal/'.$member['id'],$member['username'].'\'s Calendar' );
 	echo "</p>";
  }
+ * 
+ */
 ?>
 
 </div>

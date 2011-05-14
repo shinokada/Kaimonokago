@@ -1,6 +1,11 @@
-<?php print displayStatus();?>
 <h2><?php echo $title;?></h2>
-<p><?php echo anchor("products/admin/create", $this->lang->line('kago_create_product'));?>  <?php // echo anchor("products/admin/export","Export");?></p>
+<div class="buttons">
+	<a href="<?php print  site_url('products/admin/create')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print $this->lang->line('kago_create_product'); ?>
+    </a>
+</div>
+<div class="clearboth">&nbsp;</div>
 
 <?php
 // get the module name. We use this in the link. Then it will be used in kaimonokago controller to redirect to the module
@@ -8,15 +13,16 @@ $module=$this->uri->segment(1);
 
 if (count($products)){
 	echo form_open("products/admin/batchmode");
+        /*
 	echo "<p>Category: ". form_dropdown('category_id',$categories);
 	echo "&nbsp;";
 	$data = array('name'=>'grouping','size'=>'10');
 	echo "Grouping: ". form_input($data);
 	echo form_submit("submit","batch update");
-	echo "</p>";
+	echo "</p>";*/
 	echo '<table id="tablesorter_product1" class="tablesorter" border="1" cellspacing="0" cellpadding="3" width="100%">';
 	echo "<thead>\n<tr valign='top'>\n";
-	echo "<th>&nbsp;</th><th>".$this->lang->line('kago_productid')."</th>\n<th>".$this->lang->line('kago_name').
+	echo "<th>".$this->lang->line('kago_productid')."</th>\n<th>".$this->lang->line('kago_name').
             "</th><th>".$this->lang->line('kago_class')."</th><th>".$this->lang->line('kago_grouping')."</th><th>".
             $this->lang->line('kago_status')."</th><th>".$this->lang->line('kago_catname').
             "</th><th>".$this->lang->line('kago_featured')."</th><th>".$this->lang->line('kago_price').
@@ -27,7 +33,7 @@ if (count($products)){
 		echo "<tr ";
         ($list['lang_id']>0)? $class="dentme" : $class = '';
 		echo "class = \"".$class. "\" valign='top'>\n";
-        echo "<td align='center'>".form_checkbox('p_id[]',$list['id'],FALSE)."</td>";
+       // echo "<td align='center'>".form_checkbox('p_id[]',$list['id'],FALSE)."</td>";
 		echo "<td align='center'>".$list['id']."</td>\n";
 		echo "<td align='center'>";
         //.$list['name'].
@@ -65,9 +71,9 @@ if (count($products)){
 	echo "</tbody></table>";
 	echo form_close();
 }
-
+/*
 echo "<pre>products";
 print_r ($products);
 echo "</pre>";
-
+*/
 ?>

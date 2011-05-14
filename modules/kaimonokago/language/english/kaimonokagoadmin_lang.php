@@ -19,7 +19,9 @@
 $lang['kago_status_changed'] = 'Status changed';
 $lang['kago_deleted'] = 'Item deleted';
 $lang['kago_create'] = 'Create';
+$lang['kago_add'] = 'Add';
 $lang['kago_edit'] = 'Edit';
+$lang['kago_show'] = 'Show';
 $lang['kago_edit_home'] = 'Edit Home';
 $lang['kago_delete'] = 'Delete';
 $lang['kago_add_translation'] = 'Add Translation in ';
@@ -36,8 +38,10 @@ $lang['kago_no_translation'] = 'No Translation or No page.';
 $lang['kago_language_added'] = 'New Language is added. You must create a new directory /modules/language/languages/newlang_name';
 $lang['kago_menu'] = 'Menu';
 $lang['kago_page'] = 'Page';
+$lang['kago_calendar'] = 'Calendar';
 $lang['kago_product'] = 'Product';
 $lang['kago_category'] = 'Category';
+$lang['kago_customer'] = 'Customer';
 $lang['kago_slideshow'] = 'Slideshow';
 $lang['kago_manage'] = 'Manage';
 $lang['kago_no_exist'] = 'This does not exist.';
@@ -106,8 +110,8 @@ $lang['kago_playroom'] = "Playroom";
 $lang['kago_activity'] = "Activity";
 $lang['kago_table_id'] = "table_id";
 $lang['kago_menu_exist'] = "The page you are going to delete is used in Menu. Delete the menu first";
-$lang['kago_parent'] = "Parent";
-$lang['kago_parent'] = "Parent";
+$lang['kago_language_name'] = "Language Name";
+$lang['kago_send'] = "Send";
 
 
 

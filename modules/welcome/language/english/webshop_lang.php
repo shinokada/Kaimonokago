@@ -46,10 +46,12 @@ $lang['webshop_if_registered'] = 'if you are already registered.';
 $lang['webshop_email'] = 'Email';
 $lang['webshop_email_confirm'] = 'Email Confirmation';
 $lang['webshop_pass_word'] = 'Password';
+$lang['webshop_pass_word_conf'] = 'Password Confirm';
 $lang['webshop_first_name'] = 'First Name';
 $lang['webshop_last_name'] = 'Last Name';
 $lang['webshop_mobile_tel'] = 'Mobile/Telephone';
 $lang['webshop_shipping_address'] = 'Shipping Address';
+$lang['webshop_address'] = 'Address';
 $lang['webshop_post_code'] = 'Postal Code';
 $lang['webshop_city'] = 'City';
 $lang['webshop_register'] = 'Register';
@@ -155,6 +157,9 @@ $lang['login_email_pw_incorrect'] = 'Sorry, your email or password is incorrect!
 $lang['webshop_mostsold'] = 'Most Sold';
 $lang['webshop_newproduct'] = 'New Product';
 
+
+// calendar
+$lang['kago_event'] = 'Event';
 
 /* End of file webshop_lang.php */
 /* Location: ./modules/webshop/language/english/webshop_lang.php */

@@ -83,6 +83,7 @@ class Admin extends Shop_Admin_Controller {
             $this->bep_site->set_crumb($this->lang->line('kago_create'),$this->module.'/admin/create');
             $data['header'] = $this->lang->line('backendpro_access_control');
             $data['page'] = $this->config->item('backendpro_template_admin') . "admin_product_create";
+            $data['cancel_link']= $this->module."/admin/index/";
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
         }
@@ -133,6 +134,7 @@ class Admin extends Shop_Admin_Controller {
         // 	Set breadcrumb
         $this->bep_site->set_crumb($this->lang->line('kago_edit'),$this->module.'/admin/edit');
         $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['cancel_link']= $this->module."/admin/index/";
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
         }
@@ -211,8 +213,9 @@ class Admin extends Shop_Admin_Controller {
             $selected_lang=ucfirst($selected_lang['langname']);// using this in bread crumb
             //$data['menus'] = $this->MMenus->getAllMenusDisplay();
             // Set breadcrumb
-            $this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,$this->module.'/admin/edit/');
+            $this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,$this->module.'/admin/index/');
             //$this->bep_site->set_crumb($this->lang->line('kago_add_translation').$selected_lang,'menus/admin/edit/'.$id."/".$lang_id);
+            $data['cancel_link']= $this->module."/admin/index/";
             $data['header'] = $this->lang->line('backendpro_access_control');
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);

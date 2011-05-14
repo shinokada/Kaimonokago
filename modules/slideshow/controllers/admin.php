@@ -61,6 +61,7 @@ class Admin extends Shop_Admin_Controller {
         $this->bep_site->set_crumb($this->lang->line('kago_create'),$this->module.'/admin/create');
         $data['header'] = $this->lang->line('backendpro_access_control');
         $data['page'] = $this->config->item('backendpro_template_admin') . "admin_slideshow_create";
+        $data['cancel_link']= $this->module."/admin/index/";
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
     }
@@ -91,6 +92,7 @@ class Admin extends Shop_Admin_Controller {
         // 	Set breadcrumb
         $this->bep_site->set_crumb($this->lang->line('kago_edit'),$this->module.'/admin/edit');
         $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['cancel_link']= $this->module."/admin/index/";
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
         }

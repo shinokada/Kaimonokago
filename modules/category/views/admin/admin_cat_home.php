@@ -1,6 +1,13 @@
-<?php print displayStatus();?>
 <h2><?php echo $title;?></h2>
-<p><?php echo anchor($module."/admin/create", "Create new category");?>  <?php //echo anchor($module."/admin/export","Export");?></p>
+
+<div class="buttons">
+	<a href="<?php print  site_url('category/admin/create')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print $this->lang->line('kago_create')." ".$this->lang->line('kago_category'); ?>
+    </a>
+</div>
+<div class="clearboth">&nbsp;</div>
+
 
 <?php
 

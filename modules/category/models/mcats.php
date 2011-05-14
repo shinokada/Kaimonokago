@@ -98,16 +98,16 @@ function getCategory($id){
      if ($Q->num_rows() > 0){
        foreach ($Q->result() as $row){
 	// see the output $navlist at http://127.0.0.1/codeigniter_shopping/test1/cat/7
-			if ($row->parentid > 0){
-				$data[0][$row->parentid]['children'][$row->id] = $row->name;
-				// [0]=>array([7]=>array([children]=>array([4]=dresses)))
-				// [0][8][children][5]=toys
-			}else{
-				$data[0][$row->id]['name'] = $row->name;
-				// e.g. [0]=>array([7]=>array([name]=clothes))
-				// e.g. [0][8][name]=fun
-			}
-		}
+            if ($row->parentid > 0){
+                $data[0][$row->parentid]['children'][$row->id] = $row->name;
+                // [0]=>array([7]=>array([children]=>array([4]=dresses)))
+                // [0][8][children][5]=toys
+            }else{
+                $data[0][$row->id]['name'] = $row->name;
+                // e.g. [0]=>array([7]=>array([name]=clothes))
+                // e.g. [0][8][name]=fun
+            }
+        }
     }
     $Q->free_result(); 
     return $data; 
@@ -276,7 +276,6 @@ function getCategory($id){
 		'longdesc' =>  db_clean($_POST['longdesc'],5000),
 		'status' =>  db_clean($_POST['status'],8),
 		'parentid' => id_clean($_POST['parentid'])
-	
 	);
 
 	$this->db->insert('omc_category', $data);	 
@@ -289,7 +288,6 @@ function getCategory($id){
 		'longdesc' =>  db_clean($_POST['longdesc'],5000),
 		'status' =>  db_clean($_POST['status'],8),
 		'parentid' =>  id_clean($_POST['parentid'])
-	
 	);
 
  	$this->db->where('id', id_clean($_POST['id']));

@@ -1,96 +1,103 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Admin extends Shop_Admin_Controller {
+
+    private $module;
+
   function Admin(){
     parent::Shop_Admin_Controller();
     $this->load->model('MCalendar');
     $this->bep_assets->load_asset('master');
     // Check for access permission. Only if you have permission, you can access to Calendar
-		check('Calendar');
+	check('Calendar');
 	// We are going to use form helper. So load it.
+        $this->module=basename(dirname(dirname(__FILE__)));
 	$this->load->helper('form');
 	// Set breadcrumb for the top level
 	$this->bep_site->set_crumb($this->lang->line('backendpro_calendar'),'calendar/admin');	
   }
   
   
+    function index(){
+        // The forth segment will be used as timeid
+        $timeid = $this->uri->segment(4);
+        if($timeid==0)
+                $time = time();
+        else
+                $time = $timeid;
 
-  function index(){
-	// The forth segment will be used as timeid
-	$timeid = $this->uri->segment(4);
-	if($timeid==0)
-		$time = time();
-	else
-		$time = $timeid;
-	
-	// we call _date function 	
-	$data = $this->_date($time);
-	
-	// Set all other variables here
-	$data['title'] = "Manage Calendar";
-	// Calling this will display links to everyone's calendar. If you don't use it delete it in the view 
-	$data['members'] = $this->user_model->getUsers();
-	// You can use this variable to tell that this is your calendar at the top.
-	$data['user'] = $this->session->userdata('username');
-	$data['user_id'] = $this->session->userdata('id');
-	$data['header'] = $this->lang->line('backendpro_access_control');
-	$data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_home";
-	// we are using calendar module
-	$data['module'] = 'calendar';
-	$this->load->view($this->_container,$data);
-  }
+        // we call _date function
+        $data = $this->_date($time);
+
+        // Set all other variables here
+        $data['title'] = "Manage Calendar";
+        // Calling this will display links to everyone's calendar. If you don't use it delete it in the view
+        $data['members'] = $this->user_model->getUsers();
+        // You can use this variable to tell that this is your calendar at the top.
+        $data['user'] = $this->session->userdata('username');
+        $data['user_id'] = $this->session->userdata('id');
+        $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_home";
+        // we are using calendar module
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
+    }
   
 
   
-  function create(){
+    function create(){
 	
 	$data['title'] = "Add Events to Calendar";
 	$data['user'] = $this->session->userdata('username');
 	$data['user_id'] = $this->session->userdata('id');
-	if(isset($_POST['add']))
+	if(isset($_POST['submit']))
 	{
-		//check for empty inputs
-		if((isset($_POST['date']) && !empty($_POST['date'])) && (isset($_POST['eventTitle']) && !empty($_POST['eventTitle'])) && (isset($_POST['eventContent']) && !empty($_POST['eventContent'])))	
-		{
-			//add new event to the database
-			$data['alert']= $this->MCalendar->addEvents();
-		}
-		else 
-		{
-			//alert message for empty input
-			$data['alert'] = "No empty input please";
-		}
+            //check for empty inputs
+            if((isset($_POST['date']) && !empty($_POST['date'])) && (isset($_POST['eventTitle']) && !empty($_POST['eventTitle'])) && (isset($_POST['eventContent']) && !empty($_POST['eventContent'])))
+            {
+                //add new event to the database
+                $this->MCalendar->addEvents();
+                flashMsg('success','Calendar created');
+                redirect('calendar/admin/index','refresh');
+            }
+            else
+            {
+                //alert message for empty input
+                $data['alert'] = "No empty input please";
+            }
 	}
-		// Set breadcrumb for the second level after Calendar. It will show like Calendar
-		// You have to add in language userlib 
-		$this->bep_site->set_crumb($this->lang->line('userlib_calendar_add'),'calendar/admin/create');	
-	
-		$data['header'] = $this->lang->line('backendpro_access_control');
-		$data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_create";
-		$data['module'] = 'calendar';
-		$this->load->view($this->_container,$data);
-		}
+        // Set breadcrumb for the second level after Calendar. It will show like Calendar
+        // You have to add in language userlib
+        $this->bep_site->set_crumb($this->lang->line('userlib_calendar_add'),'calendar/admin/create');
+
+        $data['header'] = $this->lang->line('backendpro_access_control');
+        $data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_create";
+        $data['cancel_link']= $this->module."/admin/index/";
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
+        }
 		
 		
-	 function edit($id=0){
+     function edit($id=0){
 		
 	  $data['title'] = "Edit Events";
 	
-	  if(isset($_POST['add']))
+	  if(isset($_POST['submit']))
 	  {
-		  //check for empty inputs
-		  if((isset($_POST['date']) && !empty($_POST['date'])) && (isset($_POST['eventTitle']) && !empty($_POST['eventTitle'])) && (isset($_POST['eventContent']) && !empty($_POST['eventContent'])))	
-		  {
-			  //add new event to the database
-			  $this->MCalendar->addEvents();
-			  $this->session->set_flashdata('message','Event created!');
-			  redirect('calendar/admin/index','refresh');
-		  }
-		  else 
-		  {
-			  //alert message for empty input
-			  $data['alert'] = "No empty input please";
-		  }
+              //check for empty inputs
+              if((isset($_POST['date']) && !empty($_POST['date'])) && (isset($_POST['eventTitle']) && !empty($_POST['eventTitle'])) && (isset($_POST['eventContent']) && !empty($_POST['eventContent'])))
+              {
+                      //add new event to the database
+                      $this->MCalendar->updateEvent();
+                      //$this->session->set_flashdata('message','Event created!');
+                      flashMsg('success','Event updated');
+                      redirect('calendar/admin/index','refresh');
+              }
+              else
+              {
+                      //alert message for empty input
+                      $data['alert'] = "No empty input please";
+              }
 	  }
 		
 	  $data['event']= $this->MCalendar->getEventsById($id);
@@ -99,10 +106,13 @@ class Admin extends Shop_Admin_Controller {
 		$this->bep_site->set_crumb($this->lang->line('userlib_calendar_edit'),'calendar/admin/edit');	
 		$data['header'] = $this->lang->line('backendpro_access_control');
 		$data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_edit";
-		$data['module'] = 'calendar';
+                $data['cancel_link']= $this->module."/admin/index/";
+		$data['module'] = $this->module;
 		$this->load->view($this->_container,$data);
 	}
 
+        /*
+         * not used since same as edit()
 	function update($id=0){
 	
 		if(isset($_POST['add']))
@@ -125,10 +135,13 @@ class Admin extends Shop_Admin_Controller {
 		redirect('calendar/admin/update');
 		
 	}
-	
+
+         * 
+         */
 	function delete($id=0){
 		$this->MCalendar->deleteEvent($id);
 		$this->session->set_flashdata('message', 'Event deleted successfully.');
+                flashMsg('success','Event deleted successfully.');
 		redirect('calendar/admin/index');
 	}
 	
@@ -160,7 +173,8 @@ class Admin extends Shop_Admin_Controller {
 		
 		$data['header'] = $this->lang->line('backendpro_access_control');
 		$data['page'] = $this->config->item('backendpro_template_admin') . "admin_calendar_mycal";
-		$data['module'] = 'calendar';
+                $data['cancel_link']= $this->module."/admin/index/";
+		$data['module'] = $this->module;
 		$this->load->view($this->_container,$data);
   	}
  

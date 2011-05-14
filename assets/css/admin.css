@@ -196,3 +196,22 @@ langbox
     width: 150px;
     
 }
+
+/********
+unmask
+******/
+.unmask{
+    clear: both;
+    width: 100px;
+    
+}
+
+.unmask label{
+    display: inline;
+}
+
+.unmask input{
+     margin-left:5px;
+  margin-right:3px;
+  vertical-align: bottom;
+}

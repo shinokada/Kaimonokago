@@ -1,7 +1,16 @@
 <h2><?php echo $title;?></h2>
-<p><?php echo anchor("subscribers/admin/sendemail", $this->lang->line('kago_create_email'));?></p>
-<p><?php echo anchor("subscribers/admin/create_home", $this->lang->line('kago_create_subscriber'));?></p>
-<?php print displayStatus();?>
+<div class="buttons">
+	<a href="<?php print  site_url('subscribers/admin/sendemail')?>">
+    <?php print $this->bep_assets->icon('email_add');?>
+    <?php print $this->lang->line('kago_create_email'); ?>
+    </a>
+
+    <a href="<?php print  site_url('subscribers/admin/create_home')?>">
+    <?php print $this->bep_assets->icon('user');?>
+    <?php print $this->lang->line('kago_create_subscriber'); ?>
+    </a>
+</div>
+<div class="clearboth">&nbsp;</div>
 <?php
 
 if (count($subscribers)){
