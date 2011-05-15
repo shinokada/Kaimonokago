@@ -42,14 +42,15 @@ class Settings extends Admin_Controller
 
 		// Setup preference groups
 		$config['group'] = array(
-                'general'     => array('name'=> $this->lang->line('preference_page_general_configuration'), 'fields'=>'site_name'),
-                'members'     => array('name'=> $this->lang->line('preference_page_member_settings'), 'fields'=>'allow_user_registration,activation_method,account_activation_time,autologin_period,default_user_group,login_field,allow_user_profiles'),
-                'security'    => array('name'=> $this->lang->line('preference_page_security_preferences'), 'fields'=>'use_login_captcha,use_registration_captcha,min_password_length'),
-                'email'       => array('name'=> $this->lang->line('preference_page_email_configuration'), 'fields'=>'automated_from_name,automated_from_email,email_protocol,email_mailpath,smtp_host,smtp_user,smtp_pass,smtp_port,smtp_timeout,email_mailtype,email_charset,email_wordwrap,email_wrapchars,bcc_batch_mode,bcc_batch_size'),
-                'maintenance' => array('name'=> $this->lang->line('preference_page_maintenance_debugging_settings'), 'fields'=>'page_debug,keep_error_logs_for'),
-				'website'	  => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,categories_parent_id,playroom_parent_id,admin_email'),
-				//'website'	  => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'categories_parent_id,admin_email'),
-				'slideshow'   => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
+                'general'       => array('name'=> $this->lang->line('preference_page_general_configuration'), 'fields'=>'site_name'),
+                'members'       => array('name'=> $this->lang->line('preference_page_member_settings'), 'fields'=>'allow_user_registration,activation_method,account_activation_time,autologin_period,default_user_group,login_field,allow_user_profiles'),
+                'security'      => array('name'=> $this->lang->line('preference_page_security_preferences'), 'fields'=>'use_login_captcha,use_registration_captcha,min_password_length'),
+                'email'         => array('name'=> $this->lang->line('preference_page_email_configuration'), 'fields'=>'automated_from_name,automated_from_email,email_protocol,email_mailpath,smtp_host,smtp_user,smtp_pass,smtp_port,smtp_timeout,email_mailtype,email_charset,email_wordwrap,email_wrapchars,bcc_batch_mode,bcc_batch_size'),
+                'maintenance'   => array('name'=> $this->lang->line('preference_page_maintenance_debugging_settings'), 'fields'=>'page_debug,keep_error_logs_for'),
+		'modulemanagement'	  => array('name'=> $this->lang->line('preference_module_management'),'fields'=>'calendar,category,customers,filemanager,languages,menus,messages,orders,pages,products,slideshow,subscribers'),
+                'website'       => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,categories_parent_id,playroom_parent_id,admin_email'),
+		
+		'slideshow'     => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
 		);
 
 		// Setup custom field options
@@ -89,7 +90,22 @@ class Settings extends Admin_Controller
 		// for slideshows 
 		$config['field']['webshop_slideshow'] = array('type'=>'dropdown','params'=>array('options'=>array('none'=>$this->lang->line('userlib_none'),'interfade'=>$this->lang->line('userlib_interfade'),'cu3er'=>$this->lang->line('userlib_cu3er'),'coinslider'=>$this->lang->line('userlib_coin_slider'),'nivoslider'=>$this->lang->line('userlib_nivo_slider'))));
 		$config['field']['slideshow_two'] = array('type'=>'dropdown','params'=>array('options'=>array('none'=>$this->lang->line('userlib_none'),'interfade'=>$this->lang->line('userlib_interfade'),'cu3er'=>$this->lang->line('userlib_cu3er'),'coinslider'=>$this->lang->line('userlib_coin_slider'),'nivoslider'=>$this->lang->line('userlib_nivo_slider'))));
-	
+
+                 // module management
+                $config['field']['calendar'] = array('type'=>'boolean');
+                $config['field']['category'] = array('type'=>'boolean');
+                $config['field']['customers'] = array('type'=>'boolean');
+                $config['field']['filemanager'] = array('type'=>'boolean');
+                $config['field']['languages'] = array('type'=>'boolean');
+                $config['field']['menus'] = array('type'=>'boolean');
+                $config['field']['messages'] = array('type'=>'boolean');
+                $config['field']['orders'] = array('type'=>'boolean');
+                $config['field']['pages'] = array('type'=>'boolean');
+                $config['field']['products'] = array('type'=>'boolean');
+                $config['field']['slideshow'] = array('type'=>'boolean');
+                $config['field']['subscribers'] = array('type'=>'boolean');
+
+
 
 		// Display the form
 		$this->load->module_library('preferences','preference_form');

@@ -78,7 +78,7 @@ echo "</td></tr>\n";
 
 
 echo "<tr><td class='label'><label for='featured'>".$this->lang->line('kago_featured')."</label></td>\n";
-$options = array('none' => 'none', 'front' => 'Main frontpage', 'webshop' => 'Webshop frontpage');
+$options = array('none' => 'none',  'webshop' => 'Webshop frontpage');// add more as you wish 'front' => 'Main frontpage'
 echo "<td>";
 echo form_dropdown('featured',$options, $product['featured']);
 echo "</td></tr>\n";

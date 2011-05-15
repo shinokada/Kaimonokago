@@ -26,7 +26,10 @@
                         </div>
                         <div class="topsellerimg">
                             <a href="<?php echo base_url();?>index.php/<?php echo $this->data['mainmodule'];?>/product/<?php echo $mostsold['id']; ?>">
-                                    <img src="<?php echo $mostsold['thumbnail']; ?>" border="0" alt=" " title=" " />
+                                    <img src="<?php
+                                    $mostsoldimg = $mostsold['thumbnail'];
+                                    $most_thumbnail=convert_image_path($mostsoldimg);
+                                    echo $most_thumbnail; ?>" border="0" alt=" " title=" " />
                             </a>
                         </div>
                         <div id="topsellerdesc">
@@ -57,7 +60,10 @@
                     </div>
                     <div class="topsellerimg">
                             <a href="<?php echo base_url();?>index.php/<?php echo $this->data['mainmodule'];?>/product/<?php echo $newproduct['id']; ?>">
-                                    <img src="<?php echo $newproduct['thumbnail']; ?>" border="0" alt=" " title=" " />
+                                    <img src="<?php
+                                    $thumbimg = $newproduct['thumbnail'];
+                                    $thumbnail=convert_image_path($thumbimg);
+                                    echo $thumbnail; ?>" border="0" alt=" " title=" " />
                             </a>
                     </div>
                     <div id="topsellerdesc">

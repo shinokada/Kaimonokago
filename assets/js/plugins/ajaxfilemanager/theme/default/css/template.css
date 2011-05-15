@@ -585,11 +585,3 @@ color:#000000;
 .center, td.center, th.center{text-align:center;}
 
 
-/* New */
-
-#godashboard a{
-	margin: 0 25px 0 0;
-	font-weight: bold;
-	color: #0C8ECF;
-	font-size: 120%
-}

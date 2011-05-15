@@ -72,7 +72,7 @@ echo form_input($data);
 echo "</td></tr>\n";
 
 echo "<tr><td class='label'><label for='featured'>".$this->lang->line('kago_featured')."</label></td>\n";
-$options = array('none' => 'none', 'front' => 'Main frontpage', 'webshop' => 'Webshop frontpage');
+$options = array('none' => 'none', 'webshop' => 'Webshop frontpage');// you can add more here as you wish
 echo "<td>";
 echo form_dropdown('featured',$options);
 echo "</td></tr>\n";

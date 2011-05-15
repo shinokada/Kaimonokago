@@ -65,6 +65,12 @@ $lang['preference_desc_page_debug'] = 'Show important infomation about code exec
 $lang['preference_label_keep_error_logs_for'] = 'Archive Error Logs?';
 $lang['preference_desc_keep_error_logs_for'] = 'Number of days to archive error logs for';
 
+// modulemanagement
+$lang['preference_label_calendar'] = 'Calendar';
+$lang['preference_desc_calendar'] = 'Do you want display in the side menu?';
+
+
+
 
 /**
  *     BELOW HERE DEFINE ANY LANGUAGE STRINGS FOR YOUR APPLICATIONS

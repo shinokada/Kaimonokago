@@ -16,12 +16,12 @@ class Welcome extends Shop_Controller {
     parent::Shop_Controller();
 
     // load the validation library
-	$this->load->library('validation');
+    $this->load->library('validation');
     // get config
     // get index path name from preference
     // this can be done in shop_controller since it is needed for menu path
     //$this->index_path = $this->preference->item('main_index_path_name');
-    $this->index_path = $this->mainmodule;
+    $this->index_path = $this->mainmodule;//default is welcome
 	// get module name
     // this will be used in refidrect or $data['module']
     //$this->module = basename(dirname(dirname(__FILE__))); // this is the same as getting class name
@@ -65,10 +65,12 @@ class Welcome extends Shop_Controller {
             }
         }
    	// you need to change webshop_lang $lang['webshop_folder'] = 'webshop';
-    // according to your folder name.
+        // according to your folder name.
    	//$webshop = $module;
-	$featureimages = $this -> MProducts -> getFrontFeaturebyLang($indexpath,$this->lang_id);
-    //$featureimages = $this -> MProducts -> getFrontFeature($webshop);
+        // feature == front
+        $feature='webshop';
+	$featureimages = $this -> MProducts -> getFrontFeaturebyLang($feature,$this->lang_id);
+        //$featureimages = $this -> MProducts -> getFrontFeature($webshop);
 	
 	// load slideshow preference
 	$this->bep_assets->load_asset_group($this->preference->item('webshop_slideshow'));
@@ -89,12 +91,12 @@ class Welcome extends Shop_Controller {
     }
     // delete these
     $data['get_class']=  get_class();
-	$data['index_path']=$indexpath;
+    $data['index_path']=$indexpath;
     $data['module']=$this->module;
     // delete upto here
     $data['page'] = $this->config->item('backendpro_template_shop') . 'frontpage';
-	$data['module'] = $this->module;
-	$this->load->view($this->_container,$data);
+    $data['module'] = $this->module;
+    $this->load->view($this->_container,$data);
      
   }
 

@@ -67,7 +67,7 @@ error_reporting(E_ALL);
 	define('CONFIG_SYS_DELETE_RECURSIVE', 1); //delete all contents within a specific folder if set to be 1
 	
 	//UPLOAD OPTIONS CONFIG
-	define('CONFIG_UPLOAD_MAXSIZE', 5000 * 1024 ); //by bytes
+	define('CONFIG_UPLOAD_MAXSIZE', 50 * 1024 ); //by bytes
 	//define('CONFIG_UPLOAD_MAXSIZE', 2048); //by bytes
 	//define('CONFIG_UPLOAD_VALID_EXTS', 'txt');//
 

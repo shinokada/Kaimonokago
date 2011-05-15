@@ -1,8 +1,8 @@
 <pre>Array
 (
-    [currentFolderPath] => ../../../../assets/images/blomsterbilder/thumbnails/
-    [new_folder] => New Folder1
+    [currentFolderPath] => ../../../../uploaded/
+    [new_folder] => Add
 )
 </pre>
 
-23/Mar/2010 18:02:58
+19/Mar/2011 07:41:56

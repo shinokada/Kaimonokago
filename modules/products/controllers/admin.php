@@ -47,10 +47,10 @@ class Admin extends Shop_Admin_Controller {
             'status' 		=> db_clean($_POST['status'],8),
             'category_id' 	=> id_clean($_POST['category_id']),
             'featured' 		=> db_clean($_POST['featured'],20),
-            'other_feature'    => db_clean($_POST['other_feature'],20),
+            'other_feature'     => db_clean($_POST['other_feature'],20),
             'price' 		=> db_clean($_POST['price'],16),
             'lang_id'           => db_clean($_POST['lang_id']),
-            'table_id'        => db_clean($_POST['table_id']),
+            'table_id'          => db_clean($_POST['table_id']),
         );
         return $data;
     }
@@ -141,7 +141,7 @@ class Admin extends Shop_Admin_Controller {
     }
 
 
-        function langcreate(){
+    function langcreate(){
         $this->bep_assets->load_asset_group('TINYMCE');
         if ($this->input->post('name')){
             // info is filled out, so the followings
@@ -198,7 +198,7 @@ class Admin extends Shop_Admin_Controller {
 
             $data['product'] = $product;
             // get category by lang
-            $data['categories'] = $this->MCats->getCategoriesbyLang($lang_id);
+            $data['categories'] = $this->MCats->getCategoriesDropDownbyLang($lang_id);
             // set variables here
             $data['title'] = $this->lang->line('kago_add_translation').ucwords($selected_lang['langname']);
             $data['page'] = $this->config->item('backendpro_template_admin') . "admin_lang_create";

@@ -59,6 +59,8 @@ $lang['preference_page_member_settings'] = "Member Settings";
 $lang['preference_page_security_preferences'] = "Security Preferences";
 $lang['preference_page_email_configuration'] = "Email Configuration";
 $lang['preference_page_maintenance_debugging_settings'] = "Maintenance & Debugging Settings";
+$lang['preference_module_management'] = "Module Management";
+
 
 /* End of file backendpro_lang.php */
 /* Location: ./system/application/language/english/backendpro_lang.php */

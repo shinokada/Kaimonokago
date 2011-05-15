@@ -3,21 +3,23 @@
     <?php print displayStatus();?>
     
     <?php
-    echo "<pre>get_class is: ";
-    print_r($get_class);
+/*
+echo "<pre>get_class is: ";
+print_r($get_class);
 echo "</pre>";
-    echo "<pre>module name is: ";
-    print_r($module);
-    echo "</pre>";
-    echo "<pre>index path is: ";
-    print_r($index_path);
+echo "<pre>module name is: ";
+print_r($module);
 echo "</pre>";
- echo "<pre>cat_parent is: ";
+echo "<pre>index path is: ";
+print_r($index_path);
+echo "</pre>";
+echo "<pre>cat_parent is: ";
 print_r ($this->data['cat_parent']);
 echo "</pre>";
 echo "<pre>navlist: ";
-        print_r ($this->data['navlist']);
-        echo "</pre>";
+print_r ($this->data['navlist']);
+echo "</pre>";
+*/
     if(!empty($slides)){
         echo "<div id=\"slideshow\" class=\"pics\">";
         foreach ($slides as $slide)
@@ -32,7 +34,7 @@ echo "<pre>navlist: ";
     }
   //  print_r ($slides);
 
-    print_r ($pagecontent);
+   // print_r ($pagecontent);
      if(isset($pagecontent['content'])){// this if is for the installation without this it will display an error
          echo $pagecontent['content'];
      }
@@ -58,10 +60,12 @@ foreach ($images as $image)
 }
 
 
-echo "<div class=\"clearboth\" ></div><pre>";
+echo "<div class=\"clearboth\" ></div>";
+/*
+echo "<pre>";
 print_r ($this->data['mainnav']);
 echo "</pre>";
-
+*/
 ?>
 
 </div>
