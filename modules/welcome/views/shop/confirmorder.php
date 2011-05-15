@@ -29,7 +29,7 @@ if (isset($_SESSION['cart'])){
 		echo "<input type='hidden' name='item_name_".$count."' value='".$row['name']."'/>\n";
 		echo "<input type='hidden' name='item_quantity_".$count."' value='".$row['count']."'/>\n";
 		echo "<input type='hidden' name='item_price_".$count."' value='".$row['price']."'/>\n";
-		echo "<input type='hidden' name='item_currency_".$count."' value='NOK'/>\n";
+		echo "<input type='hidden' name='item_currency_".$count."' value='".$this->lang->line('webshop_currency_symbol')."'/>\n";
 		echo "<input type='hidden' name='ship_method_name_".$count."' value='Posten'/>\n";
 		echo "<input type='hidden' name='ship_method_price_".$count."' value='".$shippingprice."'/>\n";
 	}
@@ -37,13 +37,13 @@ if (isset($_SESSION['cart'])){
 if(isset($_SESSION['totalprice'])){
 $totalprice = $_SESSION['totalprice'];
 $grandtotal = (int)$totalprice + $shippingprice ;
-echo "<p class='padnmgn'><b>". $this->lang->line('orders_sub_total_nor').number_format($totalprice,2,'.',','). "</b></p>\n";
+echo "<p class='padnmgn'><b>". $this->lang->line('orders_sub_total').$this->lang->line('webshop_currency_symbol').number_format($totalprice,2,'.',','). "</b></p>\n";
 }
-echo "<p class='padnmgn'><b>".$this->lang->line('orders_shipping_nor'). number_format($shippingprice ,2,'.',',') . "</b></p>\n";
-echo "<p class='padnmgn'><b>".$this->lang->line('orders_total_with_shipping').number_format($grandtotal,2,'.',','). "</b></p>\n";
+echo "<p class='padnmgn'><b>".$this->lang->line('orders_shipping').$this->lang->line('webshop_currency_symbol'). number_format($shippingprice ,2,'.',',') . "</b></p>\n";
+echo "<p class='padnmgn'><b>".$this->lang->line('orders_total_with_shipping').$this->lang->line('webshop_currency_symbol').number_format($grandtotal,2,'.',','). "</b></p>\n";
 ?>
 
-<h3><?php echo $this->lang->line('orders_first_name'); ?></h3>
+<h3><?php echo $this->lang->line('webshop_first_name'); ?></h3>
 <input type="text" name="customer_first_name" value="<?php 
 if(isset($fname)){
 echo $fname;
@@ -51,7 +51,7 @@ echo $fname;
  echo set_value('customer_first_name');}
  ?>" size="30" />
 
-<h3><?php echo $this->lang->line('orders_last_name'); ?></h3>
+<h3><?php echo $this->lang->line('webshop_last_name'); ?></h3>
 <input type="text" name="customer_last_name" value="<?php 
  if(isset($lname)){
 echo $lname;

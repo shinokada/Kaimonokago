@@ -2,6 +2,7 @@
 
 system/application/config/database.php
 system/application/config/config.php
+system/logs
 
 # Vim leave-behinds
 *.swp
