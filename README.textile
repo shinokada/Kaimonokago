@@ -52,9 +52,22 @@ h2. Installation
 </code></pre>
 
 h2. How to add translation
-#
-# First create a menu, page or product.
-# Click the name or edit. Then f
+
+# Add a language in Languages page and create a new directory /modules/language/languages/newlang_name.
+# Copy from modules/languages/language/english/multi_lang.php and paste it.
+# This file is for general language in the webshop. Change the content of the file.
+# Create a menu, page or product.
+# Click the name to edit the page. Then find the language you just added.
+
+h2. How to change the front-end slideshow
+
+# Go to Settings>Slideshow Settings and select a slideshow from a dropdown.
+
+h2. How to hide/show module menus
+
+# Go to Settings>Module Management. Select 'Yes' to show, select 'No' to hide.
+
+
 
 
 Shin Okada
