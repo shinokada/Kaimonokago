@@ -54,8 +54,8 @@ h2. Installation
 h2. How to add translation
 
 # Add a language in Languages page and create a new directory /modules/language/languages/newlang_name.
-# Copy from modules/languages/language/english/multi_lang.php and paste it.
-# This file is for general language in the webshop. Change the content of the file.
+# Copy from modules/welcome/language/english/multi_lang.php and paste it.
+# This file is for general language in the webshop. Translate the content of the file.
 # Create a menu, page or product.
 # Click the name to edit the page. Then find the language you just added.
 
@@ -67,7 +67,11 @@ h2. How to hide/show module menus
 
 # Go to Settings>Module Management. Select 'Yes' to show, select 'No' to hide.
 
+h2. How to delete a menu/page/product etc
 
+# Click a status/tick icon to change the status.
+# Delete icon will be displayed. 
 
+h2. How to use Access Control
 
-Shin Okada
+# *BackendPro*: "http://www.kaydoo.co.uk/backendpro/user_guide/features/acl.html"
