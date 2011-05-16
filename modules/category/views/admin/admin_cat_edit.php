@@ -1,6 +1,6 @@
 <h2><?php echo $title;?></h2>
 <?php
-if($category['lang_id']==0){
+if($category['lang_id']==0 AND $multilang ){
     echo showtranslang($languages,$translanguages,$category, $module);
 }
 

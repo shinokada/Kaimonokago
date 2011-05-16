@@ -6,7 +6,7 @@
 
 // this can be used mytools_helper showtranslang(), but anchor part must be changed or use if statement
 // show this only for english
-if($menu['lang_id']==0){
+if($menu['lang_id']==0 AND $multilang){
    // echo "Current config language is : ". ucfirst($this->configlang) ;
     echo showtranslang($languages,$translanguages,$menu, $module);
 }

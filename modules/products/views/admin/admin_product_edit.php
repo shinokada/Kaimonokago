@@ -1,7 +1,7 @@
 <h2><?php echo $title;?></h2>
 <?php
 
-if($product['lang_id']=='0'){
+if($product['lang_id']=='0' AND $multilang){
     echo showtranslang($languages,$translanguages,$product, $module);
 }
 

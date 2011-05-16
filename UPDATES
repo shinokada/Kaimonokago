@@ -9,9 +9,10 @@ To Do
 
 
 
-
-
 Updated
+
+- When the multi-languages preference is single, hide the back-end translation for each module
+
 15 May 2011
 - module/calendar/view, module/category/views, module/customers/views, module/languages/views,
 module/menus/view, module/pages/view, module/products/views, module/slideshow/views, module/subscribers/views
