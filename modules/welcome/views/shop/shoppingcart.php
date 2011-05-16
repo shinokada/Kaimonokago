@@ -57,7 +57,8 @@ if (isset($_SESSION['cart'])){
 	echo "</tr>\n";	
 }else{
 	//just in case!
-	echo "<tr><td id='tdmes'>" . lang('webshop_no_items_to_show') . "</td></tr>\n";
+   // echo "<tr><td id='tdmes'>" . lang('webshop_no_items_to_show') . "</td></tr>\n";
+	echo "<tr><td></td></tr>\n";
 }//end outer if count
 ?>
 </table>

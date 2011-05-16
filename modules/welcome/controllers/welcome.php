@@ -37,6 +37,9 @@ class Welcome extends Shop_Controller {
         if ($this->input->post('lang')){
             $lang = $this->input->post('lang');
             // set it in session
+            // delete session in cart 
+            unset($_SESSION['cart']);
+            unset($_SESSION['totalprice']);
             // currently session is stored in the form of english = english rather than 0 english
             $this->session->set_userdata('lang', $lang);
             // then load that language file
@@ -218,88 +221,82 @@ class Welcome extends Shop_Controller {
   }
   	
   
-  function contact(){
+    function contact(){
 	  	
-		$data['title'] = lang('webshop_shop_name')." | "."Contact us";
-		$data['cap_img'] = $this->_generate_captcha();	
-		$data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
-		$data['module'] = $this->module;
-		$this->load->view($this->_container,$data);
-  	}
+        $data['title'] = lang('webshop_shop_name')." | "."Contact us";
+        $data['cap_img'] = $this->_generate_captcha();	
+        $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
+    }
   
   
     function _generate_captcha(){
-            $this->bep_assets->load_asset('recaptcha');
-            $this->load->module_library('recaptcha','Recaptcha');
-            return $this->recaptcha->recaptcha_get_html();
+        $this->bep_assets->load_asset('recaptcha');
+        $this->load->module_library('recaptcha','Recaptcha');
+        return $this->recaptcha->recaptcha_get_html();
     }
 
 
     function error(){
 
-            $data['title'] = lang('webshop_shop_name')." | "."Wow! Something went wrong.";
-
-            $data['page'] = $this->config->item('backendpro_template_shop') . 'error';
-            $data['module'] = $this->module;
-            $this->load->view($this->_container,$data);
+        $data['title'] = lang('webshop_shop_name')." | "."Wow! Something went wrong.";
+        $data['page'] = $this->config->item('backendpro_template_shop') . 'error';
+        $data['module'] = $this->module;
+        $this->load->view($this->_container,$data);
     }
 
 
     function message(){
 
-            $rules['name'] = 'trim|required|max_length[32]';
-            $rules['email'] = 'trim|required|max_length[254]|valid_email';
-            $rules['message'] = 'trim|required';
-            $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+        $rules['name'] = 'trim|required|max_length[32]';
+        $rules['email'] = 'trim|required|max_length[254]|valid_email';
+        $rules['message'] = 'trim|required';
+        $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+        $this->validation->set_rules($rules);
 
-            $this->validation->set_rules($rules);
+        $fields['name']	= lang('general_name');
+        $fields['email']	= lang('webshop_email');
+        $fields['message']	= lang('message_message');
+        $fields['recaptcha_response_field']	= 'Recaptcha';
+        $this->validation->set_fields($fields);
+    /**
+         * form_validation, next version of Bep will update to form_validation
+         */
+        //$this->form_validation->set_rules('name', 'Name', 'required');
+        //$this->form_validation->set_rules('email', 'Email',  'required|valid_email');
+        //$this->form_validation->set_rules('message', 'Message', 'required');
+        //$this->form_validation->set_rules('captcha', 'Captcha', 'required');
+        if ($this->validation->run() == FALSE){
+            // if any validation errors, display them
+            $this->validation->output_errors();
 
-            $fields['name']	= lang('general_name');
-            $fields['email']	= lang('webshop_email');
-            $fields['message']	= lang('message_message');
-            $fields['recaptcha_response_field']	= 'Recaptcha';
+            $captcha_result = '';
+            $data['cap_img'] = $this->_generate_captcha();
 
-            $this->validation->set_fields($fields);
-        /**
-             * form_validation, next version of Bep will update to form_validation
-             */
-            //$this->form_validation->set_rules('name', 'Name', 'required');
-            //$this->form_validation->set_rules('email', 'Email',  'required|valid_email');
-            //$this->form_validation->set_rules('message', 'Message', 'required');
-            //$this->form_validation->set_rules('captcha', 'Captcha', 'required');
-
-
-    if ($this->validation->run() == FALSE)
-            {
-                    // if any validation errors, display them
-                    $this->validation->output_errors();
-
-                    $captcha_result = '';
-                    $data['cap_img'] = $this->_generate_captcha();
-
-                    $data['title'] = lang('webshop_shop_name')." | ". lang('webshop_message_contact_us');
-                    $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
-                    $data['module'] = $this->module;
-                    $this->load->view($this->_container,$data);
+            $data['title'] = lang('webshop_shop_name')." | ". lang('webshop_message_contact_us');
+            $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
+            $data['module'] = $this->module;
+            $this->load->view($this->_container,$data);
             }
             else
             {
                 // you need to send email
                 // validation has passed. Now send the email
-                    $name = $this->input->post('name');
-                    $email = $this->input->post('email');
-                    $message = $this->input->post('message');
-                    // get email from preferences/settings
-                    $myemail = $this->preference->item('admin_email');
-                    $this->load->library('email');
-                    $this->email->from($email.$name);
-                    $this->email->to($myemail);
-                    $this->email->subject(lang('webshop_message_subject'));
-                    $this->email->message(lang('webshop_message_sender').
-                    $name."\r\n".lang('webshop_message_sender_email').": ".
-                    $email. "\r\n".lang('webshop_message_message').": " . $message);
-                    $this->email->send();
-                    flashMsg('success', lang('webshop_message_thank_for_message'));
+                $name = $this->input->post('name');
+                $email = $this->input->post('email');
+                $message = $this->input->post('message');
+                // get email from preferences/settings
+                $myemail = $this->preference->item('admin_email');
+                $this->load->library('email');
+                $this->email->from($email.$name);
+                $this->email->to($myemail);
+                $this->email->subject(lang('webshop_message_subject'));
+                $this->email->message(lang('webshop_message_sender').
+                $name."\r\n".lang('webshop_message_sender_email').": ".
+                $email. "\r\n".lang('webshop_message_message').": " . $message);
+                $this->email->send();
+                flashMsg('success', lang('webshop_message_thank_for_message'));
                 // $this->session->set_flashdata('subscribe_msg', lang('webshop_message_thank_for_message'));
                 redirect($this->module.'/contact');
             }
@@ -314,7 +311,7 @@ class Welcome extends Shop_Controller {
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
 
-    if ($this->input->post('email')){
+        if ($this->input->post('email')){
 
             $data['title'] = lang('webshop_shop_name')." | "."Registration";
 
@@ -512,23 +509,23 @@ class Welcome extends Shop_Controller {
             if ($productid > 0){
                 $module = 'products';
                 $fullproduct = $this->MKaimonokago->getInfo($module, $productid);
-                    //$fullproduct = $this->MProducts->getProduct($productid);
-                    $this->MOrders->updateCart($productid,$fullproduct);
-                    redirect( $this->module.'/product/'.$productid, 'refresh');
+                //$fullproduct = $this->MProducts->getProduct($productid);
+                $this->MOrders->updateCart($productid,$fullproduct);
+                redirect( $this->module.'/product/'.$productid, 'refresh');
             }else{
-                    $data['title'] = lang('webshop_shop_name')." | ". "Shopping Cart";
+                $data['title'] = lang('webshop_shop_name')." | ". "Shopping Cart";
 
-                    if (isset($_SESSION['cart'])){
-                            $data['page'] = $this->config->item('backendpro_template_shop') . 'shoppingcart';
-                            $data['module'] = $this->module;
-                            $this->load->view($this->_container,$data);
-                    }else{
-                            flashMsg('info',lang('orders_no_item_yet'));
-                            // $this->session->set_flashdata('msg',lang('orders_no_item_yet'));
-                            $data['page'] = $this->config->item('backendpro_template_shop') . 'shoppingcart';
-                            $data['module'] = $this->module;
-                            $this->load->view($this->_container,$data);
-                    }
+                if (isset($_SESSION['cart'])){
+                        $data['page'] = $this->config->item('backendpro_template_shop') . 'shoppingcart';
+                        $data['module'] = $this->module;
+                        $this->load->view($this->_container,$data);
+                }else{
+                        flashMsg('info',lang('orders_no_item_yet'));
+                        // $this->session->set_flashdata('msg',lang('orders_no_item_yet'));
+                        $data['page'] = $this->config->item('backendpro_template_shop') . 'shoppingcart';
+                        $data['module'] = $this->module;
+                        $this->load->view($this->_container,$data);
+                }
             }
 }
 

@@ -3,14 +3,15 @@ To Do
 - when you change the language, the shopping total and details should be deleted
 - pages multi-languages involves path. Find other way not involving path.
 - check if it is using path or id. if it is using id, then take out path field
-- Message button update
-- Multi-language select button to switch on/off
+
+
 
 
 
 
 Updated
-
+- Multi-language select button to switch on/off
+- Message button update
 - When the multi-languages preference is single, hide the back-end translation for each module
 
 15 May 2011

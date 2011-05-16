@@ -53,40 +53,40 @@ class MOrders extends Model{
 	}
 	
 	
-	function updateCart($productid,$fullproduct){
-		$cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
-		$productid = id_clean($productid);
-		$totalprice = 0;
-		if (count($fullproduct)){
-			if (isset($cart[$productid])){
-				$prevct = $cart[$productid]['count'];
-				$prevname = $cart[$productid]['name'];
-				$prevprice = $cart[$productid]['price'];
-				$cart[$productid] = array(
-						'name' => $prevname,
-						'price' => $prevprice,
-						'count' => $prevct + 1
-						);
-			}else{
-				$cart[$productid] = array(
-						'name' => $fullproduct['name'],
-						// 'price' => $this->format_currency($fullproduct['price']),
-						// This should be done in view
-						'price' => $fullproduct['price'],
-						'count' => 1
-						);			
-			}				
-				foreach ($cart as $id => $product){
-					   	$totalprice += $product['price'] * $product['count'];
-				} 
-				
-			// This format should be done later in a view otherwise it will mess up.
-			$_SESSION['totalprice'] = $totalprice;
-			$_SESSION['cart'] = $cart;
-			$msg = lang('orders_added_cart');
-			$this->session->set_flashdata('conf_msg', $msg); 
-		}	
-	}
+    function updateCart($productid,$fullproduct){
+        $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
+        $productid = id_clean($productid);
+        $totalprice = 0;
+        if (count($fullproduct)){
+            if (isset($cart[$productid])){
+                $prevct = $cart[$productid]['count'];
+                $prevname = $cart[$productid]['name'];
+                $prevprice = $cart[$productid]['price'];
+                $cart[$productid] = array(
+                                'name' => $prevname,
+                                'price' => $prevprice,
+                                'count' => $prevct + 1
+                                );
+            }else{
+                $cart[$productid] = array(
+                                'name' => $fullproduct['name'],
+                                // 'price' => $this->format_currency($fullproduct['price']),
+                                // This should be done in view
+                                'price' => $fullproduct['price'],
+                                'count' => 1
+                                );			
+            }				
+            foreach ($cart as $id => $product){
+                            $totalprice += $product['price'] * $product['count'];
+            } 
+
+            // This format should be done later in a view otherwise it will mess up.
+            $_SESSION['totalprice'] = $totalprice;
+            $_SESSION['cart'] = $cart;
+            $msg = lang('orders_added_cart');
+            $this->session->set_flashdata('conf_msg', $msg); 
+        }	
+    }
 
 	
 	function removeLineItem($id){

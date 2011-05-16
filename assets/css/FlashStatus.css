@@ -10,6 +10,10 @@
 	background-image:url('../images/status/bg_info.gif');
 }
 
+#pleft .status_box{
+    width: 470px;
+}
+
 .status_box h6 {
 	text-align:left;
 	font-size:1.0em;
