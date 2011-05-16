@@ -101,6 +101,10 @@ $lang['userlib_none'] = 'None';
 // for Webshop label and description
 $lang['preference_label_main_module_name'] = 'Name of main module in your website';
 $lang['preference_desc_main_module_name'] = 'Enter the path name of index page. Such as welcome, webshop etc.';
+$lang['preference_label_multi_language'] = 'Multiple Languages';
+$lang['preference_desc_multi_language'] = 'Is your website multi-language?';
+$lang['preference_label_website_language'] = 'Website Languages';
+$lang['preference_desc_website_language'] = 'The defaulte language is english. Write a language name which you added in Languages module.';
 $lang['preference_label_categories_parent_id'] = 'Category ID for website';
 $lang['preference_desc_categories_parent_id'] = 'Enter an ID for your website on the left column. Find it in the Categories';
 $lang['preference_label_playroom_parent_id'] = 'Playroom Parent ID';
@@ -114,6 +118,10 @@ $lang['preference_label_webshop_slideshow'] = 'Slideshow type for webshop front 
 $lang['preference_desc_webshop_slideshow'] = 'Select a slideshow type for webshop front page';
 $lang['preference_label_slideshow_two'] = 'Slideshow type for other page';
 $lang['preference_desc_slideshow_two'] = 'Select a slideshow type for other pages';
+
+// modulemanagement
+$lang['preference_label_calendar'] = 'Calendar';
+$lang['preference_desc_calendar'] = 'Do you want display in the side menu?';
 
 
 /* End of file shop_lang.php */

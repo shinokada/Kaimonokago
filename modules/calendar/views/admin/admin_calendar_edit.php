@@ -53,8 +53,9 @@ echo form_open('calendar/admin/edit');?>
 	
 	
 <?php
+/*
 echo "<pre>";
 print_r ($event);
 echo "</pre>";
-
+*/
 ?>

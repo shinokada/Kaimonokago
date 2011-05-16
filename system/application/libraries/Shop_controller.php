@@ -26,21 +26,15 @@ class Shop_Controller extends Site_Controller
     public $language;
     public $mainmodule;
 
-
-    function Shop_Controller()
-        {
+    function Shop_Controller(){
         parent::Site_Controller();
-
         // Loading config
         $this->load->config('kaimonokago');
-
         // Set container variable
         $this->_container = $this->config->item('backendpro_template_shop') . "container.php";
 
         // Set public meta tags
         //$this->bep_site->set_metatag('name','content',TRUE/FALSE);
-
-
         // Load shop assets
         $this->load->module_library('site','kk_assets');
 
@@ -51,9 +45,6 @@ class Shop_Controller extends Site_Controller
 
         // Loading language helper
         $this->load->helper('language');
-
-        
-
         // $this->lang->load('webshop');
 
         // From CI shopping cart
@@ -77,11 +68,8 @@ class Shop_Controller extends Site_Controller
         $this->load->library('form_validation');
         $this->load->library('validation'); // for BEP 0.6
 
-
         // Loading helpers
         $this->load->helper( array('security', 'form', 'mytools') );
-
-
         $this->mainmodule = $this->preference->item('main_module_name');
         $this->data['mainmodule']= $this->mainmodule;
 
@@ -99,30 +87,37 @@ class Shop_Controller extends Site_Controller
         $tree = array();
         // this will store value like english, norwegian etc. not an array
         $this->language=$this->session->userdata('lang');
+        $multilang = $this->preference->item('multi_language');// this will return 1 or 0
+        // if preference is not set then use the $this->config->item('language'); from config.php
+        $mylanguage = strtolower($this->preference->item('website_language'));// this will return norwegian etc
+        if(!$mylanguage){// this means it is not set in preference use config item
+            $mylanguage = $this->config->item('language');// generally english
+        }
+        //Should we check if it exist in omc_languages?
+        
+        if(!$multilang){// this means it is a single lang
+            // use the $mylanguage as default
+            $this->language=$mylanguage;
+        }
+        $this->data['multilang']=$multilang;
+        $this->data['mylanguage']=$mylanguage;
+
         if(empty($this->language)){ // first load, it needs to set it as english
             $this->language='english';
         }else{// otherwise get it from session
             $this->language = $this->session->userdata('lang');
         }
+
         $this->data['language']=$this->language;
             // find lang id
         $this->lang_id = $this->MLangs->getId($this->language);
         if(!$this->lang_id ==0){
             $this->lang_id = $this->lang_id['id'];
-        }
-        /*
-        elseif(!isset($this->lang_id)){
-            $this->lang_id = 0;
-        }elseif(empty($this->lang_id)){
-            $this->lang_id = 0;
-        }*/
-        else{
+        }else{
             $this->lang_id = 0;
         }
-      
         // load language depends on lang
         $this->load->module_language('welcome','webshop',$this->language);
-
         // This part is used in all the pages so load it here
         // For customer login status
         if(isset($_SESSION['customer_first_name'])){

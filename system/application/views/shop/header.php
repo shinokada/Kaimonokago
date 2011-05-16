@@ -5,48 +5,17 @@
     </div>
     <div id="langbox">
         <?php
+        // if preference multi_language is yes display the following
+        $multilang = $this->data['multilang'];
+        if ($multilang){
         echo form_open($this->data['mainmodule'].'/index');
        //  echo "<label for='parent'>Change Language</label>\n";
         echo form_dropdown('lang',$this->data['langs']) ."\n";
         echo form_submit('submit','Change Language');
         echo form_close();
-
-
-/*
-        if (isset($this->data['langs'])){
-            echo "<ul>";
-            echo "<li><a href=\"".base_url()."index.php/webshop/english \">English</a></li>";
-            foreach($this->data['langs'] as $key=>$lang){
-                echo "<li><a href=\"".base_url()."index.php/webshop/".$lang['langname']."\">";
-                echo ucwords($lang['langname']);
-                echo "</a></li>";
-
-            }
-            echo "</ul>";
-
         }
-        */
-
-//echo anchor("welcome/langtest/index/english", 'English');
-//echo "<br />";
-//echo anchor("welcome/langtest/index/french", 'French');
-//echo "<br />";
-//echo anchor("welcome/langtest/index/german", 'German');
-
-
         ?>
-        <?php
-         // testing language
-        /*
-echo "<br />lang_id: ";
-if (isset($lang_id)){
-    print_r ($lang_id);
-}
-
-    print "<br />Current Language is (current_language of this->lang->line) <br />".$this->lang->line('current_language');
-*/
-    // test finish
-?>
+      
     </div>
     <div id="greenbox">
         <div class="insideright10">

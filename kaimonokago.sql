@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 15, 2011 at 04:20 PM
+-- Generation Time: May 16, 2011 at 02:18 PM
 -- Server version: 5.1.54
 -- PHP Version: 5.3.5-1ubuntu7.2
 
@@ -255,18 +255,20 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('webshop_slideshow', 'nivoslider'),
 ('slideshow_two', 'none'),
 ('playroom_parent_id', '10'),
-('calendar', '0'),
+('calendar', '1'),
 ('category', '1'),
-('customers', '0'),
+('customers', '1'),
 ('filemanager', '1'),
 ('languages', '1'),
 ('menus', '1'),
-('messages', '0'),
-('orders', '0'),
+('messages', '1'),
+('orders', '1'),
 ('pages', '1'),
 ('products', '1'),
 ('slideshow', '1'),
-('subscribers', '0');
+('subscribers', '1'),
+('multi_language', '1'),
+('website_language', 'english');
 
 -- --------------------------------------------------------
 
@@ -353,7 +355,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-15 15:11:31', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-16 12:01:58', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -402,8 +404,9 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
-('80a42aad43cfe1ea13a706d6ae0fbd8a', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-15 10:15:50";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1305464729),
-('ca95c0f1d6e7b45611e1f2f6a9887199', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:11:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-15 13:29:51";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";s:4:"lang";s:9:"norwegian";}', 1305469145);
+('6b7b8e2c8a8dac102575a5a171ae3a75', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24', 'a:1:{s:4:"lang";s:7:"english";}', 1305547559),
+('7798d0eae4ba6df70d292c14a3d535b1', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24', 'a:1:{s:4:"lang";s:7:"english";}', 1305548093),
+('84c6d5929d24d20f0cda67a18e809d44', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:11:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-15 20:53:47";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";s:4:"lang";s:7:"english";}', 1305548103);
 
 -- --------------------------------------------------------
 
@@ -529,7 +532,7 @@ CREATE TABLE IF NOT EXISTS `omc_languages` (
   `langname` text COLLATE utf8_unicode_ci NOT NULL,
   `status` enum('active','inactive') COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `omc_languages`

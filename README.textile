@@ -21,6 +21,9 @@ h2. Features
 * Admin Ajax messages
 * And more
 
+h2. Demo
+* Kaimonokago 1.1.4:"https://github.com/shinokada/Kaimonokago"
+
 h2. Installation
 
 # Create a database kaimonokago and import kaimonokago.sql
