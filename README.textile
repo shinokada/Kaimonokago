@@ -21,8 +21,8 @@ h2. Features
 * Admin Ajax messages
 * And more
 
-h2. Demo
-* Kaimonokago 1.1.4:"https://github.com/shinokada/Kaimonokago"
+h2. Demo (coming soon)
+* Kaimonokago 1.1.4:http://websitelab.skagerak.org/kaimonokago/
 
 h2. Installation
 
@@ -41,12 +41,12 @@ h2. Installation
 # For your reCaptcha, visit http://recaptcha.net/ to get your keys.
 # Visit http://localhost/Kaimonokago
 # To log-in go to http://localhost/Kaimonokago/index.php/auth
-<pre><code>    login email: admin@gmail.com
+ <pre><code>    login email: admin@gmail.com
 	password: admin
 </code></pre>
 # Enter your public and private key to modules/recaptcha/config/recaptcha.php
 # Add password to the ajaxfilemanager assets/js/plugins/ajaxfilemanager/inc/config.base.php
-<pre><code>    define('CONFIG_ACCESS_CONTROL_MODE', ture);
+ <pre><code>    define('CONFIG_ACCESS_CONTROL_MODE', ture);
 	define("CONFIG_LOGIN_USERNAME", 'youremail@bla.com');
 	define('CONFIG_LOGIN_PASSWORD', 'yourpassword');
 </code></pre>
