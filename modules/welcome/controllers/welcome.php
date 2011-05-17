@@ -747,14 +747,15 @@ class Welcome extends Shop_Controller {
 			//Create header that puts email in From box along with name in parentheses and sends bcc to alternate address
 			$from='From: '. $email . "(" . $name . ")" . "\r\n" . 'Bcc: admin@gmail.com' . "\r\n";
 			
-			
 			//Creates intelligible subject line that also shows me where it came from
 			$subject = 'webshop.com Order confirmation';
-			
+
+                        $admin_email = $this->preference->item('admin_email');
 			//Sends mail to me, with elements created above
-			 mail ('admin@gmail.com', $subject, $body, $headers, $from);
+			 mail ($admin_email, $subject, $body, $headers, $from);
+                         $site_name = $this->preference->item('site_name');
 			// Send confirmation email to the customer
-			 mail ($email, $subject, $body, $headers, 'post@webshop.com');
+			 mail ($email, $subject, $body, $headers,$site_name);
 	
 			// $this->session->set_flashdata('msg', 'Thank you for your order! We will get in touch as soon as possible.');
 			redirect($this->module.'/ordersuccess');
