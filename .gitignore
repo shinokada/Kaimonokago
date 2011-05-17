@@ -3,6 +3,8 @@
 system/application/config/database.php
 system/application/config/config.php
 system/logs
+moudles/recaptcha/config/recaptcha.php
+
 
 # Vim leave-behinds
 *.swp

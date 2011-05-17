@@ -347,42 +347,42 @@ class Welcome extends Shop_Controller {
 
             // run validation
             if ($this->validation->run() == FALSE)
-                    {
-                            // if false outputs errors
-                            $this->validation->output_errors();
-                            // and take them to registration page to show errors
-                            $data['page'] = $this->config->item('backendpro_template_shop') . 'registration';
-                            $data['module'] = $this->module;
-                            $this->load->view($this->_container,$data);
-                    }
-                    else
-                    {
-                            $e = $this->input->post('email');
-                            // otherwise check if the customer's email is in the database
-                            $numrow = $this->MCustomers->checkCustomer($e);
-                            if ($numrow == TRUE){
-                                    // you have registered before, set the message and redirect to login page.
-                                    flashMsg('info', lang('webshop_registed_before'));
-                                    // $this->session->set_flashdata('msg', lang('webshop_registed_before'));
-                                    redirect( $this->module.'/login','refresh');
-                            }
-                    // a customer is new, so create the new customer, set message and redirect to login page.
-                    $data = array(
-                    'customer_first_name' => db_clean($_POST['customer_first_name'],25),
-                    'customer_last_name' => db_clean($_POST['customer_last_name'],25),
-                    'phone_number' => db_clean($_POST['phone_number'],15),
-                    'email' => db_clean($_POST['email'],50),
-                    'address' => db_clean($_POST['address'],50),
-                    'city' => db_clean($_POST['city'],25),
-                    'post_code' => db_clean($_POST['post_code'],10),
-                    'password' => db_clean(dohash($_POST['password']),16)
-                    );
-                    $this->MKaimonokago->addItem($this->module, $data);
-                    //$this->MCustomers->addCustomer();
-                    flashMsg('success', lang('webshop_thank_registration'));
-                    // $this->session->set_flashdata('msg', lang('webshop_thank_registration'));
-                    redirect( $this->module.'/login');
-                    }
+                {
+                // if false outputs errors
+                $this->validation->output_errors();
+                // and take them to registration page to show errors
+                $data['page'] = $this->config->item('backendpro_template_shop') . 'registration';
+                $data['module'] = $this->module;
+                $this->load->view($this->_container,$data);
+                }
+                else
+                {
+                $e = $this->input->post('email');
+                // otherwise check if the customer's email is in the database
+                $numrow = $this->MCustomers->checkCustomer($e);
+                if ($numrow == TRUE){
+                // you have registered before, set the message and redirect to login page.
+                flashMsg('info', lang('webshop_registed_before'));
+                // $this->session->set_flashdata('msg', lang('webshop_registed_before'));
+                redirect( $this->module.'/login','refresh');
+                }
+                // a customer is new, so create the new customer, set message and redirect to login page.
+                $data = array(
+                'customer_first_name' => db_clean($_POST['customer_first_name'],25),
+                'customer_last_name' => db_clean($_POST['customer_last_name'],25),
+                'phone_number' => db_clean($_POST['phone_number'],15),
+                'email' => db_clean($_POST['email'],50),
+                'address' => db_clean($_POST['address'],50),
+                'city' => db_clean($_POST['city'],25),
+                'post_code' => db_clean($_POST['post_code'],10),
+                'password' => db_clean(dohash($_POST['password']),16)
+                );
+                $this->MKaimonokago->addItem($this->module, $data);
+                //$this->MCustomers->addCustomer();
+                flashMsg('success', lang('webshop_thank_registration'));
+                // $this->session->set_flashdata('msg', lang('webshop_thank_registration'));
+                redirect( $this->module.'/login');
+                }
     }// end of if($this->input->post('email'))
 
     $data['title'] = lang('webshop_shop_name')." | ". "Registration";
