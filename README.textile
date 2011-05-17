@@ -28,7 +28,8 @@ h2. Installation
 
 # Create a database kaimonokago and import kaimonokago.sql
 # Modify system/application/config/config.php and system/application/config/database.php
-# If two files are missing, system/application/config.database.php and system/application/config/config.php. You just need to download from CodeIgniter 1.7.3 and copy/paste. Please fill in the necessary info to these files.
+# Change system/application/database.php.original to database.php. Please fill in the necessary info to the file.
+# Change modules/recaptcha/config/recaptcha.php.original to recaptcha.php. Visit http://recaptcha.net/ to get your keys
 # The following folders and files must be writable or chmod 777. After installation please don’t forget checking and changing some of files, especially files in config directory, to 644.
  <pre><code>    /var/www/kaimonokago/system/logs/
     /var/www/kaimonokago/assets/cache/
@@ -38,7 +39,7 @@ h2. Installation
     /var/www/kaimonokago/assets/js/plugins/ajaxfilemanager/session/
     /var/www/kaimonokago/assets/js/plugins/ajaxfilemanager/session/gc_counter.ajax.php
 </code></pre>
-# For your reCaptcha, visit http://recaptcha.net/ to get your keys.
+
 # Visit http://localhost/Kaimonokago
 # To log-in go to http://localhost/Kaimonokago/index.php/auth
  <pre><code>    login email: admin@gmail.com
