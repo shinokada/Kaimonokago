@@ -1,6 +1,6 @@
 To Do
 
-- when you change the language, the shopping total and details should be deleted otherwise NOK200 becomes $200
+- when you change the language, the shopping total and details should be deleted
 - pages multi-languages involves path. Find other way not involving path.
 - check if it is using path or id. if it is using id, then take out path field
 
@@ -8,13 +8,17 @@ To Do
 
 
 Updated
-
 16 May 2011
 - Multi-language select button to switch on/off
 - Message button update
+- When the multi-languages preference is single, hide the back-end translation for each module
+- Multi-language select button to switch on/off
+- Message button update
+
 
 15 May 2011
 - module/calendar/view, module/category/views, module/customers/views, module/languages/views,
 module/menus/view, module/pages/view, module/products/views, module/slideshow/views, module/subscribers/views
+
 - Module Management is added to Settings
 - Ajaxfilemanager updated to the latest version

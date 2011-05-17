@@ -118,6 +118,8 @@ class Admin extends Shop_Admin_Controller {
 
   function edit($id=0){
     // This is for editing Menu, such as Main menu etc
+        $multilang = $this->preference->item('multi_language');
+        $data['multilang']=$multilang;
   	if ($this->input->post('name')){
             $data = $this-> _fields();
             $this->MKaimonokago->updateItem($this->module,$data);

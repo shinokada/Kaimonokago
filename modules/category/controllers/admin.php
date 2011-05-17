@@ -89,15 +89,16 @@ private $module;
     }
 
     function edit($id=0){
-            $this->bep_assets->load_asset_group('TINYMCE');
-
-            if ($this->input->post('name')){
-                $data = $this-> _fields();
-                $this->MKaimonokago->updateItem($this->module,$data);
-                //$this->MCats->updateCategory();
-                flashMsg('success',$this->lang->line('userlib_category_updated'));
-                redirect('category/admin/index','refresh');
-            }else{
+        $this->bep_assets->load_asset_group('TINYMCE');
+        $multilang = $this->preference->item('multi_language');
+        $data['multilang']=$multilang;
+        if ($this->input->post('name')){
+            $data = $this-> _fields();
+            $this->MKaimonokago->updateItem($this->module,$data);
+            //$this->MCats->updateCategory();
+            flashMsg('success',$this->lang->line('userlib_category_updated'));
+            redirect('category/admin/index','refresh');
+        }else{
         // similar to menus
                     $data['title'] = $this->lang->line('kago_edit')." ".$this->lang->line('kago_category');
         // get all the languages

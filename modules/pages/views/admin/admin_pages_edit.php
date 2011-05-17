@@ -1,7 +1,7 @@
 <?php print displayStatus();?>
 <h2><?php echo $title;?></h2>
     <?php
-if($pagecontent['lang_id']==0){
+if($pagecontent['lang_id']==0 AND $multilang){
     //echo "Current config language is : ".$this->configlang;
     echo showtranslang($languages,$translanguages,$pagecontent, $module);
 }
