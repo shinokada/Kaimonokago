@@ -3,7 +3,7 @@ To Do
 - when you change the language, the shopping total and details should be deleted
 - pages multi-languages involves path. Find other way not involving path.
 - check if it is using path or id. if it is using id, then take out path field
-
+- Selection of recaptcha or security question for contact, registration, subscribe and unsubscribe method
 
 
 

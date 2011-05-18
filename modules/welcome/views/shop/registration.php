@@ -44,9 +44,19 @@
 		
 		<h3>*<?php echo $this->lang->line('webshop_city'); ?></h3>
 		<input type="text" name="city" value="<?php echo set_value('city'); ?>" size="20" />
+                <br />
+		<?php
+                if($security_method=='recaptcha'){
+                    echo "<h3>*".$this->lang->line('contact_captcha')."</h3>";
+                    echo "<p>$cap_img</p>" ;
+                    
+                }elseif($security_method=='question'){
+                    echo "<h3>*". $this->lang->line('webshop_write_ans')."</h3><br />";
+                    echo $question;
+                    echo "<input type=\"text\" name=\"write_ans\" id=\"write_ans\" maxlength=\"30\" size=\"30\"  />";
+                }
 		
-		<h3>*Are you human?</h3><?php echo "<p>$cap_img</p>" ;?>
-		
+		?>
 		
 		<br />
 		<input type="submit" name="submit" value="<?php echo $this->lang->line('webshop_register'); ?>" />

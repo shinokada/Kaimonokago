@@ -161,5 +161,11 @@ $lang['webshop_newproduct'] = 'New Product';
 // calendar
 $lang['kago_event'] = 'Event';
 
+// security
+$lang['webshop_write_ans'] = "Type the answer.";
+$lang['webshop_security_question'] = "Security question.";
+$lang['webshop_security_wrong'] = "Your answer is wrong.";
+
+
 /* End of file webshop_lang.php */
 /* Location: ./modules/webshop/language/english/webshop_lang.php */

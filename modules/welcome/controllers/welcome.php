@@ -10,6 +10,9 @@ class Welcome extends Shop_Controller {
      //Also in config/routs.php it defines $route['default_controller'] = "welcome";
      // $route['default_controller'], module name, module class and index_path must be the same
      // not able to get router default_controller and assign this to index_path and module
+     private $security_method;
+     private $security_question;
+     private $security_answer;
     
 
   function  Welcome(){
@@ -27,7 +30,10 @@ class Welcome extends Shop_Controller {
     //$this->module = basename(dirname(dirname(__FILE__))); // this is the same as getting class name
     // this will return the grandparent dir name.
     // or you can get this class name as well.
-    $this->module = strtolower(get_class());
+    $this->module               = strtolower(get_class());
+    $this->security_method      = $this->preference->item('security_method');
+    $this->security_question    = $this->preference->item('security_question');
+    $this->security_answer      = $this->preference->item('security_answer');
   }
   
 
@@ -222,7 +228,8 @@ class Welcome extends Shop_Controller {
   	
   
     function contact(){
-	  	
+	$data['question']= $this->security_question;
+        $data['security_method']= $this->security_method;
         $data['title'] = lang('webshop_shop_name')." | "."Contact us";
         $data['cap_img'] = $this->_generate_captcha();	
         $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
@@ -246,19 +253,36 @@ class Welcome extends Shop_Controller {
         $this->load->view($this->_container,$data);
     }
 
+    function security_check($str){
+        $security_answer= strtolower($this->preference->item('security_answer'));
+        $security_input = strtolower($str);
+            if ($security_input != $security_answer){
+                    $this->validation->set_message('security_check', lang('webshop_security_wrong'));
+                    return FALSE;
+            }else{
+                    return TRUE;
+            }
+    }
 
     function message(){
-
+        $data['question']= $this->security_question;
+        $data['security_method']= $this->security_method;
         $rules['name'] = 'trim|required|max_length[32]';
         $rules['email'] = 'trim|required|max_length[254]|valid_email';
         $rules['message'] = 'trim|required';
-        $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+        if($this->security_method=='recaptcha'){
+            $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+        }elseif($this->security_method=='question'){
+            $rules['write_ans']= 'trim|required|callback_security_check';
+        }
+        
         $this->validation->set_rules($rules);
 
         $fields['name']	= lang('general_name');
         $fields['email']	= lang('webshop_email');
         $fields['message']	= lang('message_message');
         $fields['recaptcha_response_field']	= 'Recaptcha';
+        $fields['write_ans']        = lang('webshop_security_question');
         $this->validation->set_fields($fields);
     /**
          * form_validation, next version of Bep will update to form_validation
@@ -270,17 +294,13 @@ class Welcome extends Shop_Controller {
         if ($this->validation->run() == FALSE){
             // if any validation errors, display them
             $this->validation->output_errors();
-
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
-
             $data['title'] = lang('webshop_shop_name')." | ". lang('webshop_message_contact_us');
             $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
-            }
-            else
-            {
+            }else{
                 // you need to send email
                 // validation has passed. Now send the email
                 $name = $this->input->post('name');
@@ -308,13 +328,13 @@ class Welcome extends Shop_Controller {
     /* If you are using recaptcha, don't forget to configure modules/recaptcha/config/recaptcha.php
      * Add your own key
      * */
-            $captcha_result = '';
-            $data['cap_img'] = $this->_generate_captcha();
-
+        $captcha_result = '';
+        $data['cap_img'] = $this->_generate_captcha();
+        $data['question']= $this->security_question;
+        $data['security_method']= $this->security_method;
+        
         if ($this->input->post('email')){
-
             $data['title'] = lang('webshop_shop_name')." | "."Registration";
-
             // set rules
             $rules['email'] = 'trim|required|matches[emailconf]|valid_email';
             $rules['emailconf'] = 'trim|required|valid_email';
@@ -326,8 +346,12 @@ class Welcome extends Shop_Controller {
             $rules['city'] = 'trim|required|alpha_dash';
             $rules['post_code'] = 'trim|required|numeric';
             // if you want to use recaptcha, set modules/recaptcha/config and uncomment the following
+            //$rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+            if($this->security_method=='recaptcha'){
             $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
-
+            }elseif($this->security_method=='question'){
+            $rules['write_ans']= 'trim|required|callback_security_check';
+            }
             $this->validation->set_rules($rules);
 
             // set fields. This will be used for error messages
@@ -342,21 +366,18 @@ class Welcome extends Shop_Controller {
             $fields['city']	= lang('webshop_city');
             $fields['post_code']	= lang('webshop_post_code');
             $fields['recaptcha_response_field']	= 'Recaptcha';
-
+            $fields['write_ans']        = lang('webshop_security_question');
             $this->validation->set_fields($fields);
 
             // run validation
-            if ($this->validation->run() == FALSE)
-                {
+            if ($this->validation->run() == FALSE){
                 // if false outputs errors
                 $this->validation->output_errors();
                 // and take them to registration page to show errors
                 $data['page'] = $this->config->item('backendpro_template_shop') . 'registration';
                 $data['module'] = $this->module;
                 $this->load->view($this->_container,$data);
-                }
-                else
-                {
+                }else{
                 $e = $this->input->post('email');
                 // otherwise check if the customer's email is in the database
                 $numrow = $this->MCustomers->checkCustomer($e);
@@ -377,7 +398,8 @@ class Welcome extends Shop_Controller {
                 'post_code' => db_clean($_POST['post_code'],10),
                 'password' => db_clean(dohash($_POST['password']),16)
                 );
-                $this->MKaimonokago->addItem($this->module, $data);
+                $module = 'customer';
+                $this->MKaimonokago->addItem($module, $data);
                 //$this->MCustomers->addCustomer();
                 flashMsg('success', lang('webshop_thank_registration'));
                 // $this->session->set_flashdata('msg', lang('webshop_thank_registration'));
@@ -424,41 +446,46 @@ class Welcome extends Shop_Controller {
 
     function subscribe(){
             $data['title']=lang('webshop_shop_name')." | ".'Subscribe to our News letter';
-
+            $data['question']= $this->security_question;
+            $data['security_method']= $this->security_method;
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
             if ($this->input->post('name')){
                 $rules['name'] = 'required';
                 $rules['email'] = 'required|valid_email';
+                //$rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+                if($this->security_method=='recaptcha'){
                 $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
-
+                }elseif($this->security_method=='question'){
+                $rules['write_ans']= 'trim|required|callback_security_check';
+                }
                 $this->validation->set_rules($rules);
 
                 $fields['email']	= lang('webshop_email');
                 $fields['name']	= lang('subscribe_name');
                 $fields['recaptcha_response_field']	= 'Recaptcha';
-
+                $fields['write_ans']        = lang('webshop_security_question');
                 $this->validation->set_fields($fields);
 
-                    if ($this->validation->run() == FALSE)
-                    {
-                            // if false outputs errors
-                            $this->validation->output_errors();
+                if ($this->validation->run() == FALSE)
+                {
+                        // if false outputs errors
+                        $this->validation->output_errors();
+                }
+                else
+                {
+                    $email = $this->input->post('email');
+                    // otherwise check if the customer's email is in the database
+                    $numrow = $this->MSubscribers->checkSubscriber($email);
+                    if ($numrow == TRUE){
+                    // you have registered before, set the message and redirect to login page.
+                    flashMsg('info',lang('subscribe_registed_before'));
+                    redirect( $this->module.'/subscribe','refresh');
                     }
-                    else
-                    {
-                        $email = $this->input->post('email');
-                        // otherwise check if the customer's email is in the database
-                        $numrow = $this->MSubscribers->checkSubscriber($email);
-                        if ($numrow == TRUE){
-                        // you have registered before, set the message and redirect to login page.
-                        flashMsg('info',lang('subscribe_registed_before'));
-                        redirect( $this->module.'/subscribe','refresh');
-                        }
-                        $this->MSubscribers->createSubscriber();
-                        flashMsg('success',lang('subscribe_thank_for_subscription'));
-                        redirect( $this->module.'/subscribe','refresh');
-                    }
+                    $this->MSubscribers->createSubscriber();
+                    flashMsg('success',lang('subscribe_thank_for_subscription'));
+                    redirect( $this->module.'/subscribe','refresh');
+                }
             }
             $data['page'] = $this->config->item('backendpro_template_shop') . 'subscribe';
             $data['module'] = $this->module;
@@ -471,19 +498,25 @@ class Welcome extends Shop_Controller {
             $data['title']=lang('webshop_shop_name')." | ".'Unsubscribe our Newsletter';
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
+            $data['question']= $this->security_question;
+            $data['security_method']= $this->security_method;
             $data['page'] = $this->config->item('backendpro_template_shop') . 'unsubscribe';
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
         }else{
 
             $rules['email'] = 'trim|required|max_length[254]|valid_email';
+            //$rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
+            if($this->security_method=='recaptcha'){
             $rules['recaptcha_response_field'] = 'trim|required|valid_captcha';
-
+            }elseif($this->security_method=='question'){
+            $rules['write_ans']= 'trim|required|callback_security_check';
+            }
             $this->validation->set_rules($rules);
 
             $fields['email']	= lang('webshop_email');
             $fields['recaptcha_response_field']	= 'Recaptcha';
-
+            $fields['write_ans']        = lang('webshop_security_question');
             $this->validation->set_fields($fields);
 
             if ($this->validation->run() == FALSE)

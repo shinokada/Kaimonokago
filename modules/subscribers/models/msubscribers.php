@@ -59,7 +59,11 @@ function getSubscriber($id){
  
  }
 
-
+ function removeSubscriber($email){
+ 	
+	$this->db->delete('omc_subscribers', array('email' => $email)); 
+	
+ } 
  
 	function checkSubscriber($email){
 		$numrow = 0;
@@ -75,6 +79,8 @@ function getSubscriber($id){
 			return $numrow;
 		}		
 	}
+        
+        
 
 }//end class
 ?>

@@ -48,7 +48,7 @@ class Settings extends Admin_Controller
                 'email'         => array('name'=> $this->lang->line('preference_page_email_configuration'), 'fields'=>'automated_from_name,automated_from_email,email_protocol,email_mailpath,smtp_host,smtp_user,smtp_pass,smtp_port,smtp_timeout,email_mailtype,email_charset,email_wordwrap,email_wrapchars,bcc_batch_mode,bcc_batch_size'),
                 'maintenance'   => array('name'=> $this->lang->line('preference_page_maintenance_debugging_settings'), 'fields'=>'page_debug,keep_error_logs_for'),
 		'modulemanagement'	  => array('name'=> $this->lang->line('preference_module_management'),'fields'=>'calendar,category,customers,filemanager,languages,menus,messages,orders,pages,products,slideshow,subscribers'),
-                'website'       => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,multi_language,website_language,categories_parent_id,playroom_parent_id,admin_email'),
+                'website'       => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,multi_language,website_language,categories_parent_id,playroom_parent_id,admin_email,security_method,security_question,security_answer'),
 		
 		'slideshow'     => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
 		);
@@ -87,7 +87,9 @@ class Settings extends Admin_Controller
                 $config['field']['website_language'] = array('rules'=>'trim');
 		$config['field']['categories_parent_id'] = array('rules'=>'trim|numeric');
                 $config['field']['playroom_parent_id'] = array('rules'=>'trim|numeric');
-		$config['field']['admin_email'] = array('rules'=>'trim|valid_email');
+		$config['field']['security_method'] = array('type'=>'dropdown','params'=>array('options'=>array('none'=>'none','question'=>'Own question','recaptcha'=>'reCaptcha')));;
+		$config['field']['security_question'] = array('rules'=>'trim');
+                $config['field']['security_answer'] = array('rules'=>'trim');
 		
 		// for slideshows 
 		$config['field']['webshop_slideshow'] = array('type'=>'dropdown','params'=>array('options'=>array('none'=>$this->lang->line('userlib_none'),'interfade'=>$this->lang->line('userlib_interfade'),'cu3er'=>$this->lang->line('userlib_cu3er'),'coinslider'=>$this->lang->line('userlib_coin_slider'),'nivoslider'=>$this->lang->line('userlib_nivo_slider'))));

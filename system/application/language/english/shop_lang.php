@@ -111,6 +111,12 @@ $lang['preference_label_playroom_parent_id'] = 'Playroom Parent ID';
 $lang['preference_desc_playroom_parent_id'] = 'Enter an ID for the playroom module. Find it in the Playroom';
 $lang['preference_label_admin_email'] = 'Admin Email to receive email messages';
 $lang['preference_desc_admin_email'] = 'Enter admin email address to receive email messages from customers';
+$lang['preference_label_security_question'] = 'Type a security question.';
+$lang['preference_desc_security_question'] = 'If you selected Own question in the above, this will be used. e.g. 3+5= , What is the colour of snow?';
+$lang['preference_label_security_answer'] = 'Type a answer of security question';
+$lang['preference_desc_security_answer'] = 'e.g. 8, white';
+$lang['preference_label_security_method'] = 'Select a security method.';
+$lang['preference_desc_security_method'] = 'This will be used for contact, registration, subscribe and unsubscribe.';
 
 
 // for Slideshow Settings label and description

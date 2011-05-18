@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.10deb1
+-- version 3.3.9
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 16, 2011 at 02:18 PM
--- Server version: 5.1.54
--- PHP Version: 5.3.5-1ubuntu7.2
+-- Generation Time: May 18, 2011 at 10:06 
+-- Server version: 5.5.8
+-- PHP Version: 5.3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -224,10 +224,10 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('default_user_group', '1'),
 ('smtp_host', ''),
 ('keep_error_logs_for', '30'),
-('email_protocol', 'sendmail'),
+('email_protocol', 'mail'),
 ('use_registration_captcha', '0'),
 ('page_debug', '0'),
-('automated_from_name', 'Kaimonokago'),
+('automated_from_name', 'Kaimonokago 1.1.4'),
 ('allow_user_registration', '1'),
 ('use_login_captcha', '0'),
 ('site_name', 'Kaimonokago v-1.1.4'),
@@ -268,7 +268,10 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('slideshow', '1'),
 ('subscribers', '1'),
 ('multi_language', '1'),
-('website_language', 'english');
+('website_language', 'english'),
+('security_method', 'question'),
+('security_question', '3+5='),
+('security_answer', '8');
 
 -- --------------------------------------------------------
 
@@ -355,7 +358,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-16 12:01:58', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-18 21:54:12', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -404,9 +407,7 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
-('6b7b8e2c8a8dac102575a5a171ae3a75', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24', 'a:1:{s:4:"lang";s:7:"english";}', 1305547559),
-('7798d0eae4ba6df70d292c14a3d535b1', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24', 'a:1:{s:4:"lang";s:7:"english";}', 1305548093),
-('84c6d5929d24d20f0cda67a18e809d44', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:11:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-15 20:53:47";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";s:4:"lang";s:7:"english";}', 1305548103);
+('279b93378b5bd1866aa28d805d74a686', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/53', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-18 18:25:13";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1305748984);
 
 -- --------------------------------------------------------
 
@@ -450,7 +451,7 @@ CREATE TABLE IF NOT EXISTS `omc_category` (
   `lang_id` int(2) unsigned NOT NULL,
   `table_id` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=24 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=25 ;
 
 --
 -- Dumping data for table `omc_category`
@@ -470,8 +471,8 @@ INSERT INTO `omc_category` (`id`, `name`, `shortdesc`, `longdesc`, `status`, `or
 (17, 'Angels', '<p>Angels in english</p>', '', 'active', 35, 1, 0, 17),
 (19, 'Engler', '<p>Engler p&aring; norsk.</p>', '', 'active', 35, 5, 1, 17),
 (20, 'Magic', '<p>Magic desc.</p>', '', 'active', 55, 1, 0, 20),
-(21, 'Magi', '<p>Magi desc.</p>', '<p>long desc. magi</p>', 'active', 55, 5, 1, 20),
-(23, 'Ocean', '<p>Ocean desc</p>', '', 'active', 70, 1, 0, 23);
+(23, 'Ocean', '<p>Ocean desc</p>', '', 'active', 70, 1, 0, 23),
+(24, 'Magi', '', '<p>Content</p>', 'active', NULL, 5, 1, 20);
 
 -- --------------------------------------------------------
 
@@ -508,18 +509,12 @@ CREATE TABLE IF NOT EXISTS `omc_customer` (
   `city` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `post_code` int(10) unsigned NOT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=11 ;
 
 --
 -- Dumping data for table `omc_customer`
 --
 
-INSERT INTO `omc_customer` (`customer_id`, `password`, `customer_first_name`, `customer_last_name`, `phone_number`, `email`, `address`, `city`, `post_code`) VALUES
-(5, '43814346e21444aa', 'Emile', 'Okada', 22334455, 'emile@gmail.com', 'Maurstien 19B', 'Sandefjord', 3218),
-(6, '40bd001563085fc3', 'Ceci', 'Okada', 4455667, 'test@gmail.com', 'Maurstien 19B 3218 ', 'sande', 3221),
-(7, 'da39a3ee5e6b4b0d', 'david', 'vel', 4455667, 'david@aktivtrening.no', '', '', 0),
-(8, '9a3e61b6bcc8abec', 'david', '', 0, 'david@aktivtrening.no', '', '', 0),
-(9, 'd033e22ae348aeb5', 'Ceci', '', 0, 'admin@gmail.com', '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -532,7 +527,7 @@ CREATE TABLE IF NOT EXISTS `omc_languages` (
   `langname` text COLLATE utf8_unicode_ci NOT NULL,
   `status` enum('active','inactive') COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `omc_languages`
@@ -723,7 +718,7 @@ CREATE TABLE IF NOT EXISTS `omc_products` (
   `lang_id` int(2) unsigned NOT NULL,
   `table_id` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `omc_products`
@@ -743,7 +738,8 @@ INSERT INTO `omc_products` (`id`, `name`, `shortdesc`, `longdesc`, `thumbnail`, 
 (13, 'Mt Fuji', '', '', '<p><img src="../../../../assets/images/books/thumbnails/114x207_14.jpg" alt="" width="114" height="207" /></p>', '<p><img src="../../../../assets/images/books/242x440_14.jpg" alt="" width="242" height="440" /></p>', 60, '', '', 'active', 9, 'webshop', 'none', 50.00, 0, 13),
 (14, 'Mt Fuji', '', '<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing.</p>', '<p><img src="../../../../assets/images/books/thumbnails/114x207_14.jpg" alt="" width="114" height="207" /></p>', '<p><img src="../../../../assets/images/books/242x440_14.jpg" alt="" width="242" height="440" /></p>', 60, '', '', 'active', 13, 'webshop', 'none', 230.00, 1, 13),
 (15, 'Go Harry', '', '<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet,</p>', '<p><img src="../../../assets/images/cd/thumbnails/114x207_11.jpg" alt="" width="114" height="207" /></p>', '<p><img src="../../../assets/images/cd/242x440_11.jpg" alt="" width="242" height="440" /></p>', 80, '', '', 'active', 20, 'webshop', 'most sold', 50.00, 0, 15),
-(16, 'Gå Harry', '', '<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet,</p>', '<p><img src="../../../assets/images/cd/thumbnails/114x207_11.jpg" alt="" width="114" height="207" /></p>', '<p><img src="../../../assets/images/cd/242x440_11.jpg" alt="" width="242" height="440" /></p>', 80, '', '', 'active', 21, 'webshop', 'most sold', 220.00, 1, 15);
+(16, 'Gå Harry', '', '<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet,</p>', '<p><img src="../../../assets/images/cd/thumbnails/114x207_11.jpg" alt="" width="114" height="207" /></p>', '<p><img src="../../../assets/images/cd/242x440_11.jpg" alt="" width="242" height="440" /></p>', 80, '', '', 'active', 7, 'webshop', 'most sold', 220.00, 1, 15),
+(17, 'Amazon river', '', '<p>Long desc</p>', '', '', 70, '', '', 'active', 11, 'none', 'none', 0.00, 0, 17);
 
 -- --------------------------------------------------------
 
@@ -836,7 +832,7 @@ CREATE TABLE IF NOT EXISTS `omc_subscribers` (
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `omc_subscribers`
