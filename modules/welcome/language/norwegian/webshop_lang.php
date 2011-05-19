@@ -155,6 +155,10 @@ $lang['login_email_pw_incorrect'] = 'Sorry, your email or password is incorrect!
 $lang['webshop_mostsold'] = 'Mest Solgte';
 $lang['webshop_newproduct'] = 'Nytt produkt';
 
+// security
+$lang['webshop_write_ans'] = "Type the answer.";
+$lang['webshop_security_question'] = "Security question.";
+$lang['webshop_security_wrong'] = "Your answer is wrong.";
 
 /* End of file webshop_lang.php */
 /* Location: ./modules/webshop/language/english/webshop_lang.php */
