@@ -66,6 +66,17 @@ $lang['preference_label_keep_error_logs_for'] = 'Archive Error Logs?';
 $lang['preference_desc_keep_error_logs_for'] = 'Number of days to archive error logs for';
 
 
+// Additional General Configuration
+$lang['preference_label_company_name'] = "Company Name";
+$lang['preference_label_company_address'] = "Company Address";
+$lang['preference_label_company_post'] = "Post Code";
+$lang['preference_label_company_city'] = "City";
+$lang['preference_label_company_country'] = "Country";
+$lang['preference_label_company_organization_number'] = "Company Organization Number";
+$lang['preference_label_company_telephone'] = "Company Telephone";
+$lang['preference_label_company_mobile'] = "Company Mobile";
+$lang['preference_label_company_other_one'] = "Company Other Info";
+$lang['preference_label_company_other_two'] = "Company Other Info";
 
 
 

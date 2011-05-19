@@ -42,7 +42,7 @@ class Settings extends Admin_Controller
 
 		// Setup preference groups
 		$config['group'] = array(
-                'general'       => array('name'=> $this->lang->line('preference_page_general_configuration'), 'fields'=>'site_name'),
+                'general'       => array('name'=> $this->lang->line('preference_page_general_configuration'), 'fields'=>'site_name,company_name,company_address,company_post,company_city,company_country,company_organization_number,company_telephone,company_mobile,company_other_one, company_other_two'),
                 'members'       => array('name'=> $this->lang->line('preference_page_member_settings'), 'fields'=>'allow_user_registration,activation_method,account_activation_time,autologin_period,default_user_group,login_field,allow_user_profiles'),
                 'security'      => array('name'=> $this->lang->line('preference_page_security_preferences'), 'fields'=>'use_login_captcha,use_registration_captcha,min_password_length'),
                 'email'         => array('name'=> $this->lang->line('preference_page_email_configuration'), 'fields'=>'automated_from_name,automated_from_email,email_protocol,email_mailpath,smtp_host,smtp_user,smtp_pass,smtp_port,smtp_timeout,email_mailtype,email_charset,email_wordwrap,email_wrapchars,bcc_batch_mode,bcc_batch_size'),
@@ -55,6 +55,16 @@ class Settings extends Admin_Controller
 
 		// Setup custom field options
 		$config['field']['site_name'] = array('rules'=>'trim|required');
+                $config['field']['company_name'] = array('rules'=>'trim');
+                $config['field']['company_address'] = array('rules'=>'trim');
+                $config['field']['company_post'] = array('rules'=>'trim');
+                $config['field']['company_city'] = array('rules'=>'trim');
+                $config['field']['company_country'] = array('rules'=>'trim');
+                $config['field']['company_organization_number'] = array('rules'=>'trim');
+                $config['field']['company_telephone'] = array('rules'=>'trim');
+                $config['field']['company_mobile'] = array('rules'=>'trim');
+                $config['field']['company_other_one'] = array('rules'=>'trim');
+                $config['field']['company_other_two'] = array('rules'=>'trim');
 
 		$config['field']['allow_user_registration'] = array('type'=>'boolean');
 		$config['field']['activation_method'] = array('type'=>'dropdown','params'=>array('options'=>array('none'=>$this->lang->line('preference_field_activation_method_none'),'email'=>$this->lang->line('preference_field_activation_method_email'),'admin'=>$this->lang->line('preference_field_activation_method_admin'))));

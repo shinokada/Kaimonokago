@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 18, 2011 at 10:06 
+-- Generation Time: May 19, 2011 at 09:45 
 -- Server version: 5.5.8
 -- PHP Version: 5.3.5
 
@@ -271,7 +271,17 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('website_language', 'english'),
 ('security_method', 'question'),
 ('security_question', '3+5='),
-('security_answer', '8');
+('security_answer', '8'),
+('company_name', 'Okada Design AS'),
+('company_address', 'Mystreet 123'),
+('company_post', '4567'),
+('company_city', 'Oslo'),
+('company_country', 'Norway'),
+('company_organization_number', '12344567'),
+('company_other_one', 'Okada Design AS'),
+('company_other_two', ''),
+('company_telephone', '33445566'),
+('company_mobile', '99887766');
 
 -- --------------------------------------------------------
 
@@ -358,7 +368,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-18 21:54:12', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-19 21:23:24', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -407,7 +417,7 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
-('279b93378b5bd1866aa28d805d74a686', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/53', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-18 18:25:13";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1305748984);
+('5aee1ff63f5ce79ca12112961fc3e6ff', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/53', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-19 18:36:17";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1305834317);
 
 -- --------------------------------------------------------
 
@@ -509,7 +519,7 @@ CREATE TABLE IF NOT EXISTS `omc_customer` (
   `city` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `post_code` int(10) unsigned NOT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=11 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `omc_customer`
@@ -832,7 +842,7 @@ CREATE TABLE IF NOT EXISTS `omc_subscribers` (
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `omc_subscribers`
