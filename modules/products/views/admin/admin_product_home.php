@@ -30,6 +30,9 @@ if (count($products)){
             "</th><th>".$this->lang->line('kago_actions')."</th>\n";
 	echo "</tr>\n</thead>\n<tbody>\n";
 	foreach ($products as $key => $list){
+            if($this->preference->item('multi_language')==1){
+                
+            
 		echo "<tr ";
         ($list['lang_id']>0)? $class="dentme" : $class = '';
 		echo "class = \"".$class. "\" valign='top'>\n";
@@ -67,6 +70,50 @@ if (count($products)){
         }
 		echo "</td>\n";
 		echo "</tr>\n";
+         }else{
+            // single language so display only lang_id ==0
+            if($list['lang_id']==0){        
+                echo "<tr ";
+        ($list['lang_id']>0)? $class="dentme" : $class = '';
+		echo "class = \"".$class. "\" valign='top'>\n";
+       // echo "<td align='center'>".form_checkbox('p_id[]',$list['id'],FALSE)."</td>";
+		echo "<td align='center'>".$list['id']."</td>\n";
+		echo "<td align='center'>";
+        //.$list['name'].
+        echo anchor('products/admin/edit/'.$list['id'],$list['name']);
+        echo "</td>\n";
+		echo "<td align='center'>".$list['class']."</td>\n";
+		echo "<td align='center'>".$list['grouping']."</td>\n";
+		
+		echo "<td align='center'>";
+                 $active_icon = ($list['status']=='active'?'tick':'cross');
+		echo anchor("kaimonokago/admin/changeStatus/$module/".$list['id'],$this->bep_assets->icon($active_icon), array('class' => $list['status']));
+		echo "</td>\n";
+		
+		// echo "<td align='center'>".$list['category_id']."</td>\n";
+		echo "<td align='center'>".$list['CatName']."</td>\n";
+		echo "<td align='center'>".$list['featured']."</td>\n";
+		echo "<td align='center'>".$list['price']."</td>\n";
+        if($list['langname']){
+            $langname = ucfirst($list['langname']);
+        }else{
+            $langname = 'English';
+        }
+        echo "<td align='center'>$langname</td>\n";
+        //echo "<td align='center'>".$list['lang_id']."</td>\n";
+        echo "<td align='center'>".$list['table_id']."</td>\n";
+		echo "<td align='center'>";
+		echo anchor('products/admin/edit/'.$list['id'],$this->bep_assets->icon('pencil'));
+        if ($list['status']=='inactive'){
+		//echo " | ";
+		echo anchor("kaimonokago/admin/delete/$module/".$list['id'],$this->bep_assets->icon('delete'),array("onclick"=>"return confirmSubmit('".$list['name']."')"));
+        }
+		echo "</td>\n";
+		echo "</tr>\n";
+                
+            }
+         }
+                
 	}
 	echo "</tbody></table>";
 	echo form_close();
