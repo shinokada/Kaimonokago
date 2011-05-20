@@ -3,7 +3,26 @@
     <?php print displayStatus();?>
     
     <?php
-/*
+    /*
+echo "<pre>multilang is: ";
+print_r ($this->data['multilang']);
+echo "</pre>";
+echo "<pre>mylanguage: ";
+print_r ($this->data['mylanguage']);
+echo "</pre>";
+echo "<pre>lang_id: ";
+print_r ($this->data['lang_id']);
+echo "</pre>";
+echo "<pre>language: ";
+var_dump ($this->data['language']);
+echo "</pre>";
+echo "<pre>mylanguate1: ";
+print_r ($this->data['mylanguage1']);
+echo "</pre>";
+echo "<pre>sessionlang: ";
+var_dump ($this->data['sessionlang']);
+echo "</pre>";
+
 echo "<pre>get_class is: ";
 print_r($get_class);
 echo "</pre>";
