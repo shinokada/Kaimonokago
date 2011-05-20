@@ -97,6 +97,8 @@ class Admin extends Shop_Admin_Controller {
     function edit($id=0){
         // we are using TinyMCE here, so load it.
         $this->bep_assets->load_asset_group('TINYMCE');
+	$multilang = $this->preference->item('multi_language');
+        $data['multilang']=$multilang;
         if ($this->input->post('name')){
             // info is filled out, so the followings
             $data = $this->_fields();
