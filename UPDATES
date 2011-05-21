@@ -1,12 +1,15 @@
 To Do
 
-(- pages multi-languages involves path. Find other way not involving path.)
-(- check if it is using path or id. if it is using id, then take out path field)
 
 
 
 
 Updated
+21 May 2011
+Pages need a common item for translaged languages, so path is one way to do it. For now I keep it.
+(- pages multi-languages involves path. Find other way not involving path.)
+(- check if it is using path or id. if it is using id, then take out path field)
+
 20 May 2011
 - When Settings > Website configuration > Multiple Languages is No, other languages in Menu, category, product and page
 should be hidden
