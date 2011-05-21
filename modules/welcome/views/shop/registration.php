@@ -2,7 +2,7 @@
     	<h1><?php echo $title; ?></h1><br />
 	<?php print displayStatus();?>
 		<h2><?php echo $this->lang->line('webshop_regist_plz_here'); ?></h2><br />
-		<h2><?php echo sprintf( $this->lang->line('genral_login_msg'), anchor( $module.'/login', $this->lang->line('genral_login') ) );?></h2>
+		<h2><?php echo sprintf( $this->lang->line('general_login_msg'), anchor( $module.'/login', $this->lang->line('general_login') ) );?></h2>
 		<br />
 		
 		<?php
