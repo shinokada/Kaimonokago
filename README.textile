@@ -22,7 +22,7 @@ h2. Features
 * And more
 
 h2. Demo frontend only
-* Kaimonokago 1.1.4: "http://websitelab.skagerak.org/kaimonokago/": http://websitelab.skagerak.org/kaimonokago/
+* Kaimonokago 1.1.4: "http://websitelab.skagerak.org/kaimonokago/":http://websitelab.skagerak.org/kaimonokago/
 
 h2. Installation
 
