@@ -21,8 +21,8 @@ h2. Features
 * Admin Ajax messages
 * And more
 
-h2. Demo (coming soon)
-* Kaimonokago 1.1.4:http://websitelab.skagerak.org/kaimonokago/
+h2. Demo frontend only
+* Kaimonokago 1.1.4: "http://websitelab.skagerak.org/kaimonokago/": http://websitelab.skagerak.org/kaimonokago/
 
 h2. Installation
 
