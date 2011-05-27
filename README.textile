@@ -27,9 +27,9 @@ h2. Demo frontend only
 h2. Installation
 
 # Create a database kaimonokago and import kaimonokago.sql
-# Modify system/application/config/config.php and system/application/config/database.php
 # Change system/application/database.php.original to database.php. Please fill in the necessary info to the file.
-# Change modules/recaptcha/config/recaptcha.php.original to recaptcha.php. Visit http://recaptcha.net/ to get your keys
+# Modify system/application/config/config.php and system/application/config/database.php accordingly.
+# Change modules/recaptcha/config/recaptcha.php.original to recaptcha.php. Visit http://recaptcha.net/ to get your keys. If you need keys for your localhost, just add a newsite "localhost".
 # The following folders and files must be writable or chmod 777. After installation please don’t forget checking and changing some of files, especially files in config directory, to 644.
  <pre><code>    /var/www/kaimonokago/system/logs/
     /var/www/kaimonokago/assets/cache/
@@ -42,18 +42,17 @@ h2. Installation
 # Visit http://localhost/Kaimonokago
 # To log-in go to http://localhost/Kaimonokago/index.php/auth and change your username, email and password.
  <pre><code>    login email: admin@gmail.com
-	password: admin
+    password: admin
 </code></pre>
 # Enter your public and private key to modules/recaptcha/config/recaptcha.php
 # Add password to the ajaxfilemanager assets/js/plugins/ajaxfilemanager/inc/config.base.php
  <pre><code>    define('CONFIG_ACCESS_CONTROL_MODE', ture);
-	define("CONFIG_LOGIN_USERNAME", 'youremail@bla.com');
-	define('CONFIG_LOGIN_PASSWORD', 'yourpassword');
+    define("CONFIG_LOGIN_USERNAME", 'youremail@bla.com');
+    define('CONFIG_LOGIN_PASSWORD', 'yourpassword');
 </code></pre>
 # Security
 Open system/application/config/config.php and change encryption key.
-<pre><code>
-$config['encryption_key'] = "yourkey here";
+<pre><code>    $config['encryption_key'] = "yourkey here";
 </code></pre>
 For your Encryption Key, visit "http://www.ideaspace.net/misc/hash/":http://www.ideaspace.net/misc/hash/ or "http://www.whatsmyip.org/hash_generator/":http://www.whatsmyip.org/hash_generator/ to
 generate at least 32 characters long code.
@@ -72,7 +71,7 @@ h2. How to change the front-end slideshow
 
 # Go to Settings>Slideshow Settings and select a slideshow from a dropdown.
 
-h2. How to hide/show module menus
+h2. How to hide/show module menus in the back-end
 
 # Go to Settings>Module Management. Select 'Yes' to show, select 'No' to hide.
 
