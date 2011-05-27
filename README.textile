@@ -41,7 +41,7 @@ h2. Installation
 </code></pre>
 
 # Visit http://localhost/Kaimonokago
-# To log-in go to http://localhost/Kaimonokago/index.php/auth
+# To log-in go to http://localhost/Kaimonokago/index.php/auth and change your username, email and password.
  <pre><code>    login email: admin@gmail.com
 	password: admin
 </code></pre>
@@ -51,6 +51,16 @@ h2. Installation
 	define("CONFIG_LOGIN_USERNAME", 'youremail@bla.com');
 	define('CONFIG_LOGIN_PASSWORD', 'yourpassword');
 </code></pre>
+
+# Security
+Open system/application/config/config.php and change encryption key.
+<pre><code>
+$config['encryption_key'] = "yourkey here";
+</code></pre>
+For your Encryption Key, visit "http://www.ideaspace.net/misc/hash/":http://www.ideaspace.net/misc/hash/ or
+"http://www.whatsmyip.org/hash_generator/":http://www.whatsmyip.org/hash_generator/ to generate at least 32 characters long code.
+
+
 
 h2. How to add translation
 
