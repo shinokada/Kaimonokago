@@ -34,5 +34,12 @@ $lang['dashboard_statistics_name'] = "Name";
 $lang['dashboard_statistics_value'] = "Value";
 $lang['dashboard_statistics_php_version'] = "PHP Version";
 
+/* Neworder widget */
+$lang['dashboard_neworders'] = "New Orders";
+$lang['dashboard_statistics_order_total'] = "Order Amount";
+$lang['dashboard_order_date'] = "Order Date";
+$lang['dashboard_statistics_total_orders'] = "Number of Total Orders";
+$lang['dashboard_statistics_total_new_orders'] = "Number of New Order";
+
 /* End of file dashboard_lang.php */
 /* Location: ./modules/dashboard/language/english/dashboard_lang.php */

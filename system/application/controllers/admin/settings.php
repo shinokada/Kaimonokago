@@ -49,9 +49,10 @@ class Settings extends Admin_Controller
                 'maintenance'   => array('name'=> $this->lang->line('preference_page_maintenance_debugging_settings'), 'fields'=>'page_debug,keep_error_logs_for'),
 		'modulemanagement'	  => array('name'=> $this->lang->line('preference_module_management'),'fields'=>'calendar,category,customers,filemanager,languages,menus,messages,orders,pages,products,slideshow,subscribers'),
                 'website'       => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,multi_language,website_language,categories_parent_id,playroom_parent_id,admin_email,security_method,security_question,security_answer'),
-		
 		'slideshow'     => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
-		);
+		'analytics'     => array('name'=> $this->lang->line('preference_google_analytics_settings'), 'fields'=>'ga_tracking,ga_profile, ga_email,ga_password'),
+
+                );
 
 		// Setup custom field options
 		$config['field']['site_name'] = array('rules'=>'trim|required');
@@ -119,7 +120,11 @@ class Settings extends Admin_Controller
                 $config['field']['slideshow'] = array('type'=>'boolean');
                 $config['field']['subscribers'] = array('type'=>'boolean');
 
-
+                // analytics
+                $config['field']['ga_tracking'] = array('rules'=>'trim');
+                $config['field']['ga_profile'] = array('rules'=>'trim');
+                $config['field']['ga_email'] = array('rules'=>'trim|valid_email');
+                $config['field']['ga_password'] = array('type'=>'password','rules'=>'trim');
 
 		// Display the form
 		$this->load->module_library('preferences','preference_form');

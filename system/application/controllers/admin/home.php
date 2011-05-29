@@ -39,11 +39,17 @@ function index()
 
 	// Load any widget libraries
 	$this->load->module_library('dashboard','Statistic_widget');
+	$this->load->module_library('dashboard','Neworders_widget');
+	$this->load->module_library('dashboard','Newcustomers_widget');
+        $this->load->module_library('dashboard','Analytics_widget');
 
 	// Assign widgets to dashboard
-	$this->dashboard->assign_widget(new widget($this->lang->line('dashboard_example'),$this->lang->line('dashboard_example_body')),'left');
-	$this->dashboard->assign_widget(new widget($this->lang->line('dashboard_statistics'),$this->statistic_widget->create()),'right');
+        if($this->preference->item('ga_email') AND $this->preference->item('ga_password') AND $this->preference->item('ga_profile')){
+        $this->dashboard->assign_widget(new widget('Analytics',$this->analytics_widget->create()),'top');
+        }
 
+        $this->dashboard->assign_widget(new widget($this->lang->line('dashboard_neworders'),$this->neworders_widget->create()),'left');
+	$this->dashboard->assign_widget(new widget($this->lang->line('dashboard_statistics'),$this->statistic_widget->create()),'right');
 	// Load dashboard onto page
 	$data['dashboard'] = $this->dashboard->output();
 

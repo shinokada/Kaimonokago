@@ -301,6 +301,16 @@ class Preference_form
 		$params['value'] = $this->CI->validation->{$key};
 		return form_textarea($params);
 	}
+
+        function _field_password($key)
+	{
+		$params = $this->field[$key]['params'];
+		$params['name'] = $key;
+		$params['id'] = $key;
+                $params['type'] = 'password';
+		$params['value'] = '';
+		return form_input($params);
+	}
 }
 
 /* End of file Preference_form.php */

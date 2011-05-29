@@ -126,6 +126,7 @@ class Preference_model extends Base_model
         	}
         
         	$this->db->where('name', $name);
+
         	return $this->db->update(PREFERENCES, array('value'=>$value)); 
 	}
 }

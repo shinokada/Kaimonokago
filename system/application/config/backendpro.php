@@ -37,5 +37,6 @@ $config['backendpro_template_dir'] = "";
 $config['backendpro_template_public'] = $config['backendpro_template_dir'] . "public/";
 $config['backendpro_template_admin'] = $config['backendpro_template_dir'] . "admin/";
 
+
 /* End of file backendpro.php */
 /* Location: system/application/config/backendpro.php */

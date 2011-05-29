@@ -63,6 +63,10 @@
 <?php print $this->bep_assets->get_footer_assets();
 // this will print all the js
 
+if ($this->preference->item('ga_tracking')){
+    $this->load->view($this->config->item('backendpro_template_shop') . 'google_analytics');
+}
 ?>
+  
 </body>
 </html>

@@ -64,8 +64,8 @@ $config['asset'][] = array('file'=>'FlashStatus.css');
 $config['asset'][] = array('file'=>'bep_icons.php','type'=>'css');
 
 // BackendPro JS
-$config['asset'][] = array('file'=>'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', 'name'=>'jquery');
-$config['asset'][] = array('file'=>'http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js', 'name' => 'jquery_ui', 'needs'=>'jquery');
+$config['asset'][] = array('file'=>'http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js', 'name'=>'jquery','position'=>'header');
+$config['asset'][] = array('file'=>'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js', 'name' => 'jquery_ui', 'needs'=>'jquery');
 $config['asset'][] = array('file'=>'jquery.cookie.js', 'needs'=>'jquery');
 $config['asset'][] = array('file'=>'jquery.treeview.js', 'needs'=>'jquery.cookie');
 $config['asset'][] = array('file'=>'bep_dashboard.js', 'needs'=>'jquery_ui|jquery.cookie');
@@ -127,6 +127,13 @@ $config['asset'][] = array('file'=>'coin-slider.min.js', 'needs'=>'jquery');
 // jquery.nivo.slider
 $config['asset'][] = array('file'=>'nivo-slider.css');
 $config['asset'][] = array('file'=>'jquery.nivo.slider.pack.js', 'needs'=>'jquery');
+
+// flot.js
+$config['asset'][] = array('file'=>'flot.js', 'position'=>'header');
+
+// analytics
+//$config['asset'][] = array('file'=>'analytics.js', 'needs'=>'flot');
+
 // Added upto here
 
 
@@ -141,9 +148,12 @@ $config['asset'][] = array('file'=>'jquery.nivo.slider.pack.js', 'needs'=>'jquer
  * 
  * Where <asset_n> is the name of the asset file specified in the array above.
  */
+
+$config['asset_group']['SITE'] = 'reset|typography';
+
 $config['asset_group']['SITE'] = 'reset|typography';
 $config['asset_group']['PUBLIC'] = 'bep_front_layout|FlashStatus';
-$config['asset_group']['ADMIN'] = 'bep_admin_layout|bep_admin_style|FlashStatus|forms|buttons|bep_navigation|treeview|bep_icons|bep_select_all';
+$config['asset_group']['ADMIN'] = 'bep_admin_layout|bep_admin_style|FlashStatus|forms|buttons|bep_navigation|treeview|bep_icons|bep_select_all|flot';
 
 // Added from here 
 $config['asset_group']['SHOP'] = 'shopcustomtools|FlashStatus|webshop|menu.init';

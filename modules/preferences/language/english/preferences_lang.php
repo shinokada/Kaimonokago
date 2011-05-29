@@ -79,7 +79,16 @@ $lang['preference_label_company_other_one'] = "Company Other Info";
 $lang['preference_label_company_other_two'] = "Company Other Info";
 
 
-
+// analytics
+$lang['preference_label_ga_tracking'] = "Google Analytics Tracking Code";
+$lang['preference_desc_ga_tracking'] = 'Enter your Google Analytic Tracking Code to activate Google Analytics view data capturing. E.g: UA-19483569-6
+';
+$lang['preference_label_ga_profile'] = "Google Analytics Profile";
+$lang['preference_desc_ga_profile'] = 'Profile ID for this website in Google Analytics.';
+$lang['preference_label_ga_email'] = "Google Analytics E-mail";
+$lang['preference_desc_ga_email'] = 'E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['preference_label_ga_password'] = "Google Analytics Password";
+$lang['preference_desc_ga_password'] = 'Google Analytics password. This is also needed this to show the graph on the dashboard.';
 
 
 
