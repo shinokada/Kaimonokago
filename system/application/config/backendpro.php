@@ -37,6 +37,9 @@ $config['backendpro_template_dir'] = "";
 $config['backendpro_template_public'] = $config['backendpro_template_dir'] . "public/";
 $config['backendpro_template_admin'] = $config['backendpro_template_dir'] . "admin/";
 
+// Set the location for simplepie cache
+$config['simplepie_cache_dir'] = BASEPATH . 'cache/simplepie/';
+
 
 /* End of file backendpro.php */
 /* Location: system/application/config/backendpro.php */

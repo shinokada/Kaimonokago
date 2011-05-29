@@ -61,7 +61,7 @@ $lang['preference_page_email_configuration'] = "Email Configuration";
 $lang['preference_page_maintenance_debugging_settings'] = "Maintenance & Debugging Settings";
 $lang['preference_module_management'] = "Module Management";
 $lang['preference_google_analytics_settings'] = "Google Analytics Settings";
-
+$lang['preference_rss_feeds_settings'] = "RSS Feeds Settings";
 
 /* End of file backendpro_lang.php */
 /* Location: ./system/application/language/english/backendpro_lang.php */

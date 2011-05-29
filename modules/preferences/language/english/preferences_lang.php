@@ -90,7 +90,13 @@ $lang['preference_desc_ga_email'] = 'E-mail address used for Google Analytics, w
 $lang['preference_label_ga_password'] = "Google Analytics Password";
 $lang['preference_desc_ga_password'] = 'Google Analytics password. This is also needed this to show the graph on the dashboard.';
 
-
+// RSS feeds
+$lang['preference_label_dashboard_rss'] = "Dashboard RSS Feed";
+$lang['preference_desc_dashboard_rss'] = 'Link to an RSS feed that will be displayed on the dashboard.
+';
+$lang['preference_label_dashboard_rss_count'] = "Dashboard RSS Items";
+$lang['preference_desc_dashboard_rss_count'] = 'How many RSS items would you like to display on the dashboard ?
+';
 
 /**
  *     BELOW HERE DEFINE ANY LANGUAGE STRINGS FOR YOUR APPLICATIONS

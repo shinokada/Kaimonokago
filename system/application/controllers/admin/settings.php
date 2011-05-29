@@ -51,6 +51,7 @@ class Settings extends Admin_Controller
                 'website'       => array('name'=> $this->lang->line('preference_website_configuration'),'fields'=>'main_module_name,multi_language,website_language,categories_parent_id,playroom_parent_id,admin_email,security_method,security_question,security_answer'),
 		'slideshow'     => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
 		'analytics'     => array('name'=> $this->lang->line('preference_google_analytics_settings'), 'fields'=>'ga_tracking,ga_profile, ga_email,ga_password'),
+                'rss_feed'     => array('name'=> $this->lang->line('preference_rss_feeds_settings'), 'fields'=>'dashboard_rss,dashboard_rss_count'),
 
                 );
 
@@ -125,6 +126,10 @@ class Settings extends Admin_Controller
                 $config['field']['ga_profile'] = array('rules'=>'trim');
                 $config['field']['ga_email'] = array('rules'=>'trim|valid_email');
                 $config['field']['ga_password'] = array('type'=>'password','rules'=>'trim');
+
+                 // RSS feeds
+                $config['field']['dashboard_rss'] = array('rules'=>'trim');
+                $config['field']['dashboard_rss_count'] = array('rules'=>'trim|numeric');
 
 		// Display the form
 		$this->load->module_library('preferences','preference_form');
