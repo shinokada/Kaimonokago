@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 29, 2011 at 11:08 AM
+-- Generation Time: May 29, 2011 at 10:01 PM
 -- Server version: 5.1.54
 -- PHP Version: 5.3.5-1ubuntu7.2
 
@@ -275,7 +275,9 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('ga_tracking', ''),
 ('ga_profile', ''),
 ('ga_email', ''),
-('ga_password', '');
+('ga_password', ''),
+('dashboard_rss', 'http://www.digg.com/rss/indexdig.xml'),
+('dashboard_rss_count', '3');
 
 -- --------------------------------------------------------
 
@@ -362,7 +364,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-29 10:46:43', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-29 21:25:27', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -411,8 +413,7 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
-('0a13687565ebca5222d0ce4bc24b61fb', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-29 08:08:48";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1306656291),
-('6b80433d89d9d2cfc6fe47a83a8ad520', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-29 08:16:31";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1306659645);
+('7182bc50d627ec305998eeef6f0e6fe0', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-29 16:19:08";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1306699221);
 
 -- --------------------------------------------------------
 
