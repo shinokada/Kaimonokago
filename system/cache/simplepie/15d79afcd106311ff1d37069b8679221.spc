@@ -49,36 +49,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:79:"
-				Robin Williams’ daughter worked on “super secret Nintendo shoot”
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/gaming/robin_williams_daughter_worked_on_super_secret_nintendo_shoot
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:154:"
-				Robin Williams' daughter, named after Princess Zelda, revealed she worked on a "super secret Nintendo shoot" earlier this week. What could it be?
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:70:"
+				At memorial for tornado victims, Joplin vows to heal, rebuild
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:99:"
+				http://digg.com/news/worldnews/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:259:"
+				Those who have survived a devastating tornado in Joplin, Missouri, should do their utmost to live up to the example set by those who died while helping others escape the storm, President Barack Obama said Sunday at a memorial service for the victims.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 06:31:16
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/gaming/robin_williams_daughter_worked_on_super_secret_nintendo_shoot
+				Sun, 29 May 2011 17:36:12
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:99:"
+				http://digg.com/news/worldnews/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				64
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
-				Gaming
+				63
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
+				World News
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				1
+				2
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:16:"
-					valay
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:55:"
-					http://cdn1.diggstatic.com/user/426444/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:100:"http://cdn2.diggstatic.com/story/robin_williams_daughter_worked_on_super_secret_nintendo_shoot/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
+					dieordigg
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:111:"
+					http://cdn3.diggstatic.com/user/20101130162626:a71b335e-588c-47cb-aca3-2ca4db82b548/p.1578931070.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:98:"http://cdn2.diggstatic.com/story/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:100:"http://cdn2.diggstatic.com/story/robin_williams_daughter_worked_on_super_secret_nintendo_shoot/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:100:"http://cdn2.diggstatic.com/story/robin_williams_daughter_worked_on_super_secret_nintendo_shoot/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:100:"http://cdn1.diggstatic.com/story/robin_williams_daughter_worked_on_super_secret_nintendo_shoot/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:100:"http://cdn2.diggstatic.com/story/robin_williams_daughter_worked_on_super_secret_nintendo_shoot/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/gaming/robin_williams_daughter_worked_on_super_secret_nintendo_shoot
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:98:"http://cdn2.diggstatic.com/story/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:98:"http://cdn2.diggstatic.com/story/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:98:"http://cdn3.diggstatic.com/story/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:98:"http://cdn2.diggstatic.com/story/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:99:"
+				http://digg.com/news/worldnews/at_memorial_for_tornado_victims_joplin_vows_to_heal_rebuild
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:51:"
 			
 			
@@ -92,36 +92,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:62:"
-				NYT Reporter Shows the Power of Twitter as Journalism
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:94:"
-				http://digg.com/news/technology/nyt_reporter_shows_the_power_of_twitter_as_journalism
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:300:"
-				Now those who see Twitter as a powerful tool for real-time journalism have another example of how it can be done: New York Times reporter Brian Stelter has posted a thoughtful and compelling account of how he used Twitter to report on the aftermath of the recent tornado in Joplin, Missouri.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:93:"
+				Flashback: Two Years Ago, Twitter Killed A Feature — The One They Just Added Back
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:118:"
+				http://digg.com/news/technology/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:178:"
+				Twitter rolled out a new small feature that garnered quite a bit of positive buzz. Essentially, they now allow you to see what other users see when they look at Twitter.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Fri, 27 May 2011 19:46:42
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:94:"
-				http://digg.com/news/technology/nyt_reporter_shows_the_power_of_twitter_as_journalism
+				Sun, 29 May 2011 16:51:41
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:118:"
+				http://digg.com/news/technology/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				74
+				88
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
 				Technology
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				1
+				3
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
-					kumar4458
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:111:"
-					http://cdn3.diggstatic.com/user/20100920135930:13feb1af-38fc-4f0d-8175-967235b55905/p.1593851432.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:92:"http://cdn2.diggstatic.com/story/nyt_reporter_shows_the_power_of_twitter_as_journalism/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:18:"
+					arbiinc
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
+					http://cdn3.diggstatic.com/user/5643928/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:116:"http://cdn2.diggstatic.com/story/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:92:"http://cdn2.diggstatic.com/story/nyt_reporter_shows_the_power_of_twitter_as_journalism/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:92:"http://cdn1.diggstatic.com/story/nyt_reporter_shows_the_power_of_twitter_as_journalism/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:92:"http://cdn2.diggstatic.com/story/nyt_reporter_shows_the_power_of_twitter_as_journalism/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:92:"http://cdn2.diggstatic.com/story/nyt_reporter_shows_the_power_of_twitter_as_journalism/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:94:"
-				http://digg.com/news/technology/nyt_reporter_shows_the_power_of_twitter_as_journalism
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:116:"http://cdn1.diggstatic.com/story/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:116:"http://cdn2.diggstatic.com/story/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:116:"http://cdn3.diggstatic.com/story/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:116:"http://cdn2.diggstatic.com/story/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:118:"
+				http://digg.com/news/technology/flashback_two_years_ago_twitter_killed_a_feature_the_one_they_just_added_back
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:51:"
 			
 			
@@ -135,36 +135,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:67:"
-				Teacher Maintains Her Kindergarten Class During Gun Battle
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/worldnews/teacher_maintains_her_kindergarten_class_during_gun_battle
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:137:"
-				As a gun battle rages outside her classroom, a teacher in Monterrey, Mexico keeps her kindergarten class calm as bullets fly by.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:74:"
+				Obama Pays Tribute to Joplin; Fox Concerned if He’s Chewing Gum
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:101:"
+				http://digg.com/news/politics/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:241:"
+				President Obama visited the tornado ravaged city of Joplin, Missouri to give comfort to the victims of the devastation that obliterated their life’s possessions. Tribute was paid to the hundreds who died. Meanwhile, Fox Nation....
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 08:49:29
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/worldnews/teacher_maintains_her_kindergarten_class_during_gun_battle
+				Sun, 29 May 2011 17:19:46
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:101:"
+				http://digg.com/news/politics/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				76
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
-				World News
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				6
+				99
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
+				Politics
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				37
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:22:"
-					quickdigger
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/6474815/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:97:"http://cdn2.diggstatic.com/story/teacher_maintains_her_kindergarten_class_during_gun_battle/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:21:"
+					anomaly100
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:67:"
+					http://cdn2.diggstatic.com/user/3104494/p.2187789418.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:101:"http://cdn2.diggstatic.com/story/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:97:"http://cdn2.diggstatic.com/story/teacher_maintains_her_kindergarten_class_during_gun_battle/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:97:"http://cdn1.diggstatic.com/story/teacher_maintains_her_kindergarten_class_during_gun_battle/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:97:"http://cdn3.diggstatic.com/story/teacher_maintains_her_kindergarten_class_during_gun_battle/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:97:"http://cdn2.diggstatic.com/story/teacher_maintains_her_kindergarten_class_during_gun_battle/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:98:"
-				http://digg.com/news/worldnews/teacher_maintains_her_kindergarten_class_during_gun_battle
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:101:"http://cdn1.diggstatic.com/story/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:101:"http://cdn1.diggstatic.com/story/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:101:"http://cdn2.diggstatic.com/story/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:101:"http://cdn2.diggstatic.com/story/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:101:"
+				http://digg.com/news/politics/obama_pays_tribute_to_joplin_fox_concerned_if_he_s_chewing_gum
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:51:"
 			
 			
@@ -178,36 +178,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"
-				Introduction To Easy Origami [w/vid]
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"
-				http://digg.com/news/offbeat/introduction_to_easy_origami_w_vid
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:126:"
-				Originally started back in the 17th century, the Japanese art of arigami has been transformed into a modern art form.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:91:"
+				Executive pay is zooming skyward again after pausing a few years for the recession
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:121:"
+				http://digg.com/news/politics/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:151:"
+				The $6.4 million that  Jacobs Engineering Group Inc.  paid Chief Executive Craig Martin last year normally wouldn't have raised many eyebrows.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 06:05:52
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"
-				http://digg.com/news/offbeat/introduction_to_easy_origami_w_vid
+				Sun, 29 May 2011 17:47:44
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:121:"
+				http://digg.com/news/politics/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				79
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
-				Offbeat
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				2
+				87
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
+				Politics
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				12
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:21:"
-					mediasight
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn1.diggstatic.com/user/2915196/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:73:"http://cdn1.diggstatic.com/story/introduction_to_easy_origami_w_vid/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					shihtzuman
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:64:"
+					http://cdn3.diggstatic.com/user/73139/p.733617878.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:121:"http://cdn1.diggstatic.com/story/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:73:"http://cdn2.diggstatic.com/story/introduction_to_easy_origami_w_vid/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:73:"http://cdn1.diggstatic.com/story/introduction_to_easy_origami_w_vid/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:73:"http://cdn3.diggstatic.com/story/introduction_to_easy_origami_w_vid/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:73:"http://cdn1.diggstatic.com/story/introduction_to_easy_origami_w_vid/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:72:"
-				http://digg.com/news/offbeat/introduction_to_easy_origami_w_vid
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:121:"http://cdn1.diggstatic.com/story/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:121:"http://cdn1.diggstatic.com/story/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:121:"http://cdn3.diggstatic.com/story/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:121:"http://cdn1.diggstatic.com/story/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:121:"
+				http://digg.com/news/politics/executive_pay_is_zooming_skyward_again_after_pausing_a_few_years_for_the_recession
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:51:"
 			
 			
@@ -221,36 +221,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"
-				Sarah Palin and the 7 GOP Candidates (Cartoon)
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"
-				http://digg.com/news/politics/sarah_palin_and_the_7_gop_candidates_cartoon
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:9:"
-				
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:88:"
+				While Sarah Palin Plays Pinky Tuscadero, President Obama Tours Joplin, Missouri
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:116:"
+				http://digg.com/news/politics/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:147:"
+				For those of you who think Sarah Palin is presidential, take a look at what the real president was doing in tornado devastated Joplin, MO.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 07:20:34
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:83:"
-				http://digg.com/news/politics/sarah_palin_and_the_7_gop_candidates_cartoon
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				89
+				Sun, 29 May 2011 15:48:50
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:116:"
+				http://digg.com/news/politics/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
+				119
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
 				Politics
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				4
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				18
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:19:"
-					tedsgame
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn3.diggstatic.com/user/2751173/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:83:"http://cdn2.diggstatic.com/story/sarah_palin_and_the_7_gop_candidates_cartoon/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:26:"
+					philperspective
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:67:"
+					http://cdn3.diggstatic.com/user/4058944/p.2893886901.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:116:"http://cdn1.diggstatic.com/story/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:83:"http://cdn3.diggstatic.com/story/sarah_palin_and_the_7_gop_candidates_cartoon/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:83:"http://cdn3.diggstatic.com/story/sarah_palin_and_the_7_gop_candidates_cartoon/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:83:"http://cdn3.diggstatic.com/story/sarah_palin_and_the_7_gop_candidates_cartoon/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:83:"http://cdn2.diggstatic.com/story/sarah_palin_and_the_7_gop_candidates_cartoon/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:83:"
-				http://digg.com/news/politics/sarah_palin_and_the_7_gop_candidates_cartoon
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:116:"http://cdn2.diggstatic.com/story/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:116:"http://cdn3.diggstatic.com/story/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:116:"http://cdn3.diggstatic.com/story/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:116:"http://cdn1.diggstatic.com/story/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:116:"
+				http://digg.com/news/politics/while_sarah_palin_plays_pinky_tuscadero_president_obama_tours_joplin_missouri
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:51:"
 			
 			
@@ -264,36 +264,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:63:"
-				Sleepy? Tired on the Job? Take a Nap in a Giant Vulva!
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/offbeat/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:299:"
-				We're all tired at work, often taking quick snoozes at our desks when we hope our boss/supervisor/slave is on a cigarette break. But for those especially opportune times when the suits are sick, in a boring board meeting, or just not paying attention to you there's something new to nap on.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:36:"
+				Top Five Beers for the Road
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"
+				http://digg.com/news/lifestyle/top_five_beers_for_the_road
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:360:"
+				Yes, you read that right. Beer for the road -- a.k.a. Road Sodas. Seriously, it's road trip season and what makes road trips more fun? Beer, duh. Okay before you freak out, we're not talking about drinking beer while operating a vehicle (that means driving), we're talking about road sodas for the passengers.  Got it? P-a-s-s-e-n-g-e-r-s, not driver.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 08:11:38
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/offbeat/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva
+				Sun, 29 May 2011 16:51:01
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:67:"
+				http://digg.com/news/lifestyle/top_five_beers_for_the_road
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				95
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
-				Offbeat
+				81
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:18:"
+				Lifestyle
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				7
+				3
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:17:"
 					jgregc
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn1.diggstatic.com/user/1201613/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:90:"http://cdn3.diggstatic.com/story/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn2.diggstatic.com/user/1201613/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:66:"http://cdn2.diggstatic.com/story/top_five_beers_for_the_road/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:90:"http://cdn3.diggstatic.com/story/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:90:"http://cdn3.diggstatic.com/story/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:90:"http://cdn2.diggstatic.com/story/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:90:"http://cdn3.diggstatic.com/story/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/offbeat/sleepy_tired_on_the_job_take_a_nap_in_a_giant_vulva
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:66:"http://cdn2.diggstatic.com/story/top_five_beers_for_the_road/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:66:"http://cdn1.diggstatic.com/story/top_five_beers_for_the_road/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:66:"http://cdn3.diggstatic.com/story/top_five_beers_for_the_road/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:66:"http://cdn2.diggstatic.com/story/top_five_beers_for_the_road/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:67:"
+				http://digg.com/news/lifestyle/top_five_beers_for_the_road
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:51:"
 			
 			
@@ -307,36 +307,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:61:"
-				New Meat Market's Got Unicorn Liver and Dragon Blood
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:90:"
-				http://digg.com/news/offbeat/new_meat_market_s_got_unicorn_liver_and_dragon_blood
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:239:"
-				In addition to faux meat shop posters and a giant sculptural rack of ribs, the exhibit includes a full-scale meat counter with plastic wrapped packages of mythical meats such as mermaid fingers, bunyip steaks and baby dragon skin.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"
+				Kiwi invented Jetpack reaches new heights
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/offbeat/kiwi_invented_jetpack_reaches_new_heights
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:370:"
+				Christchurch inventor Glenn Martin has finally turned science fiction into reality, with a contraption that's got the whole world talking.Glenn Martin's invented a jetpack, a one man flying machine, no wings, no propeller, straight out of science fiction and the Jetsons.A Kiwi-designed solar-powered boat is set to become the first to circumnavigate the globe.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 08:11:18
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:90:"
-				http://digg.com/news/offbeat/new_meat_market_s_got_unicorn_liver_and_dragon_blood
+				Sun, 29 May 2011 10:57:45
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/offbeat/kiwi_invented_jetpack_reaches_new_heights
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				81
+				73
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
 				Offbeat
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				1
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				17
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:16:"
-					cb810
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:65:"
-					http://cdn2.diggstatic.com/user/131614/p.994235493.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:91:"http://cdn3.diggstatic.com/story/new_meat_market_s_got_unicorn_liver_and_dragon_blood/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:17:"
+					comgen
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:66:"
+					http://cdn3.diggstatic.com/user/404923/p.1289326517.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:80:"http://cdn1.diggstatic.com/story/kiwi_invented_jetpack_reaches_new_heights/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:91:"http://cdn1.diggstatic.com/story/new_meat_market_s_got_unicorn_liver_and_dragon_blood/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:91:"http://cdn3.diggstatic.com/story/new_meat_market_s_got_unicorn_liver_and_dragon_blood/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:91:"http://cdn2.diggstatic.com/story/new_meat_market_s_got_unicorn_liver_and_dragon_blood/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:91:"http://cdn3.diggstatic.com/story/new_meat_market_s_got_unicorn_liver_and_dragon_blood/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:90:"
-				http://digg.com/news/offbeat/new_meat_market_s_got_unicorn_liver_and_dragon_blood
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:80:"http://cdn1.diggstatic.com/story/kiwi_invented_jetpack_reaches_new_heights/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:80:"http://cdn2.diggstatic.com/story/kiwi_invented_jetpack_reaches_new_heights/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:80:"http://cdn3.diggstatic.com/story/kiwi_invented_jetpack_reaches_new_heights/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:80:"http://cdn1.diggstatic.com/story/kiwi_invented_jetpack_reaches_new_heights/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/offbeat/kiwi_invented_jetpack_reaches_new_heights
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:51:"
 			
 			
@@ -350,36 +350,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:119:"
-				I drank my own urine': University president describes how he survived while lost for days in a Louisiana swamp
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:146:"
-				http://digg.com/news/offbeat/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:183:"
-				A university president from Columbia survived nearly five days lost in the Louisiana Bayou by eating plants and drinking his own urine. He left the hospital Thursday evening.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:57:"
+				Dead Island: 20 Minutes of Gameplay Footage [HD]
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:82:"
+				http://digg.com/news/gaming/dead_island_20_minutes_of_gameplay_footage_hd
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:68:"
+				Far Cry meets Left 4 Dead meets Borderlands meets Condemned
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 13:44:21
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:146:"
-				http://digg.com/news/offbeat/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				90
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
-				Offbeat
+				Sun, 29 May 2011 08:18:29
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:82:"
+				http://digg.com/news/gaming/dead_island_20_minutes_of_gameplay_footage_hd
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
+				100
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
+				Gaming
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				14
+				11
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
-					anderzole
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:55:"
-					http://cdn2.diggstatic.com/user/341961/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:147:"http://cdn1.diggstatic.com/story/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					badguy001
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:66:"
+					http://cdn2.diggstatic.com/user/4315578/p.616958005.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/dead_island_20_minutes_of_gameplay_footage_hd/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:147:"http://cdn1.diggstatic.com/story/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:147:"http://cdn1.diggstatic.com/story/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:147:"http://cdn2.diggstatic.com/story/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:147:"http://cdn1.diggstatic.com/story/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:146:"
-				http://digg.com/news/offbeat/i_drank_my_own_urine_university_president_describes_how_he_survived_while_lost_for_days_in_a_louisiana_swamp
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/dead_island_20_minutes_of_gameplay_footage_hd/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:84:"http://cdn1.diggstatic.com/story/dead_island_20_minutes_of_gameplay_footage_hd/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:84:"http://cdn3.diggstatic.com/story/dead_island_20_minutes_of_gameplay_footage_hd/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/dead_island_20_minutes_of_gameplay_footage_hd/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:82:"
+				http://digg.com/news/gaming/dead_island_20_minutes_of_gameplay_footage_hd
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:51:"
 			
 			
@@ -393,36 +393,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:91:"
-				'Endeavour' Astronauts on Extraterrestrial Life -"We'll find something out there."
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:114:"
-				http://digg.com/news/science/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:263:"
-				The human race will find life elsewhere in the universe as it pushes ahead with space exploration, reported astronauts of the space shuttle Endeavour, The US space shuttle Endeavour prepares today to undock from the International Space Station and jet...
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:44:"
+				The Top Ten Women of Gaming (video)
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"
+				http://digg.com/news/gaming/the_top_ten_women_of_gaming_video
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:77:"
+				It's not a matter of "if," but "where," will Joanna Dark get ranked?
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 07:39:14
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:114:"
-				http://digg.com/news/science/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there
+				Sun, 29 May 2011 09:11:05
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"
+				http://digg.com/news/gaming/the_top_ten_women_of_gaming_video
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				101
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
-				Science
+				115
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
+				Gaming
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				11
+				12
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:21:"
-					anomaly100
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:67:"
-					http://cdn3.diggstatic.com/user/3104494/p.2187789418.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:115:"http://cdn3.diggstatic.com/story/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					pbhnetwork
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:66:"
+					http://cdn2.diggstatic.com/user/5725840/p.259375403.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:72:"http://cdn3.diggstatic.com/story/the_top_ten_women_of_gaming_video/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:115:"http://cdn2.diggstatic.com/story/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:115:"http://cdn2.diggstatic.com/story/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:115:"http://cdn1.diggstatic.com/story/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:115:"http://cdn3.diggstatic.com/story/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:114:"
-				http://digg.com/news/science/endeavour_astronauts_on_extraterrestrial_life_we_ll_find_something_out_there
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:72:"http://cdn2.diggstatic.com/story/the_top_ten_women_of_gaming_video/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:72:"http://cdn1.diggstatic.com/story/the_top_ten_women_of_gaming_video/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:72:"http://cdn1.diggstatic.com/story/the_top_ten_women_of_gaming_video/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:72:"http://cdn3.diggstatic.com/story/the_top_ten_women_of_gaming_video/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:70:"
+				http://digg.com/news/gaming/the_top_ten_women_of_gaming_video
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:51:"
 			
 			
@@ -436,36 +436,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:43:"
-				Top 10 Genre Cross Overs in Gaming
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:71:"
-				http://digg.com/news/gaming/top_10_genre_cross_overs_in_gaming
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:398:"
-				Our modern generation of games tend to slot quite nicely into pre-defined genres, with many gameplay elements neatly fitting such a categorization. For some games though, one genre just isn’t enough. Join us as we herald the top ten games that have artfully merged more than one gaming genre together. Bonus points are awarded for the more bizarre and ambitious attempts at genre fusion.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:77:"
+				Watch Two Bombastic 'Transformers: Dark of the Moon' TV Spots [VIDs]
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:107:"
+				http://digg.com/news/entertainment/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:207:"
+				What do they offer besides the promise of space robot-led Armageddon and that face Shia LaBeouf makes when he’s nervous? Well, mostly that, but also some more of that Inception-like musical score.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 05:45:45
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:71:"
-				http://digg.com/news/gaming/top_10_genre_cross_overs_in_gaming
+				Sun, 29 May 2011 10:17:16
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:107:"
+				http://digg.com/news/entertainment/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				103
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
-				Gaming
+				101
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:22:"
+				Entertainment
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				3
+				9
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:23:"
-					gameondigger
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn3.diggstatic.com/user/5817156/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:73:"http://cdn3.diggstatic.com/story/top_10_genre_cross_overs_in_gaming/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:17:"
+					johndo
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:66:"
+					http://cdn3.diggstatic.com/user/1468257/p.801276742.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:102:"http://cdn3.diggstatic.com/story/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:73:"http://cdn3.diggstatic.com/story/top_10_genre_cross_overs_in_gaming/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:73:"http://cdn3.diggstatic.com/story/top_10_genre_cross_overs_in_gaming/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:73:"http://cdn1.diggstatic.com/story/top_10_genre_cross_overs_in_gaming/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:73:"http://cdn3.diggstatic.com/story/top_10_genre_cross_overs_in_gaming/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:71:"
-				http://digg.com/news/gaming/top_10_genre_cross_overs_in_gaming
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:102:"http://cdn1.diggstatic.com/story/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:102:"http://cdn2.diggstatic.com/story/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:102:"http://cdn1.diggstatic.com/story/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:102:"http://cdn3.diggstatic.com/story/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:107:"
+				http://digg.com/news/entertainment/watch_two_bombastic_transformers_dark_of_the_moon_tv_spots_vids
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:51:"
 			
 			
@@ -479,36 +479,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:41:"
-				Cornell Dupree's Texas Soul Stew
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:76:"
-				http://digg.com/news/entertainment/cornell_dupree_s_texas_soul_stew
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:674:"
-				Cornell Dupree was one of the most revered session guitarists throughout the 60’s, 70s and 80’s, playing on over 2500 records ranging from blues and R&B to gospel, rock and jazz. He passed away in his Fort Worth home on May 14th and rather than tell another sad story about how we’ve lost another irreplaceable legend, I’d like to highlight five of my favorite Dupree enhanced albums. He said, “Not many people read the back of albums,” but I certainly do, and every time I see “guitar: Cornell Dupree” in the credits, I know the band will be tight and the licks will be as thick and smoky as Texas barbeque sauce, and just as finger lickin’ good.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:57:"
+				Memorial Day: Honoring Valor Transcends Politics
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/politics/memorial_day_honoring_valor_transcends_politics
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:315:"
+				Growing up in post-Vietnam America, I've always lived in a country with an all volunteer armed forces. So what it means to serve and sacrifice never hit so close to home. The contentious debates and protests that divided an earlier generation rippled through my education through teachers who served or ...
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 06:34:33
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:76:"
-				http://digg.com/news/entertainment/cornell_dupree_s_texas_soul_stew
+				Sun, 29 May 2011 07:14:23
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/politics/memorial_day_honoring_valor_transcends_politics
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				86
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:22:"
-				Entertainment
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				2
+				98
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
+				Politics
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				14
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:22:"
-					blinker1315
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
+					novenator
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/3246855/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:71:"http://cdn1.diggstatic.com/story/cornell_dupree_s_texas_soul_stew/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn1.diggstatic.com/user/2695485/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:86:"http://cdn3.diggstatic.com/story/memorial_day_honoring_valor_transcends_politics/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:71:"http://cdn3.diggstatic.com/story/cornell_dupree_s_texas_soul_stew/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:71:"http://cdn3.diggstatic.com/story/cornell_dupree_s_texas_soul_stew/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:71:"http://cdn1.diggstatic.com/story/cornell_dupree_s_texas_soul_stew/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:71:"http://cdn1.diggstatic.com/story/cornell_dupree_s_texas_soul_stew/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:76:"
-				http://digg.com/news/entertainment/cornell_dupree_s_texas_soul_stew
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:86:"http://cdn3.diggstatic.com/story/memorial_day_honoring_valor_transcends_politics/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:86:"http://cdn2.diggstatic.com/story/memorial_day_honoring_valor_transcends_politics/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:86:"http://cdn3.diggstatic.com/story/memorial_day_honoring_valor_transcends_politics/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:86:"http://cdn3.diggstatic.com/story/memorial_day_honoring_valor_transcends_politics/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/politics/memorial_day_honoring_valor_transcends_politics
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:51:"
 			
 			
@@ -522,36 +522,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:64:"
-				Fragmentr Lets You Create Collaborative Online Collages
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/technology/fragmentr_lets_you_create_collaborative_online_collages
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:320:"
-				Fragmentr is a website that lets you participate in the creation of collaboratively sourced collages. Designed by Ryan Weafer, the site asks that you simply upload an image—it suggests using one with “a variety of colors, pattern and depth” to keep things interesting—and it’ll get added into the mix.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"
+				Lockheed Martin says it repelled cyber attack
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/technology/lockheed_martin_says_it_repelled_cyber_attack
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:188:"
+				Lockheed Martin, the world's top defense contractor, was on Sunday investigating the source of a major cyber-attack one week ago against its information network, the company said.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 14:32:48
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/technology/fragmentr_lets_you_create_collaborative_online_collages
+				Sun, 29 May 2011 11:55:13
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/technology/lockheed_martin_says_it_repelled_cyber_attack
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				109
+				126
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
 				Technology
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				2
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				21
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
-					amyvernon
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:66:"
-					http://cdn1.diggstatic.com/user/1444956/p.548913092.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:94:"http://cdn3.diggstatic.com/story/fragmentr_lets_you_create_collaborative_online_collages/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:21:"
+					NewsMeBack
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:111:"
+					http://cdn2.diggstatic.com/user/20100825215717:d19d766a-5787-4761-920b-6586f2207d76/p.4036138331.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn3.diggstatic.com/story/lockheed_martin_says_it_repelled_cyber_attack/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:94:"http://cdn3.diggstatic.com/story/fragmentr_lets_you_create_collaborative_online_collages/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:94:"http://cdn2.diggstatic.com/story/fragmentr_lets_you_create_collaborative_online_collages/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:94:"http://cdn2.diggstatic.com/story/fragmentr_lets_you_create_collaborative_online_collages/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:94:"http://cdn3.diggstatic.com/story/fragmentr_lets_you_create_collaborative_online_collages/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/technology/fragmentr_lets_you_create_collaborative_online_collages
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/lockheed_martin_says_it_repelled_cyber_attack/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/lockheed_martin_says_it_repelled_cyber_attack/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:84:"http://cdn3.diggstatic.com/story/lockheed_martin_says_it_repelled_cyber_attack/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn3.diggstatic.com/story/lockheed_martin_says_it_repelled_cyber_attack/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:86:"
+				http://digg.com/news/technology/lockheed_martin_says_it_repelled_cyber_attack
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:51:"
 			
 			
@@ -565,36 +565,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"
-				10 Embarrassing Drop-Top Fails
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"
-				http://digg.com/news/lifestyle/10_embarrassing_drop_top_fails
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:65:"
-				Technically, owning the convertible is a fail in itself.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:77:"
+				Security Getting Freaky at Movement Electronic Music Fest in Detroit
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:106:"
+				http://digg.com/news/offbeat/security_getting_freaky_at_movement_electronic_music_fest_in_detroit
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:36:"
+				Just can't stop the rhythm.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 22:52:57
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"
-				http://digg.com/news/lifestyle/10_embarrassing_drop_top_fails
+				Sun, 29 May 2011 01:41:52
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:106:"
+				http://digg.com/news/offbeat/security_getting_freaky_at_movement_electronic_music_fest_in_detroit
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				176
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:18:"
-				Lifestyle
+				104
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
+				Offbeat
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				4
+				8
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:25:"
-					toksterjokster
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:18:"
+					luv2luv
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/5648671/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:69:"http://cdn2.diggstatic.com/story/10_embarrassing_drop_top_fails/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn2.diggstatic.com/user/5494076/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:107:"http://cdn3.diggstatic.com/story/security_getting_freaky_at_movement_electronic_music_fest_in_detroit/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:69:"http://cdn2.diggstatic.com/story/10_embarrassing_drop_top_fails/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:69:"http://cdn2.diggstatic.com/story/10_embarrassing_drop_top_fails/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:69:"http://cdn2.diggstatic.com/story/10_embarrassing_drop_top_fails/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:69:"http://cdn2.diggstatic.com/story/10_embarrassing_drop_top_fails/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:70:"
-				http://digg.com/news/lifestyle/10_embarrassing_drop_top_fails
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:107:"http://cdn2.diggstatic.com/story/security_getting_freaky_at_movement_electronic_music_fest_in_detroit/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:107:"http://cdn3.diggstatic.com/story/security_getting_freaky_at_movement_electronic_music_fest_in_detroit/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:107:"http://cdn3.diggstatic.com/story/security_getting_freaky_at_movement_electronic_music_fest_in_detroit/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:107:"http://cdn3.diggstatic.com/story/security_getting_freaky_at_movement_electronic_music_fest_in_detroit/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:106:"
+				http://digg.com/news/offbeat/security_getting_freaky_at_movement_electronic_music_fest_in_detroit
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:51:"
 			
 			
@@ -608,36 +608,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"
-				Five Proposals for New Burger Cheeses
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:77:"
-				http://digg.com/news/lifestyle/five_proposals_for_new_burger_cheeses
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:114:"
-				Tired of cheddar, America? Head for your local cheesemonger and try these five tasty, tasty alternatives.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"
+				Your Allergy Meds Could Be Making You Fat
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/science/your_allergy_meds_could_be_making_you_fat
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:266:"
+				Allergy season is upon us, and the record pollen levels we're experiencing this year may have you heading to the allergy relief aisle at your local drugstore. But what you take to alleviate your symptoms could have unpleasant side effects on your waistline.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sun, 29 May 2011 07:06:24
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:77:"
-				http://digg.com/news/lifestyle/five_proposals_for_new_burger_cheeses
+				Sun, 29 May 2011 10:00:12
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/science/your_allergy_meds_could_be_making_you_fat
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				100
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:18:"
-				Lifestyle
+				144
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
+				Science
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				24
+				16
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:23:"
-					beshirthappy
+					hackiewackie
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn1.diggstatic.com/user/2803021/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/five_proposals_for_new_burger_cheeses/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn1.diggstatic.com/user/5745088/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:80:"http://cdn3.diggstatic.com/story/your_allergy_meds_could_be_making_you_fat/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/five_proposals_for_new_burger_cheeses/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/five_proposals_for_new_burger_cheeses/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:76:"http://cdn1.diggstatic.com/story/five_proposals_for_new_burger_cheeses/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/five_proposals_for_new_burger_cheeses/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:77:"
-				http://digg.com/news/lifestyle/five_proposals_for_new_burger_cheeses
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:80:"http://cdn3.diggstatic.com/story/your_allergy_meds_could_be_making_you_fat/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:80:"http://cdn1.diggstatic.com/story/your_allergy_meds_could_be_making_you_fat/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:80:"http://cdn3.diggstatic.com/story/your_allergy_meds_could_be_making_you_fat/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:80:"http://cdn3.diggstatic.com/story/your_allergy_meds_could_be_making_you_fat/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				http://digg.com/news/science/your_allergy_meds_could_be_making_you_fat
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:51:"
 			
 			
@@ -651,36 +651,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:59:"
-				No-Vacation Nation: Why Americans Work Like Robots
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/lifestyle/no_vacation_nation_why_americans_work_like_robots
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:128:"
-				Weve been going this route for years, and as sad as it may be, weve arrived. America is truly a no-vacation nation.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:93:"
+				Why the Right-Wing's Approach to Reading the Constitution Is Destroying This Country
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:125:"
+				http://digg.com/news/politics/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:170:"
+				That idea that judges should interpret the Constitution by discovering the original intent or meaning of the text ignores the history of this country's founding.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 10:48:22
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/lifestyle/no_vacation_nation_why_americans_work_like_robots
+				Sun, 29 May 2011 09:30:35
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:125:"
+				http://digg.com/news/politics/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				156
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:18:"
-				Lifestyle
+				145
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
+				Politics
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				18
+				82
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:19:"
-					hasai185
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/4156346/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:88:"http://cdn1.diggstatic.com/story/no_vacation_nation_why_americans_work_like_robots/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					sarahlee
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:55:"
+					http://cdn3.diggstatic.com/user/665300/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:125:"http://cdn3.diggstatic.com/story/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:88:"http://cdn2.diggstatic.com/story/no_vacation_nation_why_americans_work_like_robots/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:88:"http://cdn1.diggstatic.com/story/no_vacation_nation_why_americans_work_like_robots/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:88:"http://cdn2.diggstatic.com/story/no_vacation_nation_why_americans_work_like_robots/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:88:"http://cdn1.diggstatic.com/story/no_vacation_nation_why_americans_work_like_robots/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:89:"
-				http://digg.com/news/lifestyle/no_vacation_nation_why_americans_work_like_robots
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:125:"http://cdn2.diggstatic.com/story/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:125:"http://cdn2.diggstatic.com/story/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:125:"http://cdn3.diggstatic.com/story/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:125:"http://cdn3.diggstatic.com/story/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:125:"
+				http://digg.com/news/politics/why_the_right_wing_s_approach_to_reading_the_constitution_is_destroying_this_country_2
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:51:"
 			
 			
@@ -694,36 +694,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:67:"
-				Vintage 1906 Oldsmobile Built Using Google Books Downloads
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:99:"
-				http://digg.com/news/technology/vintage_1906_oldsmobile_built_using_google_books_downloads
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:131:"
-				Accessing the internet in your car is nothing new these days. Using the internet to build your car is rather more special.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"
+				Arbor At Its Roots: Big Mountain Riding
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"
+				http://digg.com/news/sports/arbor_at_its_roots_big_mountain_riding
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:79:"
+				Big Mountain and Power? Might as well head back to the roots for a bit
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 12:33:22
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:99:"
-				http://digg.com/news/technology/vintage_1906_oldsmobile_built_using_google_books_downloads
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				94
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
-				Technology
+				Sun, 29 May 2011 10:26:48
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:75:"
+				http://digg.com/news/sports/arbor_at_its_roots_big_mountain_riding
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
+				113
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
+				Sports
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				1
+				8
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:26:"
-					0bamaclintobush
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:20:"
+					justatool
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn3.diggstatic.com/user/1707552/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:97:"http://cdn1.diggstatic.com/story/vintage_1906_oldsmobile_built_using_google_books_downloads/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn1.diggstatic.com/user/6987326/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:77:"http://cdn2.diggstatic.com/story/arbor_at_its_roots_big_mountain_riding/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:97:"http://cdn1.diggstatic.com/story/vintage_1906_oldsmobile_built_using_google_books_downloads/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:97:"http://cdn2.diggstatic.com/story/vintage_1906_oldsmobile_built_using_google_books_downloads/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:97:"http://cdn2.diggstatic.com/story/vintage_1906_oldsmobile_built_using_google_books_downloads/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:97:"http://cdn1.diggstatic.com/story/vintage_1906_oldsmobile_built_using_google_books_downloads/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:99:"
-				http://digg.com/news/technology/vintage_1906_oldsmobile_built_using_google_books_downloads
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:77:"http://cdn2.diggstatic.com/story/arbor_at_its_roots_big_mountain_riding/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:77:"http://cdn1.diggstatic.com/story/arbor_at_its_roots_big_mountain_riding/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:77:"http://cdn1.diggstatic.com/story/arbor_at_its_roots_big_mountain_riding/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:77:"http://cdn2.diggstatic.com/story/arbor_at_its_roots_big_mountain_riding/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:75:"
+				http://digg.com/news/sports/arbor_at_its_roots_big_mountain_riding
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:51:"
 			
 			
@@ -737,36 +737,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"
-				New Fuel Economy Label Highlights Electric Cars, Plug-Ins
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/lifestyle/new_fuel_economy_label_highlights_electric_cars_plug_ins
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:256:"
-				The Environmental Protection Agency and Department of Transportation have unveiled their updated fuel economy labels. There's some new information aimed squarely to inform consumers looking to buy a hybrid vehicle, plug-in hybrid, or electric car.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:56:"
+				Dragon Questing Through the Years: The Spinoffs
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"
+				http://digg.com/news/gaming/dragon_questing_through_the_years_the_spinoffs
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:125:"
+				To wrap up GamePro's Week of Dragon Quest, we go off the beaten path and run down the list of Dragon Quest spinoffs.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 12:50:22
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/lifestyle/new_fuel_economy_label_highlights_electric_cars_plug_ins
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				109
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:18:"
-				Lifestyle
+				Sun, 29 May 2011 08:52:12
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:83:"
+				http://digg.com/news/gaming/dragon_questing_through_the_years_the_spinoffs
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				95
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:15:"
+				Gaming
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				4
+				9
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:17:"
-					daxxer
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/3424611/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:95:"http://cdn2.diggstatic.com/story/new_fuel_economy_label_highlights_electric_cars_plug_ins/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:18:"
+					GamePro
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:111:"
+					http://cdn2.diggstatic.com/user/20100827205814:907c1c4a-35bf-4ad5-85f9-b2744f663708/p.2762437397.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:85:"http://cdn3.diggstatic.com/story/dragon_questing_through_the_years_the_spinoffs/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:95:"http://cdn3.diggstatic.com/story/new_fuel_economy_label_highlights_electric_cars_plug_ins/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:95:"http://cdn2.diggstatic.com/story/new_fuel_economy_label_highlights_electric_cars_plug_ins/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:95:"http://cdn3.diggstatic.com/story/new_fuel_economy_label_highlights_electric_cars_plug_ins/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:95:"http://cdn2.diggstatic.com/story/new_fuel_economy_label_highlights_electric_cars_plug_ins/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:96:"
-				http://digg.com/news/lifestyle/new_fuel_economy_label_highlights_electric_cars_plug_ins
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:85:"http://cdn3.diggstatic.com/story/dragon_questing_through_the_years_the_spinoffs/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:85:"http://cdn2.diggstatic.com/story/dragon_questing_through_the_years_the_spinoffs/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:85:"http://cdn1.diggstatic.com/story/dragon_questing_through_the_years_the_spinoffs/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:85:"http://cdn3.diggstatic.com/story/dragon_questing_through_the_years_the_spinoffs/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:83:"
+				http://digg.com/news/gaming/dragon_questing_through_the_years_the_spinoffs
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:51:"
 			
 			
@@ -780,36 +780,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:78:"
-				In Legal Battle With Google, PayPal Faces Uphill Battle in California
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/technology/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:278:"
-				Here's a phrase PayPal might want to keep in mind as it wages a civil battle against two former executives who defected to Google. Location, location, location. When it comes to employment breach of contract and trade-secret cases, California is a hard state to win in.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:57:"
+				Strauss-Kahn Assembles Crisis Team to Fight Back
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:88:"
+				http://digg.com/news/worldnews/strauss_kahn_assembles_crisis_team_to_fight_back
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:227:"
+				Faced with a legal and media onslaught, Dominique Strauss-Kahn is pulling together a crack team of investigators, former spies and media advisers to fight back against charges he sexually assaulted a hotel chambermaid.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 09:46:23
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/technology/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				95
+				Sun, 29 May 2011 12:19:43
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:88:"
+				http://digg.com/news/worldnews/strauss_kahn_assembles_crisis_team_to_fight_back
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
+				120
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:19:"
-				Technology
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				4
+				World News
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				16
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:23:"
-					jessebshiloh
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:18:"
+					arbiinc
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn2.diggstatic.com/user/6777393/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:107:"http://cdn2.diggstatic.com/story/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn3.diggstatic.com/user/5643928/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:87:"http://cdn3.diggstatic.com/story/strauss_kahn_assembles_crisis_team_to_fight_back/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:107:"http://cdn3.diggstatic.com/story/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:107:"http://cdn2.diggstatic.com/story/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:107:"http://cdn1.diggstatic.com/story/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:107:"http://cdn2.diggstatic.com/story/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/technology/in_legal_battle_with_google_paypal_faces_uphill_battle_in_california
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:87:"http://cdn2.diggstatic.com/story/strauss_kahn_assembles_crisis_team_to_fight_back/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:87:"http://cdn1.diggstatic.com/story/strauss_kahn_assembles_crisis_team_to_fight_back/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:87:"http://cdn3.diggstatic.com/story/strauss_kahn_assembles_crisis_team_to_fight_back/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:87:"http://cdn3.diggstatic.com/story/strauss_kahn_assembles_crisis_team_to_fight_back/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:88:"
+				http://digg.com/news/worldnews/strauss_kahn_assembles_crisis_team_to_fight_back
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:51:"
 			
 			
@@ -823,36 +823,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:80:"
-				Group of 8 Pledges Billions to Arab States, Calls For Gaddhafi's Ouster
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/politics/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:572:"
-				The recent uprisings in the Middle East were at the top of the agenda at the meeting of the Group of 8 wealthiest industrialized nations on Friday. The G-8 includes the United States, Japan, Canada, Britain, France, Germany, Italy and Russia. Comparing the "potential in the Middle East" to the historic economic and social changes in Central and Eastern Europe that happened after the end of communism, the G-8 pledged $40 billion in new aid to Egypt and Tunisia, in the hope that shoring up their faltering economies could support their transition to democracy.
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"
+				Republicans: From the Midwest to the West Wing
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:84:"
+				http://digg.com/news/politics/republicans_from_the_midwest_to_the_west_wing
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:497:"
+				From the moment the Democratic House passed Obamacare on March 21, 2010, it was clear that November 6, 2012, would be a defining moment in American history. It is not an exaggeration to say that, in many ways, that day will decide the future course of this country: Will our fellow citizens reelect President Obama and thereby ratify his signature legislative initiative, or will they reject both Obama and his namesake? Will they choose liberty and prosperity, or statism and insolvency?
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 07:39:40
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/politics/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster
+				Sun, 29 May 2011 07:07:36
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:84:"
+				http://digg.com/news/politics/republicans_from_the_midwest_to_the_west_wing
 			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
-				101
+				118
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:17:"
 				Politics
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				7
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
+				64
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:14:"
-					bk7
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:67:"
-					http://cdn3.diggstatic.com/user/7484845/p.2601625275.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:109:"http://cdn1.diggstatic.com/story/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:22:"
+					blinker1315
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
+					http://cdn2.diggstatic.com/user/3246855/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn1.diggstatic.com/story/republicans_from_the_midwest_to_the_west_wing/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:109:"http://cdn1.diggstatic.com/story/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:109:"http://cdn2.diggstatic.com/story/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:109:"http://cdn3.diggstatic.com/story/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:109:"http://cdn1.diggstatic.com/story/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:109:"
-				http://digg.com/news/politics/group_of_8_pledges_billions_to_arab_states_calls_for_gaddhafi_s_ouster
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:84:"http://cdn3.diggstatic.com/story/republicans_from_the_midwest_to_the_west_wing/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/republicans_from_the_midwest_to_the_west_wing/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:84:"http://cdn2.diggstatic.com/story/republicans_from_the_midwest_to_the_west_wing/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:84:"http://cdn1.diggstatic.com/story/republicans_from_the_midwest_to_the_west_wing/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:84:"
+				http://digg.com/news/politics/republicans_from_the_midwest_to_the_west_wing
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:51:"
 			
 			
@@ -866,40 +866,40 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"
-				Meet Kyle – The Midwestern Stormtrooper
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"
-				http://digg.com/news/offbeat/meet_kyle_the_midwestern_stormtrooper
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:101:"
-				Kyle is the only surviving Stormtrooper. He lives in Kokomo, Indiana and this is his podcast
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:69:"
+				Scotty McCreery And 7 Other Musicians Who Look Like Cartoons
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:104:"
+				http://digg.com/news/entertainment/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:66:"
+				Plenty of popular musicians look like cartoon characters.
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:34:"
-				Sat, 28 May 2011 20:57:36
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:75:"
-				http://digg.com/news/offbeat/meet_kyle_the_midwestern_stormtrooper
-			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:11:"
-				85
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:16:"
-				Offbeat
+				Sun, 29 May 2011 13:50:14
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:104:"
+				http://digg.com/news/entertainment/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons
+			";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:29:"http://digg.com/docs/diggrss/";a:4:{s:9:"diggCount";a:1:{i:0;a:5:{s:4:"data";s:12:"
+				108
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:22:"
+				Entertainment
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:12:"commentCount";a:1:{i:0;a:5:{s:4:"data";s:10:"
-				5
+				8
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"submitter";a:1:{i:0;a:6:{s:4:"data";s:14:"
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:22:"
-					andysasylum
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://digg.com/docs/diggrss/";a:2:{s:8:"username";a:1:{i:0;a:5:{s:4:"data";s:17:"
+					nettas
 				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"userimage";a:1:{i:0;a:5:{s:4:"data";s:56:"
-					http://cdn1.diggstatic.com/user/5865407/p.png
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/meet_kyle_the_midwestern_stormtrooper/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
+					http://cdn1.diggstatic.com/user/2563696/p.png
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:29:"http://search.yahoo.com/mrss/";a:2:{s:9:"thumbnail";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:99:"http://cdn2.diggstatic.com/story/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"group";a:1:{i:0;a:6:{s:4:"data";s:24:"
 				
 				
 				
 				
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:76:"http://cdn2.diggstatic.com/story/meet_kyle_the_midwestern_stormtrooper/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:76:"http://cdn2.diggstatic.com/story/meet_kyle_the_midwestern_stormtrooper/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:76:"http://cdn2.diggstatic.com/story/meet_kyle_the_midwestern_stormtrooper/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:76:"http://cdn3.diggstatic.com/story/meet_kyle_the_midwestern_stormtrooper/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:75:"
-				http://digg.com/news/offbeat/meet_kyle_the_midwestern_stormtrooper
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:29:"http://search.yahoo.com/mrss/";a:1:{s:7:"content";a:4:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"160";s:3:"url";s:99:"http://cdn1.diggstatic.com/story/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons/l.png";s:5:"width";s:3:"160";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"48";s:3:"url";s:99:"http://cdn1.diggstatic.com/story/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons/s.png";s:5:"width";s:2:"48";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:3:"120";s:3:"url";s:99:"http://cdn3.diggstatic.com/story/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons/m.png";s:5:"width";s:3:"120";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:6:"height";s:2:"62";s:3:"url";s:99:"http://cdn2.diggstatic.com/story/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons/t.png";s:5:"width";s:2:"62";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:104:"
+				http://digg.com/news/entertainment/scotty_mccreery_and_7_other_musicians_who_look_like_cartoons
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:23:"
 			http://digg.com/
 		";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:38:"http://feeds.digg.com/story.getTopNews";s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:23:"
 			http://digg.com/
 		";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:32:"http://pubsubhubbub.appspot.com/";s:3:"rel";s:3:"hub";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:4:"info";a:1:{i:0;a:5:{s:4:"data";s:23:"
 			http://digg.com/
-		";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:16:"story.getTopNews";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:7:{s:14:"content-length";s:5:"39070";s:19:"x-ratelimit-current";s:1:"3";s:4:"etag";s:40:"2e17e7c59a01b2a9fc757273a23ddb6e03465186";s:6:"server";s:17:"TornadoServer/0.1";s:12:"content-type";s:19:"application/rss+xml";s:15:"x-ratelimit-max";s:4:"5000";s:17:"x-ratelimit-reset";s:4:"3599";}s:5:"build";s:14:"20110529101121";}
+		";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:16:"story.getTopNews";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:7:{s:14:"content-length";s:5:"38706";s:19:"x-ratelimit-current";s:1:"2";s:4:"etag";s:40:"6b6d93d2ebf9154517ee3bddca65dcd98be00484";s:6:"server";s:17:"TornadoServer/0.1";s:12:"content-type";s:19:"application/rss+xml";s:15:"x-ratelimit-max";s:4:"5000";s:17:"x-ratelimit-reset";s:4:"3600";}s:5:"build";s:14:"20110530083544";}
