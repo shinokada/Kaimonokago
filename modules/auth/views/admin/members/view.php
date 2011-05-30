@@ -16,6 +16,7 @@
             <th><?php print $this->lang->line('userlib_email')?></th>
             <th><?php print $this->lang->line('userlib_group')?></th>
             <th><?php print $this->lang->line('userlib_last_visit')?></th>
+            <th class="middle"><?php print $this->lang->line('userlib_avatar')?></th>
             <th width=5% class="middle"><?php print $this->lang->line('userlib_active')?></th> 
             <th width=5% class="middle"><?php print $this->lang->line('general_edit')?></th>
             <th width=10%><?php print form_checkbox('all','select',FALSE)?><?php print $this->lang->line('general_delete')?></th>        
@@ -42,6 +43,12 @@
             <td><?php print $row['email']?></td>
             <td><?php print $row['group']?></td>
             <td><?php print $row['last_visit']?></td>
+            <td class="middle"><?php  
+                $myemail = $row['email'];
+                $size = 20;
+                echo gravatar($myemail, $size);
+            
+            ?></td>
             <td class="middle"><?php print $this->bep_assets->icon($active);?></td>
             <td class="middle"><a href="<?php print site_url('auth/admin/members/form/'.$row['id'])?>"><?php print $this->bep_assets->icon('pencil');?></a></td>
             <td><?php print $delete?></td>

@@ -124,7 +124,10 @@ class Shop_Controller extends Site_Controller
         // For customer login status
         if(isset($_SESSION['customer_first_name'])){
                 $this->data['customer_status']=1;
-                $this->data['loginstatus']=lang('general_hello').$_SESSION['customer_first_name'].". ".lang('general_logged_in')."<br />
+                $myemail = $_SESSION['email'];
+                $size = 40;
+                $mygravatar = gravatar($myemail, $size);
+                $this->data['loginstatus']=$mygravatar.lang('general_hello').$_SESSION['customer_first_name'].". ".lang('general_logged_in')."<br />
                 <a href=\"index.php/".$this->data['mainmodule']."/logout \">Log out</a>";
         }else{
                 $this->data['customer_status']=0;

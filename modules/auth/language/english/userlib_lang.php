@@ -25,6 +25,7 @@ $lang['userlib_last_visit'] = "Last Visit";
 $lang['userlib_active'] = "Active";
 $lang['userlib_group'] = "Group";
 $lang['userlib_captcha'] = 'Captcha';
+$lang['userlib_avatar'] = 'Avatar';
 
 /* Actions & Titles & Form labels */
 $lang['userlib_login'] = 'Login';

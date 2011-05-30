@@ -373,10 +373,6 @@ class Welcome extends Shop_Controller {
             if ($this->validation->run() == FALSE){
                 // if false outputs errors
                 $this->validation->output_errors();
-                // and take them to registration page to show errors
-                $data['page'] = $this->config->item('backendpro_template_shop') . 'registration';
-                $data['module'] = $this->module;
-                $this->load->view($this->_container,$data);
                 }else{
                 $e = $this->input->post('email');
                 // otherwise check if the customer's email is in the database

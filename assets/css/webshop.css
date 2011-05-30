@@ -1114,6 +1114,11 @@ table.tbl_subproduct td {
 	border:1px solid #666666;
 }
 
+.gravatar{
+    padding: 0 5px 0 0;
+    float: left;
+}
+
 .signtop p{
     padding: 0px;
 	color:#000000;
