@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 30, 2011 at 04:15 
+-- Generation Time: May 30, 2011 at 10:05 PM
 -- Server version: 5.1.41
 -- PHP Version: 5.3.1
 
@@ -269,7 +269,7 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('subscribers', '1'),
 ('multi_language', '1'),
 ('website_language', 'english'),
-('security_method', 'recaptcha'),
+('security_method', 'question'),
 ('security_question', '3+5='),
 ('security_answer', '8'),
 ('ga_tracking', ''),
@@ -406,6 +406,27 @@ INSERT INTO `be_user_profiles` (`user_id`, `company_name`, `full_name`, `web_add
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `ci_sessions`
+--
+
+CREATE TABLE IF NOT EXISTS `ci_sessions` (
+  `session_id` varchar(40) CHARACTER SET latin1 NOT NULL DEFAULT '0',
+  `ip_address` varchar(16) CHARACTER SET latin1 NOT NULL DEFAULT '0',
+  `user_agent` varchar(50) CHARACTER SET latin1 NOT NULL,
+  `user_data` text COLLATE utf8_unicode_ci NOT NULL,
+  `last_activity` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`session_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `ci_sessions`
+--
+
+
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `eventcal`
 --
 
@@ -503,14 +524,15 @@ CREATE TABLE IF NOT EXISTS `omc_customer` (
   `city` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `post_code` int(10) unsigned NOT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `omc_customer`
 --
 
 INSERT INTO `omc_customer` (`customer_id`, `password`, `customer_first_name`, `customer_last_name`, `phone_number`, `email`, `address`, `city`, `post_code`) VALUES
-(1, '', 'Test', 'Tester', 66775544, 'test@test.com', '123 Test st. ', 'Test', 2345);
+(1, '', 'Test', 'Tester', 66775544, 'test@test.com', '123 Test st. ', 'Test', 2345),
+(2, '6760b7dc47770172', 'shin', 'okada', 33445566, 'okada.shin@gmail.com', '123 Great St.', 'Sandefjord', 1234);
 
 -- --------------------------------------------------------
 
