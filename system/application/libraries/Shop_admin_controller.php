@@ -36,7 +36,7 @@ class Shop_Admin_Controller extends Admin_Controller
 		// Loading helpers 
 		$this->load->helper('form');
 		$this->load->helper('security');
-		$this->load->helper('mytools' );
+		$this->load->helper('mytools ');
         
 			
 		// Load shop assets

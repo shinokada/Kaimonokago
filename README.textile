@@ -1,6 +1,6 @@
 h1. Kaimonokago 1.4
 
-Multi-Languages Simple Shopping Cart on CodeIgniter
+Multi-Languages Shopping Cart on CodeIgniter 1.7.3 and BackendPro 0.6.1
 
 h2. Features
 
@@ -19,6 +19,8 @@ h2. Features
 * Admin Menu management
 * Admin Order management
 * Admin Ajax messages
+* Dashboard/RSS feeds
+* Dashboard/Google Analytics
 * And more
 
 h2. Demo frontend only
