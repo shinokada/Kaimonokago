@@ -2,9 +2,9 @@
 
 system/application/config/database.php
 system/application/config/config.php
-system/logs
+system/logs/
 modules/recaptcha/config/recaptcha.php
-
+system/cache/
 
 # Vim leave-behinds
 *.swp

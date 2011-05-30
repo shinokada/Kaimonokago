@@ -70,6 +70,7 @@ class Site_Controller extends Controller
 
 		// Load the SITE asset group
 		$this->bep_assets->load_asset_group('SITE');
+                $this->load->helper('gravatar');// needs to load here since using in members.php
 
 		log_message('debug','BackendPro : Site_Controller class loaded');
 	}
