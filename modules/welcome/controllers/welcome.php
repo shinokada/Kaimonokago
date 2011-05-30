@@ -124,7 +124,7 @@ class Welcome extends Shop_Controller {
                 // if there is no such a category id, then redirect.
                 redirect( $this->module.'/index','refresh');
         }
-        $data['title'] = lang('webshop_shop_name')." | ". $cat['name'];
+        $data['title'] = $this->preference->item('site_name')." | ". $cat['name'];
 
         if ($cat['parentid'] < 1){
                 /**
@@ -163,7 +163,7 @@ class Welcome extends Shop_Controller {
                 redirect( $this->module.'/index','refresh');
         }
         $data['product'] = $product;
-        $data['title'] = lang('webshop_shop_name')." | ". $product['name'];
+        $data['title'] = $this->preference->item('site_name')." | ". $product['name'];
 
         // I am not using colors and sizes, but you can.
         $data['assigned_colors'] = $this->MProducts->getAssignedColors($id);
@@ -214,7 +214,7 @@ class Welcome extends Shop_Controller {
             //$page = $this->MPages->getPagePath($path);
                     if (!empty($page)){//$page will return empty array if there is no page
             $data['pagecontent'] = $page;
-            $data['title'] = lang('webshop_shop_name')." | ".$page['name'];
+            $data['title'] = $this->preference->item('site_name')." | ".$page['name'];
                     }else{
                             // if there is no page redirect
             flashMsg('info',$this->lang->line('kago_no_translation'));
@@ -230,7 +230,7 @@ class Welcome extends Shop_Controller {
     function contact(){
 	$data['question']= $this->security_question;
         $data['security_method']= $this->security_method;
-        $data['title'] = lang('webshop_shop_name')." | "."Contact us";
+        $data['title'] = $this->preference->item('site_name')." | "."Contact us";
         $data['cap_img'] = $this->_generate_captcha();	
         $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
         $data['module'] = $this->module;
@@ -247,7 +247,7 @@ class Welcome extends Shop_Controller {
 
     function error(){
 
-        $data['title'] = lang('webshop_shop_name')." | "."Wow! Something went wrong.";
+        $data['title'] = $this->preference->item('site_name')." | "."Wow! Something went wrong.";
         $data['page'] = $this->config->item('backendpro_template_shop') . 'error';
         $data['module'] = $this->module;
         $this->load->view($this->_container,$data);
@@ -296,7 +296,7 @@ class Welcome extends Shop_Controller {
             $this->validation->output_errors();
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
-            $data['title'] = lang('webshop_shop_name')." | ". lang('webshop_message_contact_us');
+            $data['title'] = $this->preference->item('site_name')." | ". lang('webshop_message_contact_us');
             $data['page'] = $this->config->item('backendpro_template_shop') . 'contact';
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
@@ -334,7 +334,7 @@ class Welcome extends Shop_Controller {
         $data['security_method']= $this->security_method;
         
         if ($this->input->post('email')){
-            $data['title'] = lang('webshop_shop_name')." | "."Registration";
+            $data['title'] = $this->preference->item('site_name')." | "."Registration";
             // set rules
             $rules['email'] = 'trim|required|matches[emailconf]|valid_email';
             $rules['emailconf'] = 'trim|required|valid_email';
@@ -407,7 +407,7 @@ class Welcome extends Shop_Controller {
                 }
     }// end of if($this->input->post('email'))
 
-    $data['title'] = lang('webshop_shop_name')." | ". "Registration";
+    $data['title'] = $this->preference->item('site_name')." | ". "Registration";
     $data['page'] = $this->config->item('backendpro_template_shop') . 'registration';
     $data['module'] = $this->module;
     $this->load->view($this->_container,$data);
@@ -427,7 +427,7 @@ class Welcome extends Shop_Controller {
                     flashMsg('info',lang('login_email_pw_incorrect'));
                     redirect( $this->module.'/login','refresh');
             }
-            $data['title'] = lang('webshop_shop_name')." | "."Customer Login";
+            $data['title'] = $this->preference->item('site_name')." | "."Customer Login";
             $data['page'] = $this->config->item('backendpro_template_shop') . 'customerlogin';
             $data['module'] = $this->module;
             $this->load->view($this->_container,$data);
@@ -445,7 +445,7 @@ class Welcome extends Shop_Controller {
      }
 
     function subscribe(){
-            $data['title']=lang('webshop_shop_name')." | ".'Subscribe to our News letter';
+            $data['title']=$this->preference->item('site_name')." | ".'Subscribe to our News letter';
             $data['question']= $this->security_question;
             $data['security_method']= $this->security_method;
             $captcha_result = '';
@@ -495,7 +495,7 @@ class Welcome extends Shop_Controller {
 
     function unsubscribe($email=''){
         if (!$this->input->post('email')){
-            $data['title']=lang('webshop_shop_name')." | ".'Unsubscribe our Newsletter';
+            $data['title']=$this->preference->item('site_name')." | ".'Unsubscribe our Newsletter';
             $captcha_result = '';
             $data['cap_img'] = $this->_generate_captcha();
             $data['question']= $this->security_question;
@@ -546,7 +546,7 @@ class Welcome extends Shop_Controller {
                 $this->MOrders->updateCart($productid,$fullproduct);
                 redirect( $this->module.'/product/'.$productid, 'refresh');
             }else{
-                $data['title'] = lang('webshop_shop_name')." | ". "Shopping Cart";
+                $data['title'] = $this->preference->item('site_name')." | ". "Shopping Cart";
 
                 if (isset($_SESSION['cart'])){
                         $data['page'] = $this->config->item('backendpro_template_shop') . 'shoppingcart';
@@ -609,7 +609,7 @@ class Welcome extends Shop_Controller {
 	// $this->MOrders->verifyCart();
 	//$data['main'] = 'webshop/confirmorder';// this is using views/confirmaorder.php
 	$data['page'] = $this->config->item('backendpro_template_shop') . 'confirmorder';
-	$data['title'] = lang('webshop_shop_name')." | ". "Order Confirmation";
+	$data['title'] = $this->preference->item('site_name')." | ". "Order Confirmation";
 	
 	
 	$shippingprice = $this-> shippingprice();
@@ -655,7 +655,7 @@ class Welcome extends Shop_Controller {
 		 */
 	}
 	//$data['main'] = 'webshop/search';// this is using views/search.php. Output will be displayed in views/search.php
-	$data['title'] = lang('webshop_shop_name')." | ". "Search Results";
+	$data['title'] = $this->preference->item('site_name')." | ". "Search Results";
 	
 	//$this->load->vars($data);
 	//$this->load->view('webshop/template');  
@@ -672,7 +672,7 @@ class Welcome extends Shop_Controller {
   
   
   function gallery($id){
-	$data['title'] = lang('webshop_shop_name')." | ". "Gallery " . $id;
+	$data['title'] = $this->preference->item('site_name')." | ". "Gallery " . $id;
 	$data['products'] = $this->MProducts->getGallery($id);
 	// getGalleryone returns id, name shortdesc thumbnail image class grouping category
 	$data['main'] = 'gallery';// this is using views/galleryone.php etc
@@ -684,7 +684,7 @@ class Welcome extends Shop_Controller {
   
   function emailorder(){
   	
-		$data['title'] = lang('webshop_shop_name')." | ". "checkout";
+		$data['title'] = $this->preference->item('site_name')." | ". "checkout";
 		
 		// old way of validation, I hope Bep will update to CI 1.7.2 
 		$fields['customerr_first_name'] = lang('orders_first_name');
@@ -800,7 +800,7 @@ class Welcome extends Shop_Controller {
 	
 	unset($_SESSION['cart']);
 	unset($_SESSION['totalprice']);
-	$data['title'] = lang('webshop_shop_name')." | ". "Contact us";
+	$data['title'] = $this->preference->item('site_name')." | ". "Contact us";
 	$data['page'] = $this->config->item('backendpro_template_shop') . 'ordersuccess';
 	$data['module'] = $this->module;
 	$this->load->view($this->_container,$data);

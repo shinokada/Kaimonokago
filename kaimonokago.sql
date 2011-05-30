@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.10deb1
+-- version 3.2.4
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 29, 2011 at 10:01 PM
--- Server version: 5.1.54
--- PHP Version: 5.3.5-1ubuntu7.2
+-- Generation Time: May 30, 2011 at 04:15 
+-- Server version: 5.1.41
+-- PHP Version: 5.3.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `kaimonokago`
+-- Database: `kaimonokago_git`
 --
 
 -- --------------------------------------------------------
@@ -277,7 +277,17 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('ga_email', ''),
 ('ga_password', ''),
 ('dashboard_rss', 'http://www.digg.com/rss/indexdig.xml'),
-('dashboard_rss_count', '3');
+('dashboard_rss_count', '3'),
+('company_name', 'Kaimonokago'),
+('company_address', '123 Great st.'),
+('company_post', '5533'),
+('company_city', 'Big City'),
+('company_country', 'Norway'),
+('company_organization_number', '123456789'),
+('company_telephone', '+47 88776655'),
+('company_mobile', '+47 66554433'),
+('company_other_one', ''),
+('company_other_two', '');
 
 -- --------------------------------------------------------
 
@@ -364,7 +374,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-29 21:25:27', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-30 15:49:37', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -392,28 +402,6 @@ CREATE TABLE IF NOT EXISTS `be_user_profiles` (
 INSERT INTO `be_user_profiles` (`user_id`, `company_name`, `full_name`, `web_address`, `phone_number`, `address`, `city`, `post_code`) VALUES
 (8, '', '', '', '', '', '', 0),
 (9, '', '', '', '', '', '', 0);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ci_sessions`
---
-
-CREATE TABLE IF NOT EXISTS `ci_sessions` (
-  `session_id` varchar(40) CHARACTER SET latin1 NOT NULL DEFAULT '0',
-  `ip_address` varchar(16) CHARACTER SET latin1 NOT NULL DEFAULT '0',
-  `user_agent` varchar(50) CHARACTER SET latin1 NOT NULL,
-  `user_data` text COLLATE utf8_unicode_ci NOT NULL,
-  `last_activity` int(10) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`session_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `ci_sessions`
---
-
-INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
-('7182bc50d627ec305998eeef6f0e6fe0', '0.0.0.0', 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-05-29 16:19:08";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1306699221);
 
 -- --------------------------------------------------------
 
@@ -915,3 +903,7 @@ ALTER TABLE `be_users`
 --
 ALTER TABLE `be_user_profiles`
   ADD CONSTRAINT `be_user_profiles_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `be_users` (`id`) ON DELETE CASCADE;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
