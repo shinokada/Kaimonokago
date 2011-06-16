@@ -1,14 +1,8 @@
-<?php if (isset($analytic_visits) OR isset($analytic_views)):
-    //if (!empty($analytic_visits) AND !empty($analytic_views)):
-        /*
-    echo "<pre>";
-    var_dump ($analytic_visits);
-    echo "</pre>";
-    echo "<pre>";
-    var_dump ($analytic_views);
-    echo "</pre>";
-*/
-//$this->bep_assets->load_asset('flot')
+<?php 
+if (isset($analytics_error)){
+    echo $analytics_error;
+}  elseif  (isset($analytic_visits) OR isset($analytic_views)){
+  
     ?>
 
 <script type="text/javascript">
@@ -77,4 +71,6 @@
 
 <div id="analytics" class="line" style="padding-bottom: 10px"></div>
 
-<?php endif; ?>
+<?php
+}
+?>

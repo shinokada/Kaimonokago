@@ -28,11 +28,11 @@ class Analytics_widget
 
     function create()
     {
+        try{
     // analytics
     $this->CI->load->module_library('dashboard','Analytics', array(
-                                           'username' => $this->CI->preference->item('ga_email'),
-                                           'password' => $this->CI->preference->item('ga_password')
-                                           
+                                   'username' => $this->CI->preference->item('ga_email'),
+                                   'password' => $this->CI->preference->item('ga_password')
                                     ));
 
     // Set by GA Profile ID if provided, else try and use the current domain
@@ -70,7 +70,14 @@ class Analytics_widget
     $data['analytic_views'] = $flot_data_views;
 
      return $this->CI->load->module_view('dashboard',$this->CI->config->item('backendpro_template_admin') . 'dashboard/analytics',$data,TRUE);
-     
+     }
+
+    catch (Exception $e)
+    {
+            //$data['messages']['notice'] = sprintf(lang('cp_google_analytics_no_connect'), anchor('admin/settings', lang('cp_nav_settings')));
+        $data['analytics_error'] = sprintf($this->CI->lang->line('dashboard_analytics_warning'), anchor('admin/settings/index/analytics', $this->CI->lang->line('dashboard_settings')));
+        return $this->CI->load->module_view('dashboard',$this->CI->config->item('backendpro_template_admin') . 'dashboard/analytics',$data,TRUE);
+    }
     }
 }
 

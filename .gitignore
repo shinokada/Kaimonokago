@@ -9,3 +9,6 @@ system/cache/
 # Vim leave-behinds
 *.swp
 
+# Windows files
+*.bak
+

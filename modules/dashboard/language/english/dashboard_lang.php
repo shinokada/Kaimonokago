@@ -33,6 +33,9 @@ $lang['dashboard_statistics_user_registration'] = "User Registration";
 $lang['dashboard_statistics_name'] = "Name";
 $lang['dashboard_statistics_value'] = "Value";
 $lang['dashboard_statistics_php_version'] = "PHP Version";
+$lang['dashboard_analytics'] = "Analytics";
+$lang['dashboard_analytics_warning'] = "No connection to google analytics. Check in %s.";
+$lang['dashboard_settings'] = "Analytics Settings";
 
 /* Neworder widget */
 $lang['dashboard_neworders'] = "New Orders";
