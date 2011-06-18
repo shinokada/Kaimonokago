@@ -29,8 +29,8 @@ private $module;
 
     function index(){
         $data['title'] = $this->lang->line('kago_category');
-        $fields = array('id', 'name','parentid','status','table_id','lang_id');
-        $orderby = array('lang_id','parentid','table_id');
+        $fields = array('id','order', 'name','parentid','status','table_id','lang_id');
+        $orderby = array('lang_id','parentid','order','table_id');
         //$data['categories'] = $this->MCats->getAllCategories();
         $data['categories'] = $this->MKaimonokago->getAll($this->module,$fields, $orderby);
         $data['header'] = $this->lang->line('backendpro_access_control');
@@ -69,7 +69,7 @@ private $module;
             // we used to use like this. $this->session->set_flashdata('message','Category created');
             // now we are using Bep's flashMsg function to show messages.
             flashMsg('success',$this->lang->line('userlib_category_created'));
-            //redirect($this->module.'/admin/index','refresh');
+            redirect($this->module.'/admin/index','refresh');
         }else{
             $data['title'] = "Create Category";
             $data['categories'] = $this->MCats->getTopCategories();

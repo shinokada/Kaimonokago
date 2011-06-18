@@ -162,7 +162,8 @@ class Shop_Controller extends Site_Controller
        
         $this->data['parent']= $cat_parentid;
         //$parentid = $this->preference->item('categories_parent_id');
-        $this->data['navlist'] = $this->MCats->getCatNavbyLang($cat_parentid,$this->lang_id);
+        $order= 'order';
+        $this->data['navlist'] = $this->MCats->getCatNavbyLang($cat_parentid,$order,$this->lang_id);
        // $this->data['navlisttest'] = $this->MCats->getCatNavbyLangtest($parentid,$this->lang_id);
         $mostsold= "most sold";
         //$mostsold = $this->MProducts ->getFeaturedProducts($mostsold);

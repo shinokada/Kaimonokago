@@ -32,6 +32,12 @@ echo "<tr><td class='label'><label for='status'>".$this->lang->line('kago_status
 $options = array('active' => 'active', 'inactive' => 'inactive');
 echo "<td>";
 echo form_dropdown('status',$options);
+echo "</td></tr>\n";
+
+echo "<tr><td class='label'><label for='order'>".$this->lang->line('kago_order')."</label></td>\n";
+$data = array('name'=>'order','id'=>'order','class'=>'text');
+echo "<td>";
+echo form_input($data);
 echo "</td></tr>\n</table>\n";
 
 echo form_hidden('lang_id', '0');

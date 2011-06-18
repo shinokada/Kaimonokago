@@ -130,7 +130,7 @@ function getCategory($id){
  }
 
 
-  function getCatNavbyLang($parentid, $lang_id=NULL){
+  function getCatNavbyLang($parentid,$order, $lang_id=NULL){
      if($lang_id){
          $lang_id = $lang_id;
      }  else {
@@ -140,7 +140,7 @@ function getCategory($id){
      $data = array();
      $this->db->where('status', 'active');
 	 $this->db->where('parentid', $parentid);
-     $this->db->orderby('name','asc');
+     $this->db->orderby($order,'asc');
      $Q = $this->db->get_where('omc_category', array('lang_id'=>$lang_id));
      if ($Q->num_rows() > 0){
        foreach ($Q->result_array() as $row){
