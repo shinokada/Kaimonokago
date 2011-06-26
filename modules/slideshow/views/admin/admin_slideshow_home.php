@@ -49,3 +49,10 @@ print_r ($slideshow);
 echo "</pre>";
 */
 ?>
+
+<div class="buttons clearboth">
+	<a href="<?php print  site_url('slideshow/admin/updatecu3erxml')?>">
+    <?php print $this->bep_assets->icon('add');?>
+    <?php print "Create CU3ER file"; ?>
+    </a>
+</div>

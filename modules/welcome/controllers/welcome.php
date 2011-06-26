@@ -311,7 +311,7 @@ class Welcome extends Shop_Controller {
                 $this->load->library('email');
                 $this->email->from($email.$name);
                 $this->email->to($myemail);
-                $this->email->subject(lang('webshop_message_subject'));
+                $this->email->subject(sprintf(lang('webshop_message_subject'),$this->preference->item('site_name')));
                 $this->email->message(lang('webshop_message_sender').
                 $name."\r\n".lang('webshop_message_sender_email').": ".
                 $email. "\r\n".lang('webshop_message_message').": " . $message);

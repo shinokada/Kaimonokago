@@ -63,7 +63,7 @@ $lang['webshop_name'] = "Navn";
 // modules/webshop/controllers/webshop.php for function messages
 $lang['webshop_message_contact_us'] = 'Kontakt oss';
 $lang['webshop_message_contact'] = 'Kontakt';
-$lang['webshop_message_subject'] = 'E-postmelding form CI shopping cart.';
+$lang['webshop_message_subject'] = 'E-postmelding from %s.';
 $lang['webshop_message_sender'] = 'Sender ';
 $lang['webshop_message_sender_email'] = 'Sender e-post ';
 $lang['webshop_message_message'] = 'Melding ';

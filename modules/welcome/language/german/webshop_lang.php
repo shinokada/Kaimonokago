@@ -63,7 +63,7 @@ $lang['webshop_name'] = "Name";
 // modules/webshop/controllers/webshop.php for function messages
 $lang['webshop_message_contact_us'] = 'Contact us';
 $lang['webshop_message_contact'] = 'Contact';
-$lang['webshop_message_subject'] = 'Email message form CI shopping cart.';
+$lang['webshop_message_subject'] = 'Email message from %s.';
 $lang['webshop_message_sender'] = 'Sender ';
 $lang['webshop_message_sender_email'] = 'Sender email ';
 $lang['webshop_message_message'] = 'Message ';
