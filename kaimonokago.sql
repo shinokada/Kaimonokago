@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.2.4
+-- version 3.3.9
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 30, 2011 at 10:05 PM
--- Server version: 5.1.41
--- PHP Version: 5.3.1
+-- Generation Time: Jul 01, 2011 at 10:21 
+-- Server version: 5.5.8
+-- PHP Version: 5.3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `kaimonokago_git`
+-- Database: `kaimonokago`
 --
 
 -- --------------------------------------------------------
@@ -252,7 +252,7 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('main_module_name', 'welcome'),
 ('categories_parent_id', '1'),
 ('admin_email', 'admin@gmail.com'),
-('webshop_slideshow', 'nivoslider'),
+('webshop_slideshow', 'cu3er'),
 ('slideshow_two', 'none'),
 ('playroom_parent_id', '10'),
 ('calendar', '1'),
@@ -287,7 +287,11 @@ INSERT INTO `be_preferences` (`name`, `value`) VALUES
 ('company_telephone', '+47 88776655'),
 ('company_mobile', '+47 66554433'),
 ('company_other_one', ''),
-('company_other_two', '');
+('company_other_two', ''),
+('sharethis_pub_key', '123456789'),
+('sharethis_direction', 'vertical'),
+('sharethis_services', 'facebook, twitter, yahoo, email, sharethis'),
+('sharethis_size', 'large');
 
 -- --------------------------------------------------------
 
@@ -374,7 +378,7 @@ CREATE TABLE IF NOT EXISTS `be_users` (
 --
 
 INSERT INTO `be_users` (`id`, `username`, `password`, `email`, `active`, `group`, `activation_key`, `last_visit`, `created`, `modified`) VALUES
-(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-05-30 15:49:37', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
+(8, 'admin', '0bf9e5ee95ca4bab95dd6875e2126dc709d7355b', 'admin@gmail.com', 1, 2, 'iZN4cCcRfs9KP1RrAIdqT8p5XzPZtxkH', '2011-07-01 10:13:30', '2011-03-05 21:48:02', '2011-05-15 13:29:33'),
 (9, 'admin1', '8feef897fde543ab4cf0e7a9c636231508858b77', 'admin1@adminl.com', 1, 2, NULL, '2011-05-09 08:08:04', '2011-04-04 17:50:59', '2011-05-15 13:29:12');
 
 -- --------------------------------------------------------
@@ -422,7 +426,12 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 -- Dumping data for table `ci_sessions`
 --
 
-
+INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `user_data`, `last_activity`) VALUES
+('04fe86df547ec9fc55387a9c1cdad48b', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/53', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-06-26 12:22:02";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1309092209),
+('1fd17cadbebec5312a523edbb2230ca0', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-06-26 12:51:12";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1309088896),
+('53606e7db9a5376a905b2d68d1fc094a', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-06-26 13:42:50";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1309508343),
+('591e0e78eb50392316eae369efb4f174', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/53', 'a:11:{s:4:"lang";s:7:"english";s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-06-18 15:07:04";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1309084713),
+('b1cb9479944205328efc2c7b798c7a3f', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/', 'a:10:{s:2:"id";s:1:"8";s:8:"username";s:5:"admin";s:5:"email";s:15:"admin@gmail.com";s:8:"password";s:40:"0bf9e5ee95ca4bab95dd6875e2126dc709d7355b";s:6:"active";s:1:"1";s:10:"last_visit";s:19:"2011-06-26 12:38:38";s:7:"created";s:19:"2011-03-05 21:48:02";s:8:"modified";s:19:"2011-05-15 13:29:33";s:5:"group";s:13:"Administrator";s:8:"group_id";s:1:"2";}', 1309085789);
 
 -- --------------------------------------------------------
 
@@ -571,7 +580,7 @@ CREATE TABLE IF NOT EXISTS `omc_menus` (
   `page_uri_id` int(11) unsigned NOT NULL,
   `menu_id` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=15 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=16 ;
 
 --
 -- Dumping data for table `omc_menus`
@@ -587,7 +596,8 @@ INSERT INTO `omc_menus` (`id`, `name`, `shortdesc`, `status`, `parentid`, `order
 (10, 'About Us', '', 'active', 1, 40, 0, 3, 0),
 (11, 'Om Oss', '', 'active', 5, 40, 1, 4, 10),
 (12, 'Service', '', 'active', 1, 60, 0, 17, 0),
-(14, 'Tjenester', '', 'active', 5, 60, 1, 18, 12);
+(14, 'Tjenester', '', 'active', 5, 60, 1, 18, 12),
+(15, 'About shop', '', 'active', 10, 10, 0, 22, 0);
 
 -- --------------------------------------------------------
 
@@ -627,7 +637,7 @@ CREATE TABLE IF NOT EXISTS `omc_order` (
 --
 
 INSERT INTO `omc_order` (`order_id`, `customer_id`, `total`, `order_date`, `delivery_date`, `payment_date`) VALUES
-(1, 1, '90.00', '2011-05-28 12:35:52', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(1, 1, 90.00, '2011-05-28 12:35:52', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -649,8 +659,8 @@ CREATE TABLE IF NOT EXISTS `omc_order_item` (
 --
 
 INSERT INTO `omc_order_item` (`order_item_id`, `order_id`, `product_id`, `quantity`, `price`) VALUES
-(1, 1, 13, 1, '50.00'),
-(2, 1, 11, 1, '40.00');
+(1, 1, 13, 1, 50.00),
+(2, 1, 11, 1, 40.00);
 
 -- --------------------------------------------------------
 
@@ -668,7 +678,7 @@ CREATE TABLE IF NOT EXISTS `omc_pages` (
   `status` enum('active','inactive') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'active',
   `lang_id` int(2) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=22 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=23 ;
 
 --
 -- Dumping data for table `omc_pages`
@@ -684,7 +694,8 @@ INSERT INTO `omc_pages` (`id`, `name`, `keywords`, `description`, `path`, `conte
 (17, 'Service', '', '', 'service', '<p>service content</p>\n<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet, adipiscing? Natoque?</p>\n<p>Aliquet ut, platea lacus in! Tempor hac placerat magna massa dignissim egestas turpis nec sed! Elementum in. Etiam magnis dictumst? Pulvinar mid facilisis mid enim. Dis odio enim nec. Odio in vel? Parturient vel eros! In, etiam etiam vel, pulvinar tortor, diam etiam tristique urna, porttitor habitasse, tincidunt aliquet tristique in tristique nunc mid in, rhoncus ac lacus placerat, nec urna in dis, urna et rhoncus lectus? Rhoncus nisi auctor arcu scelerisque, nec ut scelerisque.<br /><br /></p>', 'active', 0),
 (18, 'Tjenest', '', '', 'service', '<p>Tjenest content</p>\n<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet, adipiscing? Natoque?</p>\n<p>Aliquet ut, platea lacus in! Tempor hac placerat magna massa dignissim egestas turpis nec sed! Elementum in. Etiam magnis dictumst? Pulvinar mid facilisis mid enim. Dis odio enim nec. Odio in vel? Parturient vel eros! In, etiam etiam vel, pulvinar tortor, diam etiam tristique urna, porttitor habitasse, tincidunt aliquet tristique in tristique nunc mid in, rhoncus ac lacus placerat, nec urna in dis, urna et rhoncus lectus? Rhoncus nisi auctor arcu scelerisque, nec ut scelerisque.<br /><br /></p>', 'active', 1),
 (20, 'Shopping guide', '', '', 'guide', '<p>Shopping guide content.</p>\n<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet, adipiscing?</p>\n<p>Natoque? Aliquet ut, platea lacus in! Tempor hac placerat magna massa dignissim egestas turpis nec sed! Elementum in. Etiam magnis dictumst? Pulvinar mid facilisis mid enim. Dis odio enim nec. Odio in vel? Parturient vel eros! In, etiam etiam vel, pulvinar tortor, diam etiam tristique urna, porttitor habitasse, tincidunt aliquet tristique in tristique nunc mid in, rhoncus ac lacus placerat, nec urna in dis, urna et rhoncus lectus? Rhoncus nisi auctor arcu scelerisque, nec ut scelerisque.<br /><br /></p>', 'active', 0),
-(21, 'Handleguide', '', '', 'guide', '<p>Shopping guide in Norwegian.</p>\n<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet, adipiscing? Natoque?</p>\n<p>Aliquet ut, platea lacus in! Tempor hac placerat magna massa dignissim egestas turpis nec sed! Elementum in. Etiam magnis dictumst? Pulvinar mid facilisis mid enim. Dis odio enim nec. Odio in vel? Parturient vel eros! In, etiam etiam vel, pulvinar tortor, diam etiam tristique urna, porttitor habitasse, tincidunt aliquet tristique in tristique nunc mid in, rhoncus ac lacus placerat, nec urna in dis, urna et rhoncus lectus? Rhoncus nisi auctor arcu scelerisque, nec ut scelerisque.</p>', 'active', 1);
+(21, 'Handleguide', '', '', 'guide', '<p>Shopping guide in Norwegian.</p>\n<p>Tempor! Parturient ac sit! Aliquam dapibus, ut eros sit ac augue eu pulvinar adipiscing vel scelerisque, magnis aliquet dis diam sociis! Proin sit facilisis et et, integer, in, diam integer sit ridiculus dapibus rhoncus odio ultricies platea magnis tincidunt nec urna adipiscing, aliquet, adipiscing? Natoque?</p>\n<p>Aliquet ut, platea lacus in! Tempor hac placerat magna massa dignissim egestas turpis nec sed! Elementum in. Etiam magnis dictumst? Pulvinar mid facilisis mid enim. Dis odio enim nec. Odio in vel? Parturient vel eros! In, etiam etiam vel, pulvinar tortor, diam etiam tristique urna, porttitor habitasse, tincidunt aliquet tristique in tristique nunc mid in, rhoncus ac lacus placerat, nec urna in dis, urna et rhoncus lectus? Rhoncus nisi auctor arcu scelerisque, nec ut scelerisque.</p>', 'active', 1),
+(22, 'About shop', '', '', 'about_shop', '<p>Content for About shop.</p>', 'active', 0);
 
 -- --------------------------------------------------------
 
@@ -840,9 +851,9 @@ CREATE TABLE IF NOT EXISTS `omc_slideshow` (
 --
 
 INSERT INTO `omc_slideshow` (`id`, `name`, `shortdesc`, `longdesc`, `thumbnail`, `image`, `slide_order`, `status`, `featured`) VALUES
-(1, 'slide1', '<p>slide 1</p>', '', '', '<p><img src="../../../../assets/images/frontpage/big_tree.jpg" alt="" width="516" height="200" /></p>', 10, 'active', 'none'),
-(2, 'slide2', '<p>slide2 desc</p>', '', '', '<p><img src="../../../../assets/images/frontpage/buil.jpg" alt="" width="516" height="200" /></p>', 20, 'active', 'none'),
-(6, 'slide3', '', '', '', '<p><img src="../../../../assets/images/frontpage/station.jpg" alt="" width="516" height="200" /></p>', 30, 'active', 'none');
+(1, 'big_tree.jpg', '<p>slide 1</p>', '', '', '<p><img src="../../../../assets/images/frontpage/big_tree.jpg" alt="" width="516" height="200" /></p>', 10, 'active', 'none'),
+(2, 'build.jpg', '<p>slide2 desc</p>', '', '', '<p><img src="../../../../assets/images/frontpage/build.jpg" alt="" width="516" height="200" /></p>', 20, 'active', 'none'),
+(6, 'station.jpg', '', '', '', '<p><img src="../../../../assets/images/frontpage/station.jpg" alt="" width="516" height="200" /></p>', 30, 'active', 'none');
 
 -- --------------------------------------------------------
 
@@ -925,7 +936,3 @@ ALTER TABLE `be_users`
 --
 ALTER TABLE `be_user_profiles`
   ADD CONSTRAINT `be_user_profiles_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `be_users` (`id`) ON DELETE CASCADE;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

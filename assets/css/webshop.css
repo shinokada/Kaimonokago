@@ -2607,3 +2607,23 @@ language box at the top
     padding: 0 5px;
     display: inline;
 }
+
+/*****************
+sharethis 
+*********************/
+#sthoverbuttons {
+    cursor: pointer;
+    font: 11px Helvetica,Tahoma,Arial;
+    margin-left: -7px;
+    position: fixed;
+    top: 25%;
+    width: 50px;
+    z-index: 980000 !important;
+}
+
+.sthoverbuttons-pos-left {
+    left: 0;
+}
+
+#sthoverbuttons div,#sthoverbuttons dl,#sthoverbuttons dt,#sthoverbuttons dd,#sthoverbuttons ul,#sthoverbuttons ol,#sthoverbuttons li,#sthoverbuttons h1,#sthoverbuttons h2,#sthoverbuttons h3,#sthoverbuttons h4,#sthoverbuttons h5,#sthoverbuttons h6,#sthoverbuttons pre,#sthoverbuttons code,#sthoverbuttons form,#sthoverbuttons fieldset,#sthoverbuttons legend,#sthoverbuttons input,#sthoverbuttons textarea,#sthoverbuttons p,#sthoverbuttons blockquote{margin:0;padding:0;}#sthoverbuttons{font:11px Helvetica,Tahoma,Arial;z-index:980000!important;cursor:pointer;margin-left:-7px;position:fixed;top:25%;width:50px;}.sthoverbuttons-pos-left{left:0;}.sthoverbuttons-pos-right{right:0;}#sthoverbuttons #sthoverbuttons-color{height:100%;position:absolute;width:100%;z-index:985000;}#sthoverbuttons #sthoverbuttons-top{height:5px;width:100%;}#sthoverbuttons #sthoverbuttons-bottom{height:10px;width:100%;}#sthoverbuttons #sthoverbuttons-shade{height:100%;width:100%;}#sthoverbuttons .sthoverbuttons-top-l{background:url("../images/mini_Top_Cap.png") no-repeat scroll 0 0 transparent;}#sthoverbuttons .sthoverbuttons-bottom-l{background:url("../images/mini_Bottom_Cap.png") no-repeat scroll 0 0 transparent;}#sthoverbuttons .sthoverbuttons-shade-l{background:url("../images/mini_BG.png") repeat-y scroll 0 0 transparent;}#sthoverbuttons .sthoverbuttons-top-r{background:url("../images/mini_Top_Cap_R.png") no-repeat scroll 0 0 transparent;}#sthoverbuttons .sthoverbuttons-bottom-r{background:url("../images/mini_Bottom_Cap_R.png") no-repeat scroll 0 0 transparent;}#sthoverbuttons .sthoverbuttons-shade-r{background:url("../images/mini_BG_R.png") repeat-y scroll 0 0 transparent;}#sthoverbuttons #sthoverbuttons-background{position:absolute;top:0;width:100%;z-index:990000;height:100%;}#sthoverbuttons .sthoverbuttons-background-l{left:7px;}#sthoverbuttons .sthoverbuttons-background-r{right:-3px;}#sthoverbuttons .sthoverbuttons-label{margin:5px;cursor:default;color:#585858;}#sthoverbuttons #sthoverbuttonsMain{position:relative;z-index:1000000;width:30px;padding:7px;}#sthoverbuttons .sthoverbuttonsMain-l{float:left;}#sthoverbuttons .sthoverbuttonsMain-r{float:right;}#sthoverbuttons #sthoverbuttonsPromoTab{height:42px;width:50px;}#sthoverbuttons .sthoverbuttonsPromoTab-l{background:url("../images/mini_Promo_Tab.png") no-repeat scroll 0 0 transparent;left:7px;}#sthoverbuttons .sthoverbuttonsPromoTab-r{background:url("../images/mini_Promo_Tab_R.png") no-repeat scroll 0 0 transparent;right:-3px;}#sthoverbuttons .sthoverbuttons-adContainer-l{display:none;position:absolute;left:-232px;}#sthoverbuttons .sthoverbuttons-adContainer-r{display:none;position:absolute;left:10px;}#sthoverbuttons .sthoverbuttons-window{position:absolute;top:0;height:250px;width:300px;border:2px solid #373737;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;z-index:988000;background:#FFF;}#sthoverbuttons .sthoverbuttons-stCloseNew{background:url("http://w.sharethis.com/share5x/images/widget-icons-sprite.png") no-repeat scroll -3px -131px transparent;cursor:pointer;display:inline-block;height:30px;position:absolute;top:-10px;width:30px;z-index:1500000;}#sthoverbuttons .sthoverbuttons-stCloseNew-l{left:285px;}#sthoverbuttons .sthoverbuttons-stCloseNew-r{left:-12px;}.sthoverbuttons-black_overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:black;z-index:982000;-moz-opacity:.8;opacity:.80;filter:alpha(opacity=80);_position:absolute;}
+

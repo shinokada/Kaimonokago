@@ -98,6 +98,15 @@ $lang['preference_label_dashboard_rss_count'] = "Dashboard RSS Items";
 $lang['preference_desc_dashboard_rss_count'] = 'How many RSS items would you like to display on the dashboard ?
 ';
 
+
+// Sharethis
+$lang['preference_label_sharethis_direction'] = "Sharethis Direction";
+$lang['preference_desc_sharethis_direction'] = 'vertical or horizontal';
+$lang['preference_label_sharethis_services'] = "Sharethis Services";
+$lang['preference_desc_sharethis_services'] = 'Type facebook, twitter, yahoo, gbuzz, email, sharethis, linkedin, diigo, blogger. Separate them with commas.';
+
+
+
 /**
  *     BELOW HERE DEFINE ANY LANGUAGE STRINGS FOR YOUR APPLICATIONS
  *

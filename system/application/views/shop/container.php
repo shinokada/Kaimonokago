@@ -59,7 +59,18 @@
       
     
   </div><!--End of wrapper-->
+<!-- sharethis buttons -->
+<?php
 
+if ($this->preference->item('sharethis_pub_key')){
+    $this->load->helper('sharethis');
+    echo '<div id="sthoverbuttons" class="sthoverbuttons-pos-left">';
+    echo sharethis();
+    echo "</div>";
+}
+
+?>
+<!-- end of sharethis -->
 <?php print $this->bep_assets->get_footer_assets();
 // this will print all the js
 

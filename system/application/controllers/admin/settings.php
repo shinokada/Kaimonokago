@@ -52,7 +52,8 @@ class Settings extends Admin_Controller
 		'slideshow'     => array('name'=> $this->lang->line('preference_frontpage_slideshow_settings'), 'fields'=>'webshop_slideshow,slideshow_two'),
 		'analytics'     => array('name'=> $this->lang->line('preference_google_analytics_settings'), 'fields'=>'ga_tracking,ga_profile, ga_email,ga_password'),
                 'rss_feed'     => array('name'=> $this->lang->line('preference_rss_feeds_settings'), 'fields'=>'dashboard_rss,dashboard_rss_count'),
-
+                'sharethis'     => array('name'=> 'Sharethis Settings', 'fields'=>'sharethis_pub_key,sharethis_direction,sharethis_size,sharethis_services'),
+               
                 );
 
 		// Setup custom field options
@@ -130,7 +131,14 @@ class Settings extends Admin_Controller
                  // RSS feeds
                 $config['field']['dashboard_rss'] = array('rules'=>'trim');
                 $config['field']['dashboard_rss_count'] = array('rules'=>'trim|numeric');
-
+                
+                 // sharethis
+                $config['field']['sharethis_pub_key'] = array('rules'=>'trim');
+                $config['field']['sharethis_direction'] = array('type'=>'dropdown','params'=>array('options'=>array('vertical'=>'Vertical','horizontal'=>'Horizontal')));;
+                $config['field']['sharethis_size'] = array('type'=>'dropdown','params'=>array('options'=>array(''=>'Small','large'=>'Large')));;
+                $config['field']['sharethis_services']= array('rules'=>'trim');
+                
+                
 		// Display the form
 		$this->load->module_library('preferences','preference_form');
 		$this->preference_form->initalize($config);
