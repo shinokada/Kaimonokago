@@ -120,8 +120,8 @@ $config['asset'][] = array('file'=>'tinymce.init.js', 'needs'=>'tiny_mce');
 // cu3er slideshow. since appending some html we need jquery
 $config['asset'][] = array('file'=>'cu3er.js', 'needs'=>'jquery');
 
-// conin-slider
-$config['asset'][] = array('file'=>'conin-slider-styles.css');
+// coin-slider
+$config['asset'][] = array('file'=>'coin-slider-styles.css');
 $config['asset'][] = array('file'=>'coin-slider.min.js', 'needs'=>'jquery');
 
 // jquery.nivo.slider
@@ -166,7 +166,7 @@ $config['asset_group']['TINYMCE'] = "tinymce.init";
 // cu3er group
 $config['asset_group']['cu3er'] = "cu3er";
 $config['asset_group']['interfade'] = "jquery.innerfade";
-$config['asset_group']['coinslider'] = "coin-slider.min|conin-slider-styles";
+$config['asset_group']['coinslider'] = "coin-slider.min|coin-slider-styles";
 $config['asset_group']['nivoslider'] = "jquery.nivo.slider.pack|nivo-slider";
 // Added upto here
 
