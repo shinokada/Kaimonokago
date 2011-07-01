@@ -21,6 +21,7 @@ h2. Features
 * Admin Ajax messages
 * Dashboard/RSS feeds
 * Dashboard/Google Analytics
+* Sharethis
 * And more
 
 h2. Demo frontend only
