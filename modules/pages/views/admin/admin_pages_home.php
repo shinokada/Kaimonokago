@@ -28,7 +28,7 @@ if (count($pages)){
             
             
 		echo "<tr ";
-        if($list['langname']){
+        if(isset($list['langname'])){
             echo "class=\"dentme\"";
         }
         echo "valign='top'>\n";
@@ -37,7 +37,7 @@ if (count($pages)){
         echo anchor('pages/admin/edit/'.$list['id']."/".$list['path'],$list['name']);
         echo "</td>\n";
 		echo "<td>";
-        if(!$list['langname']){
+        if(!isset($list['langname'])){
    		//if (!preg_match("/\.html$/",$list['path'])){
   		//	$list['path'] .= ".html";
   		//}
@@ -57,7 +57,7 @@ if (count($pages)){
 		echo anchor("kaimonokago/admin/changeStatus/$module/".$list['id'],$this->bep_assets->icon($active_icon), array('class' => $list['status']));
 		echo "</td>\n";
         echo "<td align='center'>";
-        if($list['langname']){
+        if(isset($list['langname'])){
             echo ucwords($list['langname']);
         }  else {
             echo "English";
