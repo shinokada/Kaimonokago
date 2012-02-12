@@ -1,0 +1,218 @@
+/* admin css */
+
+ .adminhome{
+   width: 48%;
+   float: left;
+ }
+ #homeleft{
+  
+   
+ }
+#homeright{
+   width: 95%;
+   
+}
+
+#homeright li {
+  list-style-type:none;
+}
+
+ .message{
+ 	border:1px solid #c98c21;
+ 	background-color:#efdda8;
+ 	color:#c98c21;
+ 	padding:5px;
+ 	width:250px;
+ 	font-size:12px;
+ 	margin:5px 0px 5px 0px;
+ }
+ 
+ 
+/******* CONTENT *******/
+.content p{
+	margin: 0pt auto;
+	width:90%;
+	text-align: left;
+	padding: 10px;
+	float:left;
+	font-size: 13px;
+}
+.content li, #completed li{
+	border: 1px solid #d0ccc9;
+	background: #efefef;
+	margin:5px;
+	padding: 5px;
+	
+}
+#completed ul, #message_ul {
+	
+	margin: 0;
+	padding:0;
+}
+.content .delete {
+	font-size: 14px;
+	padding: 5px;
+	margin: 0 0 5px 0;
+	
+}
+.content h1, #completed h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 18px;
+	padding: 10px 10px 10px 52px;
+	font-size: 16px;
+	background: transparent url(images/bubble.jpg) no-repeat scroll left top;
+}
+.content li a, #completed li a{
+	width: 30px;
+	
+	padding: 0 10px;
+}
+.listbox{
+	
+	
+}
+.date{
+	font-weight: normal;
+	font-size: 10px;
+	color: #aeaeae;
+	padding: 0 3px;
+}
+.user{
+	
+	
+}
+.msg{
+	padding: 5px 0;
+	display:block;
+}
+
+#message {
+	margin:0;
+	padding: 0;
+        width: 90%;
+}
+
+.messagelabel {
+	width: 100%;
+	padding: 5px 0;
+	margin : 0;
+	
+}
+.text {
+	float:left;
+}
+.msguser{
+	padding: 0 26px 0 0;
+}
+#send {
+	margin: 0 0 0 15px;
+}
+
+
+/******* LOADING *******/
+#loading{
+	text-align: center;
+	display:none;
+}
+
+
+#completed {
+	float:left;
+	width:46%;
+}
+#container {
+	float: left;
+	width:46%;
+}
+
+#form {
+	width: 90%;
+	float: left;
+}
+#loading{
+	width: 70px;
+	float:left;
+	padding-top: 35px;
+}
+#showall{
+	height: 50px;
+	width: 170px;
+	float:left;
+	padding: 35px 0 0 0;
+}
+.clearboth{
+	clear:both;
+}
+
+/* Style for pages with accordion */
+
+#pagerightcont{
+   width: 30%;
+   float: left;
+   
+}
+
+#pageleftcont {
+   width: 68%;
+   padding-right: 2%;
+   float: left;
+   
+}
+ #tablesorter td{
+ 	padding: 4px !important;
+ }
+
+ #pageleftcont h1, #pageleftcont h2, #pageleftcont h3, #pageleftcont h4, #pageleftcont h5 ,#pageleftcont h6{
+ 	border: none;
+	
+ }
+form select {
+	border: 1px solid #aaaaaa;
+}
+
+/* For table in Menu home page */
+
+#menutable td.child {
+   padding-left: 25px !important;
+   
+}
+#menutable td.grandchild {
+   padding-left : 50px !important;
+   
+}
+/***********
+Module languages
+*******************/
+#addlang{
+    margin: 20px 0;
+
+}
+
+/***********
+langbox
+****************/
+#langbox{
+    float: right;
+    width: 150px;
+    
+}
+
+/********
+unmask
+******/
+.unmask{
+    clear: both;
+    width: 100px;
+    
+}
+
+.unmask label{
+    display: inline;
+}
+
+.unmask input{
+     margin-left:5px;
+  margin-right:3px;
+  vertical-align: bottom;
+}

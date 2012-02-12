@@ -1,0 +1,26 @@
+
+body {
+    background: transparent url(../images/background.gif);
+}
+
+#wrapper {
+    background-color: #FFF;
+    width: 800px;
+    margin: 100px auto auto auto;
+    padding: 2em;
+    border: 1px solid #808080;
+}
+
+#header h1 {
+    border-bottom: 1px solid #777;
+    color: #555;
+    padding-bottom: 0.2em;
+}
+
+#content h3 {
+    color: #434690;
+}
+
+#footer {
+    text-align: center;
+}

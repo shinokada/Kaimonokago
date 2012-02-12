@@ -1,0 +1,15 @@
+# file named .gitignore
+
+system/application/config/database.php
+system/application/config/config.php
+system/logs/
+modules/recaptcha/config/recaptcha.php
+system/cache/
+modules/recaptcha/config/recaptcha.php.original
+system/application/config/database.php.original
+# Vim leave-behinds
+*.swp
+
+# Windows files
+*.bak
+

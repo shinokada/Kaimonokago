@@ -1,0 +1,14 @@
+/* --------------------------------------------------------------
+
+   ie_6.css
+
+   Contains all hacks required by IE6
+
+-------------------------------------------------------------- */
+
+/* This fixes the problem where IE6 adds an extra 3px margin to
+   two columns that are floated up against each other. */
+* html .column { overflow-x: hidden; }
+
+/* Fixes incorrect styling of legend in IE6 fieldsets. */
+legend { margin-bottom:1.4em; }
