@@ -32,11 +32,12 @@ class Admin extends Shop_Admin_Controller {
          */
         $fields = array('id', 'name','path','status','lang_id');
         $orderby = array('path');
-        $data['pages'] = $this->MKaimonokago->getAll($this->module,$fields, $orderby);
+        $data['pages'] = $this->MKaimonokago->getAll($this->module,$fields, $orderby);//(sort is by language)
         //$data['pages'] = $this->MPages->getAllPagesbyName();
         // show pages only english which has lang_id 0
         // $lang_id=0;
         //$data['pages'] = $this->MPages->getAllPagesbyLang($lang_id);
+        $data['languages'] =$this->MLangs->getLangDropDownWithId();
         $data['header'] = $this->lang->line('backendpro_access_control');
         // This how Bep load views
         $data['page'] = $this->config->item('backendpro_template_admin') . "admin_pages_home";
