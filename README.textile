@@ -1,4 +1,5 @@
 h1. Newer Version
+
 Go to https://github.com/shinokada/kaimonokago2.0 for Kaimonokago 2.1
 
 h1. Kaimonokago 1.4
