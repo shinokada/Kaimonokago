@@ -1,3 +1,5 @@
+h1. Go to https://github.com/shinokada/kaimonokago2.0 for Kaimonokago 2.1
+
 h1. Kaimonokago 1.4
 
 Multi-Languages Shopping Cart on CodeIgniter 1.7.3 and BackendPro 0.6.1
