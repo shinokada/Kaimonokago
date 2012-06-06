@@ -541,7 +541,7 @@ CREATE TABLE IF NOT EXISTS `omc_customer` (
 
 INSERT INTO `omc_customer` (`customer_id`, `password`, `customer_first_name`, `customer_last_name`, `phone_number`, `email`, `address`, `city`, `post_code`) VALUES
 (1, '', 'Test', 'Tester', 66775544, 'test@test.com', '123 Test st. ', 'Test', 2345),
-(2, '6760b7dc47770172', 'shin', 'okada', 33445566, 'okada.shin@gmail.com', '123 Great St.', 'Sandefjord', 1234);
+(2, '6760b7dc47770172', 'test', 'testing', 33445566, 'test@gmail.com', '123 Great St.', 'Sandefjord', 1234);
 
 -- --------------------------------------------------------
 
